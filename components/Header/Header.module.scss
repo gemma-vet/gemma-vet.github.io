@@ -10,6 +10,9 @@
   @media all and (max-width: $screen-cs) {
     padding: 0 1rem;
   }
+  .logo{
+      cursor:pointer;
+  }
   .menuHamburger {
     display: none;
     @media all and (max-width: $screen-md) {
