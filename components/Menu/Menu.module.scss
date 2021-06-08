@@ -1,0 +1,18 @@
+@use "../../styles/variables.scss" as *;
+
+.menu {
+  display: flex;
+  list-style: none;
+  @media all and (max-width: $screen-md) {
+    display: none;
+  }
+  li {
+    padding-right: 2rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    color: $menuBlack;
+    &:last-child {
+      padding: 0;
+    }
+  }
+}
