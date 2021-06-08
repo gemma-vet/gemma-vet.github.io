@@ -1,0 +1,20 @@
+@use "../../styles/variables.scss" as *;
+
+.header {
+  max-width: $screen-cs;
+  height: 6.25rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media all and (max-width: $screen-cs) {
+    padding: 0 1rem;
+  }
+  .menuHamburger {
+    display: none;
+    @media all and (max-width: $screen-md) {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

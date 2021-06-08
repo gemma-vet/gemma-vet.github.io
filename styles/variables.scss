@@ -28,7 +28,7 @@ $screen-cs: 1140px;
 $screen-cs-min: $screen-cs;
 
 // default content screen
-$screen-cs: 1140px;
+$screen-cs: 1366px;
 $screen-cs-min: $screen-cs;
 
 // Extra extra large screen / large desktop
@@ -42,3 +42,15 @@ $screen-md-max: ($screen-lg-min - 1px);
 $screen-lg-max: ($screen-xl-min - 1px);
 $screen-xl-max: ($screen-xxl-min - 1px);
 $screen-cs-min: ($screen-cs-min - 1px);
+
+// Colors
+
+// Primary Palette
+$whiteColor: #fff;
+$lightGreen: #54a560;
+$darkGreen: #46815f;
+$washedGreen: #eaf0eb;
+$lightGrey: #fafafa;
+
+// Secondary Palette
+$menuBlack: #292c2a;
