@@ -1,0 +1,41 @@
+@use "../../styles/variables.scss" as *;
+
+.heroSection {
+  background-color: $lightGreen;
+  .heroSectionContainer {
+    position: relative;
+    max-width: $screen-cs;
+    margin: 0 auto;
+    background-image: url('/svg/gemma_symbol_dark.svg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .heroDescriptionContainer {
+      position: absolute;
+      display: flex;
+      top: calc(45% - 8.5rem);
+      left: 0;
+      padding: 0 8.75rem;
+    //   @media all and (max-width: $screen-cs-max) {
+    //     padding: 0 8.75rem;
+    //   }
+      .heroDescription {
+        width: 60%;
+        color: $whiteColor;
+        p {
+          padding: 0 10.375rem 2.75rem 0;
+          padding-right: 10.375rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+    .apps {
+      display: flex;
+      align-items: center;
+      .appStore {
+        padding-right: 1.875rem;
+      }
+    }
+  }
+}

@@ -24,12 +24,9 @@ $screen-xl: 1200px;
 $screen-xl-min: $screen-xl;
 
 // default content screen
-$screen-cs: 1140px;
-$screen-cs-min: $screen-cs;
-
-// default content screen
 $screen-cs: 1366px;
 $screen-cs-min: $screen-cs;
+$screen-cs-max: ($screen-cs + 1);
 
 // Extra extra large screen / large desktop
 $screen-xxl: 1600px;
