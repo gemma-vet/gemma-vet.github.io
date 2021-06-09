@@ -1,0 +1,50 @@
+@use "../../styles/variables.scss" as *;
+
+.missionSection {
+  .missionSectionContainer {
+    max-width: $screen-cs;
+    display: flex;
+    margin: 0 auto;
+    padding: 8.75rem 8.75rem;
+    @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
+      padding: 6.75rem 5.75rem;
+    }
+    .imageContainer {
+      width: 60%;
+      margin-right: 4.25rem;
+      @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
+        margin-right: 3.25rem;
+      }
+    }
+    .missionDescription {
+      width: 49%;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        @media all and (max-width: $screen-cs) {
+          font-size: 1.5rem;
+          line-height: 2.25rem;
+        }
+        @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
+          padding-bottom: 0.5rem;
+        }
+      }
+      .benefits {
+        padding: 1.5rem 0 2rem 0;
+        @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
+          padding: 0.5rem 0 1rem 0;
+        }
+        li {
+          display: flex;
+          align-items: flex-start;
+          .paw {
+            padding-top: 0.313rem;
+          }
+          p {
+            padding-left: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+}

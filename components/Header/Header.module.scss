@@ -7,8 +7,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media all and (max-width: $screen-cs) {
-    padding: 0 1rem;
+  padding: 0 8.75rem;
+  @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
+    padding: 0 5.75rem;
+  }
+  .logo {
+    cursor: pointer;
   }
   .menuHamburger {
     display: none;
