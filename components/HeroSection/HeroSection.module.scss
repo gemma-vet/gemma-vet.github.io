@@ -25,7 +25,7 @@
         padding: 6.75rem 5.75rem;
       }
       .heroDescription {
-        width: 60%;
+        width: 70%;
         color: $whiteColor;
         h1 {
           @media all and (max-width: $screen-xl) {
@@ -45,10 +45,8 @@
           }
         }
       }
-      .heroImageContainer {
-        width: 40%;
-        height: auto;
-        overflow: hidden;
+      .dummyDiv {
+        width: 30%;
       }
     }
     .apps {
