@@ -1,8 +1,8 @@
 import styles from './Home.module.scss';
 import Head from 'next/head';
-import Image from 'next/image';
 import Layout from '../components/Layout/Layout';
 import HeroSection from '../components/HeroSection/HeroSection';
+import MissionSection from '../components/MissionSection/MissionSection';
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroSection />
+      <MissionSection />
     </Layout>
   );
 };

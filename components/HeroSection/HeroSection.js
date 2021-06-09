@@ -5,13 +5,16 @@ const HeroSection = () => {
   return (
     <section className={styles.heroSection}>
       <div className={styles.heroSectionContainer}>
-        <Image
-          src="/images/mobile_screenshot@2x.png"
-          width={1366}
-          height={668}
-          layout="responsive"
-          alt="screenshot of the site mobile view"
-        />
+        <div className={styles.heroImageContainer}>
+          <Image
+            src="/images/mobile_screenshot@2x.png"
+            width={1366}
+            height={668}
+            layout="responsive"
+            alt="screenshot of the site mobile view"
+          />
+        </div>
+
         <div className={styles.heroDescriptionContainer}>
           <div className={styles.heroDescription}>
             <h1>Helping You Deliver Remarkable Veterinary Care</h1>
