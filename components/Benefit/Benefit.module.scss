@@ -1,0 +1,24 @@
+@use "../../styles/variables.scss" as *;
+
+.benefit {
+  display: flex;
+  padding-bottom: 10rem;
+  .benefitDescription {
+    width: 50%;
+
+    p {
+      line-height: 1.5rem;
+      color: #575757;
+    }
+  }
+}
+
+.first {
+  order: 0;
+  padding-right: 4rem;
+}
+
+.second {
+  order: 1;
+  padding-left: 4rem;
+}
