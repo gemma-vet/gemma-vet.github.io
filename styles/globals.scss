@@ -59,12 +59,20 @@ p {
   line-height: 1.875rem;
 }
 
+.buttonText {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.5rem;
+}
+
 .sectionPreTitle {
   padding-bottom: 0.438rem;
   font-size: 1.25rem;
   font-weight: normal;
   letter-spacing: 0px;
   line-height: 1.5rem;
+  text-transform: uppercase;
   color: $lightGreen;
 }
 

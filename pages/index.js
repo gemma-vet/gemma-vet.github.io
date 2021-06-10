@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Layout from '../components/Layout/Layout';
 import HeroSection from '../components/HeroSection/HeroSection';
 import MissionSection from '../components/MissionSection/MissionSection';
+import BenefitsSection from '../components/BenefitsSection/BenefitsSection';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       </Head>
       <HeroSection />
       <MissionSection />
+      <BenefitsSection />
     </Layout>
   );
 };

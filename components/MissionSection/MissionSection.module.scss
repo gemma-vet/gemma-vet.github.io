@@ -23,6 +23,7 @@
       width: 50%;
       display: flex;
       flex-direction: column;
+      color: #292c2a;
       h2 {
         @media all and (max-width: $screen-cs) {
           font-size: 1.5rem;
