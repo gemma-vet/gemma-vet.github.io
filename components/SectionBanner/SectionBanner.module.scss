@@ -1,0 +1,21 @@
+@use "../../styles/variables.scss" as *;
+
+.sectionBanner {
+  background-color: $lightGreen;
+  .sectionBannerContainer {
+    max-width: $screen-cs;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding-left: 8.75rem;
+    p {
+      padding: 1.625rem 0 1rem 0;
+      color: $washedGreen;
+    }
+    h3 {
+      padding: 0 0 1.625rem 0;
+      color: $whiteColor;
+    }
+  }
+}
