@@ -100,3 +100,37 @@ export const features = [
     alt: 'share feed icon',
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    quote:
+      'I love the fact that you send pictures and videos of our beloved pets. So appreciative of the kindness you have for all animals under your care.',
+    author: 'Barbara R.',
+  },
+  {
+    id: 2,
+    quote:
+      'It was great to have a connection with Beau since we weren’t able to visit. This was a helpful tool for staying in touch!',
+    author: 'Joseph E.',
+  },
+  {
+    id: 3,
+    quote: 'Really amazing staff. Your skills and dedication are superlative.',
+    author: 'Lisa W.',
+  },
+  {
+    id: 4,
+    quote:
+      'Thank you so much for helping us navigate what was one of the most traumatic days we have personally experienced. The thorough updates and pictures and videos brought us so much peace. We love the video of him eating and all of you showing him so much support and love. We’ve watched it so many times!',
+    author: 'Pending Name',
+  },
+  {
+    id: 5,
+    quote:
+      'I deeply appreciate the gesture of sending me a photo about my baby’ status. It’s good to know that he is in good hands.',
+    author: 'Joana O.',
+  },
+];
+
+export const bullets = [0, 1, 2, 3, 4];
