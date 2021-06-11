@@ -22,7 +22,7 @@ const DownloadBanner = () => {
           <Image src="/svg/heart_emoji.svg" width={94} height={79} alt="heart emoji" layout="fixed" />
         </div>
         <div className={styles.smileEmoji}>
-          <Image src="/svg/heart_emoji.svg" width={94} height={79} alt="smile emoji" layout="fixed" />
+          <Image src="/svg/smile_emoji.svg" width={94} height={79} alt="smile emoji" layout="fixed" />
         </div>
         <div className={styles.likeEmoji}>
           <Image src="/svg/like_emoji.svg" width={94} height={79} alt="like emoji" layout="fixed" />

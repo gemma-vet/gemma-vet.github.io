@@ -6,6 +6,7 @@ import MissionSection from '../components/MissionSection/MissionSection';
 import BenefitsSection from '../components/BenefitsSection/BenefitsSection';
 import DownloadBanner from '../components/DownloadBanner/DownloadBanner';
 import FeaturesSection from '../components/FeaturesSection/FeaturesSection';
+import TestimonialsSection from '../components/TestimonialsSection/TestimonialsSection';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <BenefitsSection />
       <DownloadBanner />
       <FeaturesSection />
+      <TestimonialsSection />
     </Layout>
   );
 };
