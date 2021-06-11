@@ -1,0 +1,38 @@
+@use "../../styles/variables.scss" as *;
+
+.downloadBanner {
+  background-color: $washedGreen;
+  .downloadBannerContainer {
+    position: relative;
+    width: 415px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    .description {
+      padding-bottom: 2.5rem;
+      text-align: center;
+      .download {
+        cursor: pointer;
+        color: $lightGreen;
+      }
+    }
+    .apps {
+      display: flex;
+      justify-content: space-between;
+    }
+    .heartEmoji {
+      position: absolute;
+      top: 6.25rem;
+      left: -8rem;
+    }
+    .smileEmoji {
+      position: absolute;
+      top: 2.875rem;
+      right: -8rem;
+    }
+    .likeEmoji {
+      position: absolute;
+      top: 12.125rem;
+      right: -10rem;
+    }
+  }
+}
