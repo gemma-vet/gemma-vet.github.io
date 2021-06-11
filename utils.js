@@ -54,3 +54,49 @@ export const benefits = [
     first: 1,
   },
 ];
+
+export const features = [
+  {
+    id: 1,
+    title: 'One-way Multimedia Messaging',
+    description: 'Streamline client communication and optimize staff time.',
+    source: '/svg/one_way_ico.svg',
+    alt: 'right arrow icon',
+  },
+  {
+    id: 2,
+    title: 'Patient Satisfaction Tracking',
+    description: 'Strengthen your overall understanding of your clients’ experience.',
+    source: '/svg/heart_icon.svg',
+    alt: 'heart icon',
+  },
+  {
+    id: 3,
+    title: 'Team Management',
+    description: 'Manage, collaborate, and communicate with your team.',
+    source: '/svg/team_icon.svg',
+    alt: 'team icon',
+  },
+  {
+    id: 4,
+    title: 'Patient Database Access',
+    description: 'Store, organize, and manage patient information.',
+    source: '/svg/database_icon.svg',
+    alt: 'database icon',
+  },
+  {
+    id: 5,
+    title: 'Referring Vets Communication',
+    description:
+      'Facilitate referrals and collaboration with other professionals to ensure the best veterinary care, even after pets are discharged.',
+    source: '/svg/ref_vet_icon.svg',
+    alt: 'veterinary icon',
+  },
+  {
+    id: 6,
+    title: 'Feed Sharing Across Contacts',
+    description: 'Build a community, exchange ideas, and share your experiences with your contacts.',
+    source: '/svg/share _feed.svg',
+    alt: 'share feed icon',
+  },
+];

@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection/HeroSection';
 import MissionSection from '../components/MissionSection/MissionSection';
 import BenefitsSection from '../components/BenefitsSection/BenefitsSection';
 import DownloadBanner from '../components/DownloadBanner/DownloadBanner';
+import FeaturesSection from '../components/FeaturesSection/FeaturesSection';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <MissionSection />
       <BenefitsSection />
       <DownloadBanner />
+      <FeaturesSection />
     </Layout>
   );
 };
