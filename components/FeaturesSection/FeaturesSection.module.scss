@@ -1,0 +1,22 @@
+@use "../../styles/variables.scss" as *;
+
+.featuresSection {
+  .featuresSectionContainer {
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 5rem 12rem 5rem 8.625rem;
+    .titleContainer {
+      padding-bottom: 5rem;
+      h2 {
+        padding-bottom: 0;
+      }
+    }
+    .featuresContainer {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(3, auto);
+      column-gap: 4.375rem;
+      row-gap: 3.75rem;
+    }
+  }
+}
