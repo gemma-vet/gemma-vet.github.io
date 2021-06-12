@@ -134,3 +134,46 @@ export const testimonials = [
 ];
 
 export const bullets = [0, 1, 2, 3, 4];
+
+export const boardTemplates = [
+  {
+    id: 1,
+    quote:
+      "Gemma is the easiest way to keep owners in the loop on their pet's care. Nothing comes close. It’s a multimedia record of patients that brings families so much joy.",
+    author: 'Elisa McEntee',
+    jobPositon: 'Internal Medicine Specialist',
+    facility: 'BluePearl Veterinary Partners',
+    source: '/images/Elisa.png',
+    order: 1,
+  },
+  {
+    id: 2,
+    quote:
+      'Gemma has been a game-changer for me allowing me to focus more on patient care while providing peace of mind to pet owners that can actually see how their pet is doing, in the easiest way possible using my mobile phone. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
+    author: 'Alex Blutinger',
+    jobPositon: 'Critical Care Specialist',
+    facility: 'BluePearl Veterinary Partners',
+    source: '/images/Alex.png',
+    order: 0,
+  },
+  {
+    id: 3,
+    quote:
+      'Gemma has revolutionized the way I communicate with pet owners and my team. The app was incredibly easy to integrate into my day-to-day and the benefits of using it were reaped almost immediately. Families feel close to their pets even when they are away!',
+    author: 'Emily Dozeman',
+    jobPositon: ' DVM, DACVECC, Critical Care Doctor and Co-department Chair',
+    facility: 'Philadelphia Animal Specialty and Emergency',
+    source: '/images/Emily.png',
+    order: 1,
+  },
+  {
+    id: 4,
+    quote:
+      'Nothing could be easier communicating with pet owners throughout the pandemic. A simple photo or video of my patients makes owners happier and more engaged. It’s a brilliant tool. I can spend more time delivering quality care.',
+    author: 'Phil Hyndman',
+    jobPositon: 'BVSc, MVM',
+    facility: 'The Animal Medical Center',
+    source: '/images/Phil.png',
+    order: 0,
+  },
+];

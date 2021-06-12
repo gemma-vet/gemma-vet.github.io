@@ -4,6 +4,7 @@ import Image from 'next/image';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import Testimonial from '../Testimonial/Testimonial';
 import NavBullet from '../NavBullet/NavBullet';
+import Button from '../Button/Button';
 import { testimonials, bullets } from '../../utils';
 
 const TestimonialsSection = () => {
@@ -50,6 +51,11 @@ const TestimonialsSection = () => {
           {bullets.map((bullet) => (
             <NavBullet key={bullet} bullet={bullet} increment={increment} fade={fade} bulletClick={bulletClick} />
           ))}
+        </div>
+        <div className={styles.buttonContainer}>
+          <Button background="white" border="borderGreen" textColor="textGreen">
+            Join Our Community
+          </Button>
         </div>
       </div>
     </section>

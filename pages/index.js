@@ -7,6 +7,7 @@ import BenefitsSection from '../components/BenefitsSection/BenefitsSection';
 import DownloadBanner from '../components/DownloadBanner/DownloadBanner';
 import FeaturesSection from '../components/FeaturesSection/FeaturesSection';
 import TestimonialsSection from '../components/TestimonialsSection/TestimonialsSection';
+import BoardSection from '../components/BoardSection/BoardSection';
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <DownloadBanner />
       <FeaturesSection />
       <TestimonialsSection />
+      <BoardSection />
     </Layout>
   );
 };

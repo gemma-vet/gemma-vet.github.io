@@ -2,10 +2,13 @@
 
 .testimonialsSection {
   .testimonialsSectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 14.375rem 5rem 13.438rem;
-  
+
     .testimonialsContainer {
       position: relative;
       padding: 0 5.75rem 1.875rem 6.75rem;
@@ -32,6 +35,8 @@
       align-items: center;
       margin: 0 auto;
     }
+    .buttonContainer {
+      padding-top: 3.875rem;
+    }
   }
 }
-
