@@ -1,0 +1,25 @@
+@use "../../styles/variables.scss" as *;
+
+.boardTemplate {
+  display: flex;
+  padding-bottom: 5rem;
+  .first {
+    order: 0;
+    padding-right: 3rem;
+  }
+  .second {
+    order: 1;
+    padding-left: 3rem;
+  }
+  .templateDescription {
+    padding: 2.5rem 1.875rem;
+    background-color: $lightGrey;
+    border: 1px solid #dedede;
+    .templateText {
+      padding-left: 3.625rem;
+      h4 {
+        padding-top: 2rem;
+      }
+    }
+  }
+}
