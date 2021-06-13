@@ -24,6 +24,7 @@ const Home = () => {
       <FeaturesSection />
       <TestimonialsSection />
       <BoardSection />
+      <DownloadBanner />
     </Layout>
   );
 };

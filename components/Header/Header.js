@@ -4,7 +4,7 @@ import Menu from '../Menu/Menu';
 
 const Header = () => {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <Image
         className={styles.logo}
         src="/svg/Logo_Gemma.svg"
@@ -16,7 +16,7 @@ const Header = () => {
       <div className={styles.menuHamburger}>
         <Image src="/svg/menuHamburger.svg" width={24} height={16} alt="menu hamburger icon" />
       </div>
-    </div>
+    </header>
   );
 };
 

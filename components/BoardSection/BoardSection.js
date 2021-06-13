@@ -14,7 +14,7 @@ const BoardSection = () => {
       <SectionBanner bannerInfo={bannerInfo} />
       <div className={styles.boardSectionContainer}>
         {boardTemplates.map((template) => (
-          <BoardTemplate template={template} />
+          <BoardTemplate key={template.id} template={template} />
         ))}
         <div className={styles.buttonContainer}>
           <Button background="white" border="borderGreen" textColor="textGreen">

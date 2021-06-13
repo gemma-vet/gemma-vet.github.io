@@ -1,0 +1,133 @@
+@use "../../styles/variables.scss" as *;
+
+@mixin inputStyle {
+  border: 2px solid #ededed;
+  border-radius: 7px;
+  padding-left: 1.438rem;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  line-height: 1.563rem;
+  color: #acacac;
+  &::placeholder {
+    color: #acacac;
+  }
+}
+
+.footer {
+  background-color: $lightGrey;
+  .footerContainer {
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 3.75rem 8.75rem;
+    .footerMain {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 3.75rem;
+      .infos,
+      .newsletter,
+      .contact {
+        display: flex;
+        flex-direction: column;
+      }
+      .infos {
+        align-items: flex-start;
+        .imageContainer {
+          padding-bottom: 2.375rem;
+          cursor: pointer;
+        }
+        .socials {
+          display: flex;
+          .instaContainer,
+          .linkedContainer,
+          .twitterContainer {
+            cursor: pointer;
+            padding-right: 1.5rem;
+          }
+        }
+        .footerMenu {
+          padding-top: 2.5rem;
+          color: $menuBlack;
+          li {
+            padding-bottom: 1.688rem;
+            font-weight: normal;
+            line-height: 1.563rem;
+            cursor: pointer;
+            &:last-child {
+              padding-bottom: 0;
+            }
+          }
+        }
+      }
+      .newsLetter {
+        .newsLetterText {
+          padding: 2rem 0 1.5rem 0;
+          color: $middleGray;
+          .boldText {
+            font-weight: 600;
+          }
+        }
+        input {
+          width: 17.5rem;
+          height: 3.625rem;
+          @include inputStyle;
+        }
+        .newsLetterButton {
+          padding-top: 1.5rem;
+        }
+      }
+      .contact {
+        h4 {
+          padding-bottom: 1.875rem;
+        }
+        input {
+          height: 3.625rem;
+          width: 100%;
+          @include inputStyle;
+        }
+        .textareaContainer {
+          padding-top: 1rem;
+          textarea {
+            @include inputStyle;
+            height: 8.375rem;
+            width: 100%;
+            font-family: 'Poppins';
+            font-weight: normal;
+          }
+        }
+        .contactButton {
+          padding-top: 2.75rem;
+        }
+      }
+    }
+  }
+  .footerSecondary {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding-top: 3rem;
+    .powered {
+      p {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+        .poweredLink {
+          font-weight: 600;
+        }
+
+        &:last-child {
+          font-style: italic;
+          .green {
+            color: $darkGreen;
+          }
+        }
+      }
+    }
+    .copyright {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      p {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+      }
+    }
+  }
+}
