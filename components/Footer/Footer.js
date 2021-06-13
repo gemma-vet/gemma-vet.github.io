@@ -58,7 +58,11 @@ const Footer = () => {
         <div className={styles.footerSecondary}>
           <div className={styles.powered}>
             <p>
-              Powered By <a className={styles.poweredLink} href="https://www.e-spres-oh.com/">[e-spres-oh]</a>.
+              Powered By{' '}
+              <a className={styles.poweredLink} href="https://www.e-spres-oh.com/">
+                [e-spres-oh]
+              </a>
+              .
             </p>
             <p>
               Learn more about [e-spres-oh]’s commitment to building{' '}
