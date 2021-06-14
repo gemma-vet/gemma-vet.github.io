@@ -1,6 +1,6 @@
 import styles from './AboutHeroSection.module.scss';
 import Image from 'next/image';
-import Button from '../../../../components/Button/Button';
+import Button from '../Button/Button';
 
 const AboutHeroSection = () => {
   return (

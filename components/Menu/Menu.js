@@ -8,7 +8,9 @@ const Menu = () => {
       {menu.map((item) => (
         <li key={item.id}>
           {' '}
-          <Link href={item.path}>{item.name}</Link>
+          <Link href={item.path}>
+            <a>{item.name}</a>
+          </Link>
         </li>
       ))}
     </ul>

@@ -7,13 +7,15 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Link href="/">
-        <Image
-          className={styles.logo}
-          src="/svg/Logo_Gemma.svg"
-          width={219}
-          height={46}
-          alt="gemma logo representing a dog head"
-        />
+        <a>
+          <Image
+            className={styles.logo}
+            src="/svg/Logo_Gemma.svg"
+            width={219}
+            height={46}
+            alt="gemma logo representing a dog head"
+          />
+        </a>
       </Link>
 
       <Menu />

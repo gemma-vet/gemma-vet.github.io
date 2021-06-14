@@ -1,8 +1,8 @@
 import styles from './About.module.scss';
 import Layout from '../../components/Layout/Layout';
-import AboutHeroSection from './components/AboutHeroSection/AboutHeroSection';
+import AboutHeroSection from '../../components/AboutHeroSection/AboutHeroSection';
 import DownloadBanner from '../../components/DownloadBanner/DownloadBanner';
-import AboutPresentationSection from './components/AboutPresentationSection/AboutPresentationSection';
+import AboutPresentationSection from '../../components/AboutPresentationSection/AboutPresentationSection';
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
 import styles from './AboutPresentationSection.module.scss';
 import Stage from '../Stage/Stage';
-import { stages } from '../../../../utils';
+import { stages } from '../../utils';
 
 const AboutPresentationSection = () => {
   return (

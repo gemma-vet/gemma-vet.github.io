@@ -11,7 +11,9 @@ const Footer = () => {
           <div className={styles.infos}>
             <div className={styles.imageContainer}>
               <Link href="/">
-                <Image src="/svg/Logo_Gemma.svg" width={189} height={40} alt="logo" layout="fixed" />
+                <a>
+                  <Image src="/svg/Logo_Gemma.svg" width={189} height={40} alt="logo" layout="fixed" />
+                </a>
               </Link>
             </div>
             <div className={styles.socials}>
