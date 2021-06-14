@@ -16,7 +16,12 @@ const AboutHeroSection = () => {
           </Button>
         </div>
         <div className={styles.imageContainer}>
-          <Image src="/images/about-header-image.png" width={670} height={446} alt="two phones displaying Gemma app" />
+          <Image
+            src="/images/about-header-image@2x.png"
+            width={670}
+            height={446}
+            alt="two phones displaying Gemma app"
+          />
         </div>
       </div>
     </section>
