@@ -1,7 +1,7 @@
 export const menu = [
-  { id: 1, name: 'About', path:"/about" },
-  { id: 2, name: 'How it works', path:"/howItWorks" },
-  { id: 3, name: 'Contact us', path:"/contact" },
+  { id: 1, name: 'About', path: '/about' },
+  { id: 2, name: 'How it works', path: '/howItWorks' },
+  { id: 3, name: 'Contact us', path: '/contact' },
 ];
 
 export const benefits = [
@@ -175,5 +175,49 @@ export const boardTemplates = [
     facility: 'The Animal Medical Center',
     source: '/images/Phil.png',
     order: 0,
+  },
+];
+
+export const stages = [
+  {
+    id: 1,
+    preTitle: 'The Challenge',
+    title: 'Unprecedented Demand in the Veterinary Care Industry',
+    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <span class="green">fostering rates increased by as much as 90%</span>, and some shelters saw their application numbers increase by <span class="green">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span> Consequently, the veterinary care industry rapidly escalated.`,
+    source: '/svg/Icon_flag.svg',
+    alt: 'flag icon',
+    noLine: false,
+    cta: false,
+    
+  },
+  {
+    id: 2,
+    preTitle: 'Covid 19 Impact',
+    title: 'Coping With All-Time High Pet Owner Anxiety',
+    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<span class="green">98% of veterinarians were limiting client contact</span/>, increasing pet owner anxiety to an all-time high.`,
+    source: '/svg/Icon_covid.svg',
+    alt: 'covid icon',
+    noLine: false,
+    cta: false,
+  },
+  {
+    id: 3,
+    preTitle: 'The Need',
+    title: 'Efficient Owner Communications',
+    description: `With social distancing measures in place, phone and email client communications grew by 79% and 69%, respectively. In addition to managing client communications, implementing safety measures, and caring for animals, veterinarians also had to face changing team dynamics, as staff was forced to adapt to their new roles.`,
+    source: '/svg/Icon_communication.svg',
+    alt: 'communication icon',
+    noLine: false,
+    cta: false,
+  },
+  {
+    id: 4,
+    preTitle: 'The Solution',
+    title: 'Gemma, a Nimble Veterinary Care Software Solution',
+    description: `With vets' mission in mind and pets' best interest at heart, we created Gemma, a smart, secure and easy-to-use mobile app that will help you deliver remarkable veterinary care and keep owners anxiety at bay.`,
+    source: '/svg/Icon_solution.svg',
+    alt: 'light bulb icon',
+    noLine: true,
+    cta: true,
   },
 ];

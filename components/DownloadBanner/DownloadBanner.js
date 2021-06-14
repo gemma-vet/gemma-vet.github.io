@@ -1,13 +1,15 @@
 import styles from './DownloadBanner.module.scss';
 import Image from 'next/image';
 
-const DownloadBanner = () => {
+const DownloadBanner = ({ textOne }) => {
   return (
     <div className={styles.downloadBanner}>
       <div className={styles.downloadBannerContainer}>
         <div className={styles.description}>
           <h4>
-            Leave a mark on pets’ health and owners’ smiles.
+            {textOne
+              ? 'Leave a mark on pets’ health and owners’ smiles.'
+              : 'Your veterinary practice, pet owners’ joy.'}
             <br />
             <span className={styles.download} role="button">
               Download the App

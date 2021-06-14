@@ -20,7 +20,7 @@ const Home = () => {
       <HeroSection />
       <MissionSection />
       <BenefitsSection />
-      <DownloadBanner />
+      <DownloadBanner textOne />
       <FeaturesSection />
       <TestimonialsSection />
       <BoardSection />

@@ -1,6 +1,7 @@
 import styles from './MissionSection.module.scss';
 import Image from 'next/image';
 import Cta from '../Cta/Cta';
+import Link from 'next/link';
 
 const MissionSection = () => {
   return (
@@ -49,7 +50,9 @@ const MissionSection = () => {
                 <p>Hospitals drive higher satisfaction scores and great client communications reviews.</p>
               </li>
             </ul>
-            <Cta>Learn More</Cta>
+            <Link href="/about" passHref>
+              <Cta>Learn More</Cta>
+            </Link>
           </div>
         </div>
       </div>
