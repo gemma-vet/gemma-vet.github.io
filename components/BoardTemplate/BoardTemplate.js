@@ -15,7 +15,7 @@ const BoardTemplate = ({ template }) => {
           <p className={`quotes ${styles.quoteText} `}>{template.quote}</p>
           <h4>{template.author}</h4>
           <p className={styles.jobPosition}>
-            {template.jobPositon} at <span>{template.facility}</span>
+            {template.jobPositon} at <span className={styles.facility}>{template.facility}</span>
           </p>
         </div>
       </div>

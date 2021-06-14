@@ -4,5 +4,8 @@
   display: flex;
   .featureDescription {
     padding-left: 1.125rem;
+    .description {
+      padding: 1rem 0;
+    }
   }
 }

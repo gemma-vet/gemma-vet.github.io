@@ -6,43 +6,51 @@ const MissionSection = () => {
   return (
     <section className={styles.missionSection}>
       <div className={styles.missionSectionContainer}>
-        <div className={styles.imageContainer}>
-          <Image
-            src="/images/mission-image@2x.png"
-            width={518}
-            height={429}
-            layout="responsive"
-            alt="image of a dog in a veterinary center"
-          />
-        </div>
-        <div className={styles.missionDescription}>
+        <div className={styles.missionTitleContainer}>
           <p className="sectionPreTitle">MISSION</p>
-          <h2>Better Veterinary Medicine Through Owner Satisfaction.</h2>
+          <h2>Vets’ Go-to App for Owner Satisfaction and Efficient Communication</h2>
           <p>
-            Gemma Vet is a smart, secure, and easy-to-use software solution for pet care providers. Our mobile app helps
-            vets and their teams:
+            Gemma’s mission is to <strong>enhance the lives of veterinary providers and pet owners</strong> by keeping
+            them connected, all from the convenience of a mobile device.
           </p>
-          <ul className={styles.benefits}>
-            <li>
-              <div className={styles.paw}>
-                <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
-              </div>
-              <p>connect with pet owners with ease for happier patients and families;</p>
-            </li>
-            <li>
-              <div className={styles.paw}>
-                <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
-              </div>
-              <p> be more efficient and have more time for pet care;</p>
-            </li>
-            <li>
-              <div className={styles.paw}>
-                <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
-              </div>
-              <p>promote teamwork to deliver great experiences and big smiles.</p>
-            </li>
-          </ul>
-          <Cta>Learn More</Cta>
+        </div>
+        <div className={styles.presentation}>
+          <div className={styles.imageContainer}>
+            <Image
+              src="/images/mission-image@2x.png"
+              width={482}
+              height={400}
+              layout="responsive"
+              alt="image of a dog in a veterinary center"
+            />
+          </div>
+          <div className={styles.missionDescription}>
+            <p>
+              Our smart and easy-to-use software solution was designed to help everyone benefit from improved veterinary
+              services. Gemma’s promise is to help:
+            </p>
+            <ul className={styles.benefits}>
+              <li>
+                <div className={styles.paw}>
+                  <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
+                </div>
+                <p>Veterinarians improve efficiency and have more time for pet care;</p>
+              </li>
+              <li>
+                <div className={styles.paw}>
+                  <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
+                </div>
+                <p> Families stay connected with their pets and caregivers, and avoid anxiety;</p>
+              </li>
+              <li>
+                <div className={styles.paw}>
+                  <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
+                </div>
+                <p>Hospitals drive higher satisfaction scores and great client communications reviews.</p>
+              </li>
+            </ul>
+            <Cta>Learn More</Cta>
+          </div>
         </div>
       </div>
     </section>
