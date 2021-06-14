@@ -17,7 +17,7 @@ const HeroSection = () => {
 
         <div className={styles.heroDescriptionContainer}>
           <div className={styles.heroDescription}>
-            <h1>Helping You Deliver Remarkable Veterinary Care</h1>
+            <h1>Cutting Edge Client Communication. Your Remarkable Veterinary Care.</h1>
             <p>
               Smarter and better client communication for vets and their teams. Your mobile app for happier pet
               families.

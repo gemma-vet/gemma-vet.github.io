@@ -7,7 +7,7 @@ const DownloadBanner = () => {
       <div className={styles.downloadBannerContainer}>
         <div className={styles.description}>
           <h4>
-            Your veterinary practice, pet owners’ joy.
+            Leave a mark on pets’ health and owners’ smiles.
             <br />
             <span className={styles.download} role="button">
               Download the App

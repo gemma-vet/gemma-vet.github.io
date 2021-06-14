@@ -10,7 +10,7 @@ const Feature = ({ feature }) => {
       </div>
       <div className={styles.featureDescription}>
         <h4>{feature.title}</h4>
-        <p>{feature.description}</p>
+        <p className={styles.description}>{feature.description}</p>
         <Cta>Learn More</Cta>
       </div>
     </div>
