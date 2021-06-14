@@ -1,7 +1,7 @@
 import styles from './Feature.module.scss';
 import Image from 'next/image';
 import Cta from '../Cta/Cta';
-import Link from "next/link";
+import Link from 'next/link';
 
 const Feature = ({ feature }) => {
   return (
