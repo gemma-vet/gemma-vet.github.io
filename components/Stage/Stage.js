@@ -1,7 +1,7 @@
 import styles from './Stage.module.scss';
 import Image from 'next/image';
-import Cta from '../../../../components/Cta/Cta';
 import Link from 'next/link';
+import Cta from '../Cta/Cta';
 
 const Stage = ({ stage }) => {
   return (
