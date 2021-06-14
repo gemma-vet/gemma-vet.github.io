@@ -1,0 +1,9 @@
+@use "../../../../styles/variables.scss" as *;
+
+.aboutPresentation {
+  .aboutPresentationContainer {
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 5rem 15rem 6.25rem 12rem;
+  }
+}
