@@ -1,7 +1,7 @@
 export const menu = [
-  { id: 1, name: 'About' },
-  { id: 2, name: 'How it works' },
-  { id: 3, name: 'Contact us' },
+  { id: 1, name: 'About', path:"/about" },
+  { id: 2, name: 'How it works', path:"/howItWorks" },
+  { id: 3, name: 'Contact us', path:"/contac" },
 ];
 
 export const benefits = [

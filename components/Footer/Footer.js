@@ -1,5 +1,6 @@
 import styles from './Footer.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 import Button from '../Button/Button';
 
 const Footer = () => {
@@ -9,7 +10,9 @@ const Footer = () => {
         <div className={styles.footerMain}>
           <div className={styles.infos}>
             <div className={styles.imageContainer}>
-              <Image src="/svg/Logo_Gemma.svg" width={189} height={40} alt="logo" layout="fixed" />
+              <Link href="/">
+                <Image src="/svg/Logo_Gemma.svg" width={189} height={40} alt="logo" layout="fixed" />
+              </Link>
             </div>
             <div className={styles.socials}>
               <div className={styles.instaContainer}>
