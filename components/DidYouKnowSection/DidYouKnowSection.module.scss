@@ -1,0 +1,31 @@
+@use "../../styles/variables.scss" as *;
+
+.didYouKnowSection {
+  background-color: $lightYellow;
+  .didYouKnowContainer {
+    display: flex;
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 2.5rem 15rem 5.625rem 12rem;
+    .question {
+      padding-right: 4.25rem;
+    }
+    .content {
+      padding-top: 1rem;
+      h2 {
+        padding-top: 1rem;
+      }
+      p {
+        &:first-child {
+          color: $darkYellow;
+        }
+      }
+    }
+    .description {
+      display: flex;
+      .descriptionImage {
+        padding-right: 3.125rem;
+      }
+    }
+  }
+}
