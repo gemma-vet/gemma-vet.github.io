@@ -21,6 +21,7 @@ const AboutHeroSection = () => {
             width={670}
             height={446}
             alt="two phones displaying Gemma app"
+            priority
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import styles from './Feature.module.scss';
 import Image from 'next/image';
-import Cta from '../Cta/Cta';
+import LearnMore from '../LearnMore/LearnMore';
 import Link from 'next/link';
 
 const Feature = ({ feature }) => {
@@ -13,7 +13,7 @@ const Feature = ({ feature }) => {
         <h4>{feature.title}</h4>
         <p className={styles.description}>{feature.description}</p>
         <Link href="/howItWorks" passHref>
-          <Cta>Learn More</Cta>
+          <LearnMore>Learn More</LearnMore>
         </Link>
       </div>
     </div>

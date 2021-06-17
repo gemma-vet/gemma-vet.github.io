@@ -1,6 +1,6 @@
 import styles from './MissionSection.module.scss';
 import Image from 'next/image';
-import Cta from '../Cta/Cta';
+import LearnMore from '../LearnMore/LearnMore';
 import Link from 'next/link';
 
 const MissionSection = () => {
@@ -51,7 +51,7 @@ const MissionSection = () => {
               </li>
             </ul>
             <Link href="/about" passHref>
-              <Cta>Learn More</Cta>
+              <LearnMore>Learn More</LearnMore>
             </Link>
           </div>
         </div>

@@ -1,0 +1,110 @@
+@use "../../styles/variables.scss" as *;
+
+.advisor {
+  display: flex;
+  padding-bottom: 5rem;
+  .imageContainer {
+    .imageDiv {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      &:hover {
+        .imageBorder {
+          position: absolute;
+          top: -4px;
+          left: -4px;
+          width: 207px;
+          height: 207px;
+          border: 4px solid $lightGreen;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  .first {
+    order: 0;
+    padding-right: 3rem;
+  }
+  .second {
+    order: 1;
+    padding-left: 3rem;
+  }
+  .infos {
+    padding-left: 3rem;
+    .templateDescription {
+      width: 100%;
+      position: relative;
+      padding-bottom: 1.5rem;
+      .quotesContainer {
+        display: flex;
+        position: absolute;
+        padding: 1.5rem 2rem 1.5rem 1rem;
+        visibility: hidden;
+        background-color: $lightGrey;
+        border: 2px solid $lightGreen;
+        z-index: 1;
+        .quoteText {
+          padding-left: 1rem;
+          line-height: 1.875rem;
+          color: $menuBlack;
+        }
+      }
+      .authorContainer {
+        padding-bottom: 1rem;
+        .jobPosition {
+          color: $middleGray;
+        }
+      }
+      .facility {
+        font-weight: 600;
+        color: $darkGreen;
+      }
+      .descriptionContainer {
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        visibility: visible;
+        overflow: hidden;
+      
+        .description {
+          line-height: 1.875rem;
+        }
+      }
+      .ctaContainer {
+        visibility: visible;
+      }
+      .allContent {
+        -webkit-line-clamp: unset;
+      }
+    }
+  }
+
+  // &:hover {
+  //   .imageBorder {
+  //     position: absolute;
+  //     top: -4px;
+  //     left: -4px;
+  //     width: 207px;
+  //     height: 207px;
+  //     border: 4px solid $lightGreen;
+  //     border-radius: 50%;
+  //   }
+  // .templateDescription {
+  //   width: 100%;
+  //   .quotesContainer {
+  //     display: flex;
+  //     position: absolute;
+  //     padding: 1.5rem 2rem 1.5rem 1rem;
+  //     background-color: $lightGrey;
+  //     border: 2px solid $lightGreen;
+  //     z-index: 1;
+  //     .quoteText {
+  //       padding-left: 1rem;
+  //     }
+  //   }
+  //   .descriptionContainer {
+  //     visibility: hidden;
+  //   }
+  // }
+  // }
+}

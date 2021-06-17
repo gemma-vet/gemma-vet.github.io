@@ -4,6 +4,7 @@ import AboutHeroSection from '../../components/AboutHeroSection/AboutHeroSection
 import DownloadBanner from '../../components/DownloadBanner/DownloadBanner';
 import AboutPresentationSection from '../../components/AboutPresentationSection/AboutPresentationSection';
 import DidYouKnowSection from '../../components/DidYouKnowSection/DidYouKnowSection';
+import AdvisorsSection from '../../components/AdvisorsSection/AdvisorsSection';
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       <AboutHeroSection />
       <AboutPresentationSection />
       <DidYouKnowSection />
+      <AdvisorsSection />
       <DownloadBanner />
     </Layout>
   );

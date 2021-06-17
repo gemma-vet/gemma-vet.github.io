@@ -19,6 +19,9 @@ const BoardTemplate = ({ template }) => {
           </p>
         </div>
       </div>
+      <div>
+        
+      </div>
     </div>
   );
 };
