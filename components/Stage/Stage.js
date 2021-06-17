@@ -16,10 +16,10 @@ const Stage = ({ stage }) => {
         <p className="sectionPreTitle">{stage.preTitle}</p>
         <h2>{stage.title}</h2>
         <p
-          className={`${styles.stageText} ${stage.LearnMore ? `${styles.noSpace}` : ''}`}
+          className={`${styles.stageText} ${stage.cta ? `${styles.noSpace}` : ''}`}
           dangerouslySetInnerHTML={{ __html: stage.description }}
         ></p>
-        <div className={`${styles.ctaContainer} ${!stage.LearnMore ? 'hidden' : ''}`}>
+        <div className={`${styles.ctaContainer} ${!stage.cta ? 'hidden' : ''}`}>
           <Link href="/howItWorks" passHref>
             <LearnMore>Learn More</LearnMore>
           </Link>
