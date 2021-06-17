@@ -108,6 +108,10 @@ ol {
   color: $darkGreen;
 }
 
+.allContent {
+  -webkit-line-clamp: unset;
+}
+
 /**
  * ----------------------------------------
  * animation fade-in

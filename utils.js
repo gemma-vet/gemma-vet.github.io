@@ -220,3 +220,56 @@ export const stages = [
     cta: true,
   },
 ];
+
+export const advisors = [
+  {
+    id: 1,
+    description:
+      'Elisa is a veterinary internist living in Philadelphia, PA. She graduated from UC Davis School of Veterinary Medicine in 2016, and moved to New York City for a small animal rotating internship and subsequent small animal Internal Medicine residency at the Animal Medical Center in Manhattan. Professionally, Elisa enjoys gastrointestinal, hematologic, infectious and immune-mediated diseases.',
+    quote:
+      "Gemma is the easiest way to keep owners in the loop on their pet's care. Nothing comes close. It’s a multimedia record of patients that brings families so much joy.",
+    author: 'Elisa McEntee',
+    jobPositon: 'DVM, DACVIM, Internal Medicine Specialist at BluePearl Veterinary Partners',
+    source: '/images/Elisa@2x.png',
+  },
+  {
+    id: 2,
+    description:
+      'Alex Blutinger obtained his BS in Biology, Neuroscience, and Italian at Brandeis University before completing his VMD at the University of Pennsylvania in 2015. He completed a rotating internship at BluePearl Veterinary Partners in New York City, followed by a small animal emergency and critical care residency at the Animal Medical Center in Manhattan. Outside of veterinary medicine, Alex enjoys playing basketball, soccer, surfing, traveling, and playing piano. A dual national of the US and Italy, Alex spent many years living in Italy, where he developed a passion for Italian culture; cooking, speaking the language, and European football. Alex collaborates with his brother as a DJ duo and music producer, where they perform in NYC.',
+    quote:
+      'Gemma has been a game-changer for me, allowing me to focus more on patient care while providing peace of mind to pet owners that can actually see how their pet is doing. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
+    author: 'Alex Blutinger',
+    jobPositon: 'VMD, DACVECC, Critical Care Specialist at BluePearl Veterinary Partners',
+    source: '/images/Alex@2x.png',
+  },
+  {
+    id: 3,
+    description:
+      'Emily Dozeman is a board-certified emergency and critical care doctor. She is one of the managing partners and co-department chair of the emergency and critical care service at Philadelphia Animal Specialty and Emergency. Dr. Dozeman attended the Ohio State University where she earned a Bachelor of Animal Science and a DVM degree. Following veterinary school, Dr. Dozeman completed a small animal rotating medicine and surgery internship at VCA SouthPaws in Fairfax, VA. She then worked as an emergency doctor in Chicago before deciding to pursue a residency. Dr. Dozeman completed a three-year residency at The Animal Medical Center in NYC. She is experienced in all aspects of emergency medicine and critical care with a particular interest in the management of polytrauma patients, sepsis, and transfusion medicine. When not treating patients, Dr. Dozeman enjoys being outdoors, spending time with her husband, and being active. She has two rescue French bulldogs and a cat named Petry.',
+    quote:
+      'Gemma has revolutionized the way I communicate with pet owners and my team. The app was incredibly easy to integrate into my day-to-day and the benefits of using it were reaped almost immediately. Families feel close to their pets even when they are away!',
+    author: 'Emily Dozeman',
+    jobPositon: 'DVM, DACVECC, Critical Care Doctor and Co-department Chair at Philadelphia Animal Specialty and Emergency',
+    source: '/images/Emily@2x.png',
+  },
+  {
+    id: 4,
+    description:
+      'Phil graduated from Massey University’s Bachelor of Veterinary Science in 2012. He started his career in mixed animal practice in rural New Zealand. He then directed his focus to become a Diplomate of the American College of Veterinary Surgeons. He completed two rotating internships, a surgical internship, and a Master’s of Veterinary Medicine. Today, Phil serves as a surgical resident at the Animal Medical Center.',
+    quote:
+      'Nothing could be easier communicating with pet owners throughout the pandemic. A simple photo or video of my patients makes owners happier and more engaged. It’s a brilliant tool. I can spend more time delivering quality care.',
+    author: 'Phil Hyndman',
+    jobPositon: 'BVSc, MVM at The Animal Medical Center',
+    source: '/images/Phil@2x.png',
+  },
+  {
+    id: 5,
+    description:
+      'Raluca has spent the better part of her professional life in journalism and technology, working with leading technology players in the US and Europe. She currently serves as Director of Strategic Partnerships at [e-spres-oh] providing strategic marketing expertise and project planning. Prior to [e-spres-oh], Raluca served as the Chief Operating Officer of the Institute for Education, a DC-based mission-driven organization, harnessing the power of data, innovation, and soft diplomacy. In her role as the Editor-in-Chief of IFE magazine, she has interviewed ambassadors, Nobel Prize winners, and key tech innovators and disruptors in the nation’s capital. Previously, Raluca served as a Washington DC news correspondent, reporting for an international press agency headquartered in Bucharest, Romania. Raluca has an M.A. degree in Management in Media Institutions from the University of Bucharest and speaks English, Spanish and Romanian.',
+    quote:
+      'When vets came to us and asked for our help to build a tool that would enable them to solve the breakdown in client communication and fight the burnout triggered by the increased patient influx, we knew that we could augment their time resources through technology. So, after speaking with tens of critical care specialists and listening to their needs, we built Gemma. Gemma acts as a digital personal assistant for veterinary teams and helps them have the latest updates on their patients in one place, accessible on their mobile phones.',
+    author: 'Raluca Popa',
+    jobPositon: 'Director of Strategic Partnerships at [e-spres-oh]',
+    source: '/images/Ralu@2x.png',
+  },
+];

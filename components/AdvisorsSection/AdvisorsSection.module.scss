@@ -1,0 +1,14 @@
+@use "../../styles/variables.scss" as *;
+
+.advisorsSection {
+  padding-top: 6.25rem;
+  .advisorsSectionContainer {
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 5rem 15rem 3.25rem 14.375rem;
+    .advisorTitle {
+      padding-bottom: 5rem;
+      font-weight: normal;
+    }
+  }
+}

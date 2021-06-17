@@ -1,7 +1,7 @@
 import styles from './Stage.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
-import Cta from '../Cta/Cta';
+import LearnMore from '../LearnMore/LearnMore';
 
 const Stage = ({ stage }) => {
   return (
@@ -16,12 +16,12 @@ const Stage = ({ stage }) => {
         <p className="sectionPreTitle">{stage.preTitle}</p>
         <h2>{stage.title}</h2>
         <p
-          className={`${styles.stageText} ${stage.cta ? `${styles.noSpace}` : ''}`}
+          className={`${styles.stageText} ${stage.LearnMore ? `${styles.noSpace}` : ''}`}
           dangerouslySetInnerHTML={{ __html: stage.description }}
         ></p>
-        <div className={`${styles.ctaContainer} ${!stage.cta ? 'hidden' : ''}`}>
+        <div className={`${styles.ctaContainer} ${!stage.LearnMore ? 'hidden' : ''}`}>
           <Link href="/howItWorks" passHref>
-            <Cta>Learn More</Cta>
+            <LearnMore>Learn More</LearnMore>
           </Link>
         </div>
       </div>
