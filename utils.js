@@ -44,7 +44,7 @@ export const benefits = [
   {
     id: 4,
     title: 'A Loyal Friend to Help You Improve Patient Satisfaction',
-    description: `Rely on Gemma to reduce pet families' anxiety triggered by health emergencies and restricted in-person visits. Build trust and give families the peace of mind they need with real-time updates on their pets' health and the ability to share the feed with loved ones. Track patient satisfaction through surveys and reviews.`,
+    description: `Rely on Gemma to reduce pet families' anxiety triggered by health emergencies and restricted in-person visits. Build trust and give families the peace of mind they need with real-time updates on their pets' health and the ability to share the feed with loved ones. Track pet owner satisfaction through surveys and reviews.`,
     source: '/svg/benefit4.svg',
     alt: 'benefit image',
     dimensions: {
@@ -58,14 +58,14 @@ export const benefits = [
 export const features = [
   {
     id: 1,
-    title: 'One-way Multimedia Messaging',
+    title: 'One-Way Multimedia Messaging',
     description: 'Streamline client communication and optimize staff time.',
     source: '/svg/one_way_ico.svg',
     alt: 'right arrow icon',
   },
   {
     id: 2,
-    title: 'Patient Satisfaction Tracking',
+    title: 'Pet owner satisfaction Tracking',
     description: 'Strengthen your overall understanding of your clients’ experience.',
     source: '/svg/heart_icon.svg',
     alt: 'heart icon',
@@ -94,7 +94,7 @@ export const features = [
   },
   {
     id: 6,
-    title: 'Feed Sharing Across Contacts',
+    title: 'Feed-Sharing Across Contacts',
     description: 'Build a community, exchange ideas, and share your experiences with your contacts.',
     source: '/svg/share _feed.svg',
     alt: 'share feed icon',
@@ -249,7 +249,8 @@ export const advisors = [
     quote:
       'Gemma has revolutionized the way I communicate with pet owners and my team. The app was incredibly easy to integrate into my day-to-day and the benefits of using it were reaped almost immediately. Families feel close to their pets even when they are away!',
     author: 'Emily Dozeman',
-    jobPositon: 'DVM, DACVECC, Critical Care Doctor and Co-department Chair at Philadelphia Animal Specialty and Emergency',
+    jobPositon:
+      'DVM, DACVECC, Critical Care Doctor and Co-department Chair at Philadelphia Animal Specialty and Emergency',
     source: '/images/Emily@2x.png',
   },
   {

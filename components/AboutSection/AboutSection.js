@@ -1,19 +1,15 @@
-import styles from './MissionSection.module.scss';
+import styles from './AboutSection.module.scss';
 import Image from 'next/image';
-import LearnMore from '../LearnMore/LearnMore';
 import Link from 'next/link';
+import Button from '../Button/Button';
 
-const MissionSection = () => {
+const AboutSection = () => {
   return (
     <section className={styles.missionSection}>
       <div className={styles.missionSectionContainer}>
         <div className={styles.missionTitleContainer}>
-          <p className="sectionPreTitle">MISSION</p>
-          <h2>Vets’ Go-to App for Owner Satisfaction and Efficient Communication</h2>
-          <p>
-            Gemma’s mission is to <strong>enhance the lives of veterinary providers and pet owners</strong> by keeping
-            them connected, all from the convenience of a mobile device.
-          </p>
+          <p className="sectionPreTitle">ABOUT</p>
+          <h2>Vets’ Go-to App for Owner Satisfaction and Easy Communication</h2>
         </div>
         <div className={styles.presentation}>
           <div className={styles.imageContainer}>
@@ -51,7 +47,9 @@ const MissionSection = () => {
               </li>
             </ul>
             <Link href="/about" passHref>
-              <LearnMore>Learn More</LearnMore>
+              <Button background="white" border="borderGreen" textColor="textGreen">
+                Find Out More
+              </Button>
             </Link>
           </div>
         </div>
@@ -60,4 +58,4 @@ const MissionSection = () => {
   );
 };
 
-export default MissionSection;
+export default AboutSection;

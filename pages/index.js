@@ -2,7 +2,7 @@ import styles from './Home.module.scss';
 import Head from 'next/head';
 import Layout from '../components/Layout/Layout';
 import HeroSection from '../components/HeroSection/HeroSection';
-import MissionSection from '../components/MissionSection/MissionSection';
+import AboutSection from '../components/AboutSection/AboutSection';
 import BenefitsSection from '../components/BenefitsSection/BenefitsSection';
 import DownloadBanner from '../components/DownloadBanner/DownloadBanner';
 import FeaturesSection from '../components/FeaturesSection/FeaturesSection';
@@ -18,7 +18,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroSection />
-      <MissionSection />
+      <AboutSection />
       <BenefitsSection />
       <DownloadBanner textOne />
       <FeaturesSection />
