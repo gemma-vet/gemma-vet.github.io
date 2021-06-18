@@ -274,3 +274,157 @@ export const advisors = [
     source: '/images/Ralu@2x.png',
   },
 ];
+
+export const howItWorksStages = [
+  {
+    id: 1,
+    title: 'One-way Multimedia Messaging',
+    source: '/images/image multimedia@2x.png',
+    list: [
+      {
+        id: 1,
+        text: '> Streamline communications',
+      },
+      {
+        id: 2,
+        text: '> Improve client satisfaction',
+      },
+      {
+        id: 3,
+        text: '> Optimize staff time',
+      },
+    ],
+    paragraph_one:
+      '<strong>Streamline client communication and optimize staff time</strong> with Gemma’s one-way multimedia messaging feature.',
+    paragraph_two:
+      'Gemma lets you show pet owners that their pets are receiving exceptional care, reducing anxiety and improving client satisfaction. You can send texts, videos, and pictures to pet families, all within the app.',
+    borders: true,
+    background: 'lightGray',
+  },
+  {
+    id: 2,
+    title: 'Team Management',
+    source: '/images/image management@2x.png',
+    list: [
+      {
+        id: 1,
+        text: '> Efficient Communication',
+      },
+      {
+        id: 2,
+        text: ' > Strategic Collaboration',
+      },
+      {
+        id: 3,
+        text: '> Seamless Integration',
+      },
+    ],
+    paragraph_one:
+      '<strong>Manage, collaborate, and communicate with your team</strong> with Gemma’s team management feature.',
+    paragraph_two:
+      'Gemma allows you to create a team for your practice, manage your hospital’s team, or invite a specialist to join your department’s team in order to facilitate collaboration. Stay up-to-date with your patients’ progress and your teams’ activity from the convenience of your cell phone.',
+    borders: false,
+    background: 'washedGreen',
+  },
+  {
+    id: 3,
+    title: 'Referring Vet Communications',
+    source: '/images/image ref vet@2x.png',
+    list: [
+      {
+        id: 1,
+        text: '> Facilitate referrals',
+      },
+      {
+        id: 2,
+        text: '> Real-time updates',
+      },
+      {
+        id: 3,
+        text: '> Engage with fellow experts',
+      },
+    ],
+    paragraph_one:
+      '<strong>Gemma facilitates referrals and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged..',
+    paragraph_two:
+      'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances communication between vets, improving care coordination and client satisfaction.',
+    borders: true,
+    background: 'lightGray',
+  },
+  {
+    id: 4,
+    title: 'Pet Owner Satisfaction Tracking',
+    source: '/images/image patient satisfaction@2x.png',
+    list: [
+      {
+        id: 1,
+        text: '> Increase Client Reviews',
+      },
+      {
+        id: 2,
+        text: '> Strengthen Credibility',
+      },
+      {
+        id: 3,
+        text: '> Improve Client Satisfaction',
+      },
+    ],
+    paragraph_one:
+      '<strong>Strengthen your overall understanding of your clients’ experience </strong> with Gemma’s feedback form feature.',
+    paragraph_two:
+      'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction, and increasing positive reviews strengthens your credibility.',
+    borders: false,
+    background: 'washedGreen',
+  },
+  {
+    id: 5,
+    title: 'Patient Database Access',
+    source: '/images/image patient db@2x.png',
+    list: [
+      {
+        id: 1,
+        text: '> Organize data',
+      },
+      {
+        id: 2,
+        text: '> Manage patient records',
+      },
+      {
+        id: 3,
+        text: '> Search for recurring patients',
+      },
+    ],
+    paragraph_one:
+      '<strong>Store, organize, and manage patient information </strong>  with Gemma’s easy-to-navigate patient database access feature.',
+    paragraph_two:
+      'Access your archived patient records and use Gemma’s efficient search feature to recall a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
+    borders: true,
+    background: 'lightGray',
+  },
+  {
+    id: 6,
+    title: 'Feed-Sharing Across Contacts',
+    source: '/images/image Share@2x.png',
+    list: [
+      {
+        id: 1,
+        text: '> Build a community',
+      },
+      {
+        id: 2,
+        text: '> Share experiences',
+      },
+      {
+        id: 3,
+        text: '> Exchange ideas',
+      },
+    ],
+    paragraph_one:
+      '<strong>Build a community, exchange ideas, and share your experiences</strong> with your contacts with Gemma’s feed-sharing feature.',
+    paragraph_two:
+      'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma and to get support or just spread smiles.',
+    borders: false,
+    background: 'lightGray',
+    background: 'washedGreen',
+  },
+];

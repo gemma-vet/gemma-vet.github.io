@@ -1,5 +1,5 @@
 import styles from './Menu.module.scss';
-import { menu } from '../../utils';
+import { menu } from '../../dataBase';
 import Link from 'next/link';
 
 const Menu = () => {

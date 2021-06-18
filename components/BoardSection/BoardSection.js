@@ -2,7 +2,7 @@ import styles from './BoardSection.module.scss';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import BoardTemplate from '../BoardTemplate/BoardTemplate';
 import Button from '../Button/Button';
-import { boardTemplates } from '../../utils';
+import { boardTemplates } from '../../dataBase';
 
 const BoardSection = () => {
   const bannerInfo = {
