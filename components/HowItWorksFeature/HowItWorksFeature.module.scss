@@ -1,0 +1,55 @@
+@use "../../styles/variables.scss" as *;
+
+.howItWorksFeature {
+  padding-bottom: 6.25rem;
+  background-color: #fff;
+  .wrapper {
+    .howItWorksFeatureContainer {
+      display: flex;
+      max-width: $screen-cs;
+      margin: 0 auto;
+      padding: 0 8.75rem;
+
+      .imageContainer {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+      }
+      .positionStart {
+        justify-content: flex-start;
+      }
+
+      .positionEnd {
+        justify-content: flex-end;
+      }
+      .description {
+        width: 55%;
+        padding: 6.25rem 0;
+        .descriptionList {
+          padding-bottom: 1.5rem;
+          font-weight: 600;
+          color: $darkGreen;
+        }
+        p {
+          color: $middleGray;
+          &:nth-of-type(1) {
+            padding-bottom: 1.5rem;
+          }
+        }
+      }
+      .first {
+        order: 0;
+      }
+      .second {
+        order: 1;
+      }
+    }
+  }
+}
+
+.light {
+  background-color: $lightGrey;
+}
+.dark {
+  background-color: $washedGreen;
+}

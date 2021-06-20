@@ -2,7 +2,7 @@ import styles from './BenefitsSection.module.scss';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import Benefit from '../Benefit/Benefit';
 import Button from '../Button/Button';
-import { benefits } from '../../utils';
+import { benefits } from '../../dataBase';
 
 const BenefitsSection = () => {
   const bannerInfo = {

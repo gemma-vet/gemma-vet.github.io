@@ -1,7 +1,7 @@
 import styles from './AdvisorsSection.module.scss';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import Advisor from '../Advisor/Advisor';
-import { advisors } from '../../utils';
+import { advisors } from '../../dataBase';
 
 const AdvisorsSection = () => {
   const bannerInfo = {

@@ -1,5 +1,5 @@
 import styles from './FeaturesSection.module.scss';
-import { features } from '../../utils';
+import { features } from '../../dataBase';
 import Feature from '../Feature/Feature';
 
 const FeaturesSection = () => {

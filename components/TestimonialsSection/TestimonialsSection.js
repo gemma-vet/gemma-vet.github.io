@@ -5,7 +5,7 @@ import SectionBanner from '../SectionBanner/SectionBanner';
 import Testimonial from '../Testimonial/Testimonial';
 import NavBullet from '../NavBullet/NavBullet';
 import Button from '../Button/Button';
-import { testimonials, bullets } from '../../utils';
+import { testimonials, bullets } from '../../dataBase';
 
 const TestimonialsSection = () => {
   const [increment, setIncrement] = useState(0);

@@ -2,11 +2,15 @@
 
 .downloadBanner {
   background-color: $washedGreen;
+
   .downloadBannerContainer {
     position: relative;
     width: 499px;
     margin: 0 auto;
     padding: 5rem 0;
+    .textWhite {
+      color: $whiteColor;
+    }
     .description {
       padding-bottom: 2.5rem;
       text-align: center;
@@ -14,9 +18,13 @@
         cursor: pointer;
         color: $lightGreen;
       }
+      .textWhite {
+        color: $whiteColor;
+      }
     }
     .apps {
       display: flex;
+      padding: 0 2.625rem;
       justify-content: space-between;
     }
     .heartEmoji {
@@ -35,4 +43,8 @@
       right: -10rem;
     }
   }
+}
+
+.lightGreen {
+  background-color: $lightGreen;
 }
