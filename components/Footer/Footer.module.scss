@@ -7,6 +7,8 @@
   font-size: 1rem;
   letter-spacing: 0px;
   line-height: 1.563rem;
+  font-family: 'Poppins';
+  font-weight: normal;
   color: #acacac;
   &::placeholder {
     color: #acacac;
@@ -90,8 +92,6 @@
             @include inputStyle;
             height: 8.375rem;
             width: 100%;
-            font-family: 'Poppins';
-            font-weight: normal;
           }
         }
         .contactButton {
