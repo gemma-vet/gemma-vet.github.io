@@ -1,0 +1,26 @@
+@use "../../styles/variables.scss" as *;
+
+.privacy {
+  max-width: $screen-cs;
+  margin: 0 auto;
+  padding: 5rem 14.375rem 6.25rem 14.375rem;
+  color: $menuBlack;
+  .title {
+    padding: 1rem 0;
+    &:first-child {
+      padding: 0 0 1rem 0;
+    }
+  }
+  p,
+  ul {
+    padding-bottom: 1rem;
+  }
+  ul {
+    &:last-child {
+      padding-bottom: 0;
+    }
+    li {
+      padding-left: 1rem;
+    }
+  }
+}
