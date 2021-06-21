@@ -28,10 +28,18 @@ const Footer = () => {
               </div>
             </div>
             <ul className={styles.footerMenu}>
-              <li role="button">About</li>
-              <li role="button">How it works</li>
-              <li role="button">Contact us</li>
-              <li role="button">Privacy Policy</li>
+              <li role="button">
+                <Link href="/about">About</Link>
+              </li>
+              <li role="button">
+                <Link href="/howItWorks">How it works</Link>
+              </li>
+              <li role="button">
+                <Link href="/contact">Contact us</Link>
+              </li>
+              <li role="button">
+                <Link href="/privacy">Privacy Policy</Link>
+              </li>
             </ul>
           </div>
           <div className={styles.newsLetter}>
