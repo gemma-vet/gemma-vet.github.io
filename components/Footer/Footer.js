@@ -10,7 +10,7 @@ const Footer = () => {
         <div className={styles.footerMain}>
           <div className={styles.infos}>
             <div className={styles.imageContainer}>
-              <Link href="/">
+              <Link href="/" passHref>
                 <a>
                   <Image src="/svg/Logo_Gemma.svg" width={189} height={40} alt="logo" layout="fixed" />
                 </a>

@@ -1,19 +1,20 @@
 import styles from './Menu.module.scss';
-import { menu } from '../../dataBase';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { menu } from '../../dataBase';
 
 const Menu = () => {
+  const router = useRouter();
   return (
-    <ul className={styles.menu}>
+    <nav className={styles.menu}>
       {menu.map((item) => (
         <li key={item.id}>
-          {' '}
           <Link href={item.path}>
-            <a>{item.name}</a>
+            <a className={router.asPath === item.path ? 'green' : ''}>{item.name}</a>
           </Link>
         </li>
       ))}
-    </ul>
+    </nav>
   );
 };
 
