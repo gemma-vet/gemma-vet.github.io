@@ -19,7 +19,6 @@ const Privacy = () => {
           essential information that will help you understand what type of data we collect, how we collect it and why we
           need it.
         </p>
-        
         <p className={styles.title}>
           <strong>Introduction:</strong>
         </p>
@@ -34,7 +33,6 @@ const Privacy = () => {
           all our other communication channels. In addition, the Personal Data we collect helps us adapt our services
           and employment opportunities to your demands and needs.
         </p>
-
         <p className={styles.title}>
           <strong>What types of personal data we collect:</strong>{' '}
         </p>
@@ -50,14 +48,14 @@ const Privacy = () => {
           </li>
           <li>
             <strong>> non-identifying personal data </strong>such as IP address, cookies, referring URL, browser type,
-            operating system, site usage, and browsing history.
+            operating system, <br />
+            <span className={styles.extraPadding}>site usage, and browsing history.</span>
           </li>
         </ul>
         <p>
           We do not correlate personal identification data with non-identifying personal data unless clearly specified
           at the moment of collection.
         </p>
-
         <p className={styles.title}>
           {' '}
           <strong>How we collect personal data:</strong>
@@ -71,7 +69,6 @@ const Privacy = () => {
           in your browser and triggered by third-party analytics tools such as Google Analytics, Mailchimp or Facebook
           Pixel.
         </p>
-
         <p className={styles.title}>
           <strong>We collect data directly when you:</strong>
         </p>
@@ -85,21 +82,21 @@ const Privacy = () => {
           </li>
           <li>> contact us by any communication means, be it email, social media or website.</li>
         </ul>
-
         <p className={styles.title}>
           <strong>We collect data indirectly when you:</strong>
         </p>
         <ul>
           <li>
-            > visit our website; in this case, embedded web technologies known as cookies collect non-identifying
-            personal data (please read more on our <span className="green">Cookie policy</span>)
+            > visit our website; in this case, embedded web technologies known as cookies collect non-identifying <br />
+            <span className={styles.extraPadding}>
+              personal data (please read more on our <span className="green">Cookie policy</span>)
+            </span>
           </li>
         </ul>
         <p>
           To keep things transparent, you will always be notified when data collection occurs and you’ll be asked for
           consent.
         </p>
-
         <p className={styles.title}>
           <strong>What is your personal data used for?</strong>
         </p>
@@ -112,15 +109,15 @@ const Privacy = () => {
         <ul>
           <li> > to answer queries submitted through our contact forms; </li>
           <li>
-            > keep you posted on the latest features, software updates, fixes, or other information through emails and
-            newsletters;{' '}
+            > keep you posted on the latest features, software updates, fixes, or other information through emails and{' '}
+            <br />
+            <span className={styles.extraPadding}>newsletters;</span>{' '}
           </li>
           <li>> optimize Facebook and LinkedIn ads based on collected anonymized data;</li>
           <li>> build targeted audiences for social media campaigns to ensure the relevancy of our communications;</li>
           <li> > create statistics around website traffic, marketing performance, communication initiatives;</li>
           <li> > understand your current experience with our mobile app and website in order to improve it.</li>
         </ul>
-
         <p className={styles.title}>
           <strong>Third-party services we use:</strong>
         </p>
