@@ -15,11 +15,11 @@ const Contact = () => {
       <div className={styles.contact}>
         <div className={styles.contactContainer}>
           <form className={styles.contactForm}>
-            <label for="name">Your Name:</label>
+            <label htmlFor="name">Your Name:</label>
             <input id="name" type="text" name="name" placeholder="Enter your name" />
-            <label for="email">Your Email:</label>
+            <label htmlFor="email">Your Email:</label>
             <input id="email" type="email" name="email" placeholder="Enter your email" />
-            <label for="message">Your Message:</label>
+            <label htmlFor="message">Your Message:</label>
             <textarea
               id="textarea"
               name="textarea"
