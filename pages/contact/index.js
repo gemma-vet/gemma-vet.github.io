@@ -10,7 +10,7 @@ const Contact = () => {
     title: 'So Nice to Meet You',
   };
   return (
-    <Layout lightGreen textWhite>
+    <Layout title="Contact" lightGreen textWhite>
       <SectionBanner bannerInfo={bannerInfo} />
       <div className={styles.contact}>
         <div className={styles.contactContainer}>

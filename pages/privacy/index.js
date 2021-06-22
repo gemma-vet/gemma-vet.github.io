@@ -8,7 +8,7 @@ const Privacy = () => {
     title: 'Gemma Vet Privacy Policy',
   };
   return (
-    <Layout lightGreen textWhite>
+    <Layout title="Privacy Policy" lightGreen textWhite>
       <SectionBanner bannerInfo={bannerInfo} />
       <div className={styles.privacy}>
         <p className={styles.title}>

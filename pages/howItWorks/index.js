@@ -10,7 +10,7 @@ const HowItWorks = () => {
     title: 'Features For Vets That Go The Extra Mile',
   };
   return (
-    <Layout lightGreen textWhite>
+    <Layout title="How It Works" lightGreen textWhite>
       <div className={styles.bannerContainer}>
         <SectionBanner bannerInfo={bannerInfo} />
       </div>
@@ -18,7 +18,7 @@ const HowItWorks = () => {
         <HowItWorksFeature key={feature.id} feature={feature} />
       ))}
     </Layout>
-  );
+  ); 
 };
 
 export default HowItWorks;

@@ -7,7 +7,7 @@ import AdvisorsSection from '../../components/AdvisorsSection/AdvisorsSection';
 
 const About = () => {
   return (
-    <Layout>
+    <Layout title="About">
       <AboutHeroSection />
       <AboutPresentationSection />
       <DidYouKnowSection />
