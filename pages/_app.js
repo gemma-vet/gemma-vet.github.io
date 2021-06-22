@@ -20,14 +20,14 @@ function MyApp({ Component, pageProps }) {
         />
         {/* <twitter card tags additive with the og: tags */}
         <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta name="twitter:domain" value="gemma.com" />
-        <meta name="twitter:image" content={`/images/mission-image@2x.png`} key="twitter_img" />
+        {/* <meta name="twitter:domain" value="gemma.com" />
+        <meta name="twitter:image" content={`/images/mission-image@2x.png`} key="twitter_img" /> */}
         <meta name="twitter:description" value="For Vets Who Click With Their Clients" key="twitter_description" />
-        <meta
+        {/* <meta
           name="twitter:image:alt"
           content="Smarter and better client communication for vets and their teams. Your mobile app for happier pet
           families."
-        />
+        /> */}
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
