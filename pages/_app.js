@@ -9,6 +9,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         {/* <facebook open graph tags */}
         <meta property="og:image:url" content="/images/mission-image@2x.png" key="image_url" />
+        <meta
+          property="og:description"
+          content="Gemma’s mission is to enhance the lives of veterinary providers and pet owners by keeping them connected, all from the convenience of a mobile device."
+        />
         <meta property="og:image:secure_url" content="/images/mission-image@2x.png" key="image_secure_url" />
         <meta property="og:site_name" content="Gemma" key="ogsitename" />
         <meta property="og:image:type" content="image/png" />
