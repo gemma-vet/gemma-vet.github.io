@@ -8,7 +8,6 @@ const Feature = ({ feature }) => {
     <div className={styles.feature}>
       <div className={styles.imageContainer}>
         <Image src={feature.source} width={64} height={64} alt={feature.alt} layout="fixed" />
-        {/* <Image src={feature.source}  alt={feature.alt}  /> */}
       </div>
       <div className={styles.featureDescription}>
         <h4>{feature.title}</h4>

@@ -1,4 +1,5 @@
 import styles from './AboutSection.module.scss';
+import missionImage from "../../public/images/mission-image@2x.png"
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../Button/Button';
@@ -14,12 +15,8 @@ const AboutSection = () => {
         <div className={styles.presentation}>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/mission-image@2x.png"
-              width={482}
-              height={400}
-              layout="responsive"
+              src={missionImage}
               alt="image of a dog in a veterinary center"
-              priority="eager"
             />
           </div>
           <div className={styles.missionDescription}>

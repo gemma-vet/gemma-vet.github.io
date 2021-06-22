@@ -14,6 +14,7 @@ const Benefit = ({ benefit }) => {
           width={benefit.dimensions.width}
           height={benefit.dimensions.height}
           alt={benefit.alt}
+          priority
         />
       </div>
     </div>
