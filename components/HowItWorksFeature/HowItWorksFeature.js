@@ -27,10 +27,13 @@ const HowItWorksFeature = ({ feature }) => {
             `}
           >
             <Image
-              src={feature.source}
+              src={feature.source.src}
               width={feature.dimensions.width}
               height={feature.dimensions.height}
+              blurDataURL={feature.source.blurDataURL}
+              placeholder="blur"
               alt="a phone picture"
+              loading="eager"
             />
           </div>
           <div className={styles.description}>

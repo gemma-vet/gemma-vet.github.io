@@ -292,7 +292,7 @@ export const howItWorksStages = [
   {
     id: 1,
     title: 'One-way Multimedia Messaging',
-    source:multimedia.src,
+    source: { src: multimedia.src, blurDataURL: multimedia.blurDataURL },
     dimensions: {
       width: 415,
       height: 614,
@@ -322,7 +322,7 @@ export const howItWorksStages = [
   {
     id: 2,
     title: 'Team Management',
-    source: management.src,
+    source: { src: management.src, blurDataURL: management.blurDataURL },
     dimensions: {
       width: 550,
       height: 672,
@@ -352,7 +352,7 @@ export const howItWorksStages = [
   {
     id: 3,
     title: 'Referring Vet Communications',
-    source: referring.src,
+    source: { src: referring.src, blurDataURL: referring.blurDataURL },
     dimensions: {
       width: 456,
       height: 615,
@@ -382,7 +382,7 @@ export const howItWorksStages = [
   {
     id: 4,
     title: 'Pet Owner Satisfaction Tracking',
-    source: petOwner.src,
+    source: { src: petOwner.src, blurDataURL: petOwner.blurDataURL },
     dimensions: {
       width: 415,
       height: 614,
@@ -413,7 +413,7 @@ export const howItWorksStages = [
   {
     id: 5,
     title: 'Patient Database Access',
-    source: patient.src,
+    source: { src: patient.src, blurDataURL: patient.blurDataURL },
     dimensions: {
       width: 415,
       height: 614,
@@ -443,7 +443,7 @@ export const howItWorksStages = [
   {
     id: 6,
     title: 'Feed-Sharing Across Contacts',
-    source:feedSharing.src,
+    source: { src: feedSharing.src, blurDataURL: feedSharing.blurDataURL },
     dimensions: {
       width: 415,
       height: 614,
