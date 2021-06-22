@@ -12,7 +12,7 @@ const HeroSection = () => {
               src="/images/mobile_screenshot@2x.png"
               width={1366}
               height={668}
-              layout="responsive"
+              layout="fixed"
               alt="screenshot of the site mobile view"
               priority="eager"
             />

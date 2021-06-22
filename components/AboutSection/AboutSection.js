@@ -19,6 +19,7 @@ const AboutSection = () => {
               height={400}
               layout="responsive"
               alt="image of a dog in a veterinary center"
+              priority="eager"
             />
           </div>
           <div className={styles.missionDescription}>
