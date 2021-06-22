@@ -1,4 +1,5 @@
 import styles from './AboutHeroSection.module.scss';
+import aboutHeader from '../../public/images/about-header-image@2x.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../Button/Button';
@@ -19,13 +20,7 @@ const AboutHeroSection = () => {
           </Link>
         </div>
         <div className={styles.imageContainer}>
-          <Image
-            src="/images/about-header-image@2x.png"
-            width={670}
-            height={446}
-            alt="two phones displaying Gemma app"
-            priority
-          />
+          <Image src={aboutHeader} alt="two phones displaying Gemma app" />
         </div>
       </div>
     </section>
