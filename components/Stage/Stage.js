@@ -20,7 +20,7 @@ const Stage = ({ stage }) => {
           dangerouslySetInnerHTML={{ __html: stage.description }}
         ></p>
         <div className={`${styles.ctaContainer} ${!stage.cta ? 'hidden' : ''}`}>
-          <Link href='/howItWorks' passHref>
+          <Link href="/howItWorks" passHref>
             <LearnMore>Learn More</LearnMore>
           </Link>
         </div>
