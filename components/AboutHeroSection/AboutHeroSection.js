@@ -1,5 +1,6 @@
 import styles from './AboutHeroSection.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 import Button from '../Button/Button';
 
 const AboutHeroSection = () => {
@@ -11,9 +12,11 @@ const AboutHeroSection = () => {
             With vets’ mission in mind and <br /> pets’ best interest at heart, <br /> we created Gemma, a smart, <br />{' '}
             secure, and easy-to-use mobile <br /> app tailored to your needs.
           </p>
-          <Button background="white" border="borderTransparent" textColor="textGreen">
-            See How it Works
-          </Button>
+          <Link href="/howItWorks" passHref>
+            <Button background="white" border="borderTransparent" textColor="textGreen" type="button">
+              See How it Works
+            </Button>
+          </Link>
         </div>
         <div className={styles.imageContainer}>
           <Image

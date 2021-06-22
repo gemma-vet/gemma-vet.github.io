@@ -1,6 +1,7 @@
 import styles from './TestimonialsSection.module.scss';
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import Testimonial from '../Testimonial/Testimonial';
 import NavBullet from '../NavBullet/NavBullet';
@@ -53,9 +54,11 @@ const TestimonialsSection = () => {
           ))}
         </div>
         <div className={styles.buttonContainer}>
-          <Button background="white" border="borderGreen" textColor="textGreen">
-            Join Our Community
-          </Button>
+          <Link href="/contact" passHref>
+            <Button background="white" border="borderGreen" textColor="textGreen" type="button">
+              Join Our Community
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

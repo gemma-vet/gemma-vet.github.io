@@ -1,4 +1,5 @@
 import styles from './BoardSection.module.scss';
+import Link from 'next/link';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import BoardTemplate from '../BoardTemplate/BoardTemplate';
 import Button from '../Button/Button';
@@ -17,9 +18,11 @@ const BoardSection = () => {
           <BoardTemplate key={template.id} template={template} />
         ))}
         <div className={styles.buttonContainer}>
-          <Button background="white" border="borderGreen" textColor="textGreen">
-            Meet Our Team
-          </Button>
+          <Link href="/about" passHref>
+            <Button background="white" border="borderGreen" textColor="textGreen" type="button">
+              Meet Our Team
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

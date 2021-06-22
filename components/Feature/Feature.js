@@ -12,7 +12,7 @@ const Feature = ({ feature }) => {
       <div className={styles.featureDescription}>
         <h4>{feature.title}</h4>
         <p className={styles.description}>{feature.description}</p>
-        <Link href="/howItWorks" passHref>
+        <Link href={{ pathname: '/howItWorks', query: { ref: feature.passingRef } }} passHref>
           <LearnMore>Learn More</LearnMore>
         </Link>
       </div>

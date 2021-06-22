@@ -47,7 +47,7 @@ const AboutSection = () => {
               </li>
             </ul>
             <Link href="/about" passHref>
-              <Button background="white" border="borderGreen" textColor="textGreen">
+              <Button background="white" border="borderGreen" textColor="textGreen" type="button">
                 Find Out More
               </Button>
             </Link>

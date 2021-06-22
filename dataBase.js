@@ -62,6 +62,8 @@ export const features = [
     description: 'Streamline client communication and optimize staff time.',
     source: '/svg/one_way_ico.svg',
     alt: 'right arrow icon',
+    passingRef: 'oneWay',
+    
   },
   {
     id: 2,
@@ -69,6 +71,8 @@ export const features = [
     description: 'Strengthen your overall understanding of your clients’ experience.',
     source: '/svg/heart_icon.svg',
     alt: 'heart icon',
+    passingRef: 'petOwner',
+ 
   },
   {
     id: 3,
@@ -76,6 +80,7 @@ export const features = [
     description: 'Manage, collaborate, and communicate with your team.',
     source: '/svg/team_icon.svg',
     alt: 'team icon',
+    passingRef: 'team',
   },
   {
     id: 4,
@@ -83,6 +88,7 @@ export const features = [
     description: 'Store, organize, and manage patient information.',
     source: '/svg/database_icon.svg',
     alt: 'database icon',
+    passingRef: 'patient',
   },
   {
     id: 5,
@@ -91,6 +97,7 @@ export const features = [
       'Facilitate referrals and collaboration with other professionals to ensure the best veterinary care, even after pets are discharged.',
     source: '/svg/ref_vet_icon.svg',
     alt: 'veterinary icon',
+    passingRef: 'referring',
   },
   {
     id: 6,
@@ -98,6 +105,8 @@ export const features = [
     description: 'Build a community, exchange ideas, and share your experiences with your contacts.',
     source: '/svg/share _feed.svg',
     alt: 'share feed icon',
+    passingRef: 'feedShare',
+  
   },
 ];
 
@@ -304,6 +313,7 @@ export const howItWorksStages = [
       'Gemma lets you show pet owners that their pets are receiving exceptional care, reducing anxiety and improving client satisfaction. You can send texts, videos, and pictures to pet families, all within the app.',
     background: '#fafafa',
     order: 0,
+    passingRef: 'oneWay',
   },
   {
     id: 2,
@@ -333,6 +343,7 @@ export const howItWorksStages = [
       'Gemma allows you to create a team for your practice, manage your hospital’s team, or invite a specialist to join your department’s team in order to facilitate collaboration. Stay up-to-date with your patients’ progress and your teams’ activity from the convenience of your cell phone.',
     background: 'washedGreen',
     order: 1,
+    passingRef: 'team',
   },
   {
     id: 3,
@@ -362,6 +373,9 @@ export const howItWorksStages = [
       'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances communication between vets, improving care coordination and client satisfaction.',
     background: '#fafafa',
     order: 0,
+    passingRef: 'referring',
+
+    
   },
   {
     id: 4,
@@ -391,6 +405,7 @@ export const howItWorksStages = [
       'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction, and increasing positive reviews strengthens your credibility.',
     background: 'washedGreen',
     order: 1,
+    passingRef: 'petOwner',
   },
 
   {
@@ -419,8 +434,9 @@ export const howItWorksStages = [
       '<strong>Store, organize, and manage patient information </strong>  with Gemma’s easy-to-navigate patient database access feature.',
     paragraph_two:
       'Access your archived patient records and use Gemma’s efficient search feature to recall a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
-    background:'#fafafa',
+    background: '#fafafa',
     order: 0,
+    passingRef: 'patient',
   },
   {
     id: 6,
@@ -450,5 +466,6 @@ export const howItWorksStages = [
       'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma and to get support or just spread smiles.',
     background: 'washedGreen',
     order: 1,
+    passingRef: 'feedShare',
   },
 ];

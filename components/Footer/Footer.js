@@ -50,7 +50,7 @@ const Footer = () => {
             </p>
             <input type="email" placeholder="Enter your e-mail" />
             <div className={styles.newsLetterButton}>
-              <Button background="white" border="borderGreen" textColor="textGreen">
+              <Button background="white" border="borderGreen" textColor="textGreen" type="submit">
                 Subscribe
               </Button>
             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
               <textarea className={styles.contactText} name="contactText" placeholder="Share your thoughts with us" />
             </div>
             <div className={styles.contactButton}>
-              <Button background="darkGreen" border="borderTransparent" textColor="textWhite">
+              <Button background="darkGreen" border="borderTransparent" textColor="textWhite" type="submit">
                 Send Message
               </Button>
             </div>

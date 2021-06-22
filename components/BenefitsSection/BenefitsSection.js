@@ -1,4 +1,5 @@
 import styles from './BenefitsSection.module.scss';
+import Link from 'next/link';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import Benefit from '../Benefit/Benefit';
 import Button from '../Button/Button';
@@ -17,9 +18,11 @@ const BenefitsSection = () => {
           <Benefit key={benefit.id} benefit={benefit} />
         ))}
         <div className={styles.buttonContainer}>
-          <Button background="darkGreen" border="borderTransparent" textColor="textWhite">
-            See How it Works
-          </Button>
+          <Link href="/howItWorks" passHref>
+            <Button background="darkGreen" border="borderTransparent" textColor="textWhite" type="button">
+              See How it Works
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
