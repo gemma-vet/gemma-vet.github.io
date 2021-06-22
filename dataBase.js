@@ -1,3 +1,10 @@
+import multimedia from './public/images/image multimedia@2x.png';
+import management from './public/images/image management@2x.png';
+import referring from './public/images/image ref vet@2x.png';
+import petOwner from './public/images/image patient satisfaction@2x.png';
+import patient from './public/images/image patient db@2x.png';
+import feedSharing from './public/images/image Share@2x.png';
+
 export const menu = [
   { id: 1, name: 'About', path: '/about' },
   { id: 2, name: 'How it works', path: '/howItWorks' },
@@ -63,7 +70,6 @@ export const features = [
     source: '/svg/one_way_ico.svg',
     alt: 'right arrow icon',
     passingRef: 'oneWay',
-    
   },
   {
     id: 2,
@@ -72,7 +78,6 @@ export const features = [
     source: '/svg/heart_icon.svg',
     alt: 'heart icon',
     passingRef: 'petOwner',
- 
   },
   {
     id: 3,
@@ -106,7 +111,6 @@ export const features = [
     source: '/svg/share _feed.svg',
     alt: 'share feed icon',
     passingRef: 'feedShare',
-  
   },
 ];
 
@@ -288,7 +292,7 @@ export const howItWorksStages = [
   {
     id: 1,
     title: 'One-way Multimedia Messaging',
-    source: '/images/image multimedia@2x.png',
+    source:multimedia.src,
     dimensions: {
       width: 415,
       height: 614,
@@ -318,7 +322,7 @@ export const howItWorksStages = [
   {
     id: 2,
     title: 'Team Management',
-    source: '/images/image management@2x.png',
+    source: management.src,
     dimensions: {
       width: 550,
       height: 672,
@@ -348,7 +352,7 @@ export const howItWorksStages = [
   {
     id: 3,
     title: 'Referring Vet Communications',
-    source: '/images/image ref vet@2x.png',
+    source: referring.src,
     dimensions: {
       width: 456,
       height: 615,
@@ -374,13 +378,11 @@ export const howItWorksStages = [
     background: '#fafafa',
     order: 0,
     passingRef: 'referring',
-
-    
   },
   {
     id: 4,
     title: 'Pet Owner Satisfaction Tracking',
-    source: '/images/image patient satisfaction@2x.png',
+    source: petOwner.src,
     dimensions: {
       width: 415,
       height: 614,
@@ -411,7 +413,7 @@ export const howItWorksStages = [
   {
     id: 5,
     title: 'Patient Database Access',
-    source: '/images/image patient db@2x.png',
+    source: patient.src,
     dimensions: {
       width: 415,
       height: 614,
@@ -441,7 +443,7 @@ export const howItWorksStages = [
   {
     id: 6,
     title: 'Feed-Sharing Across Contacts',
-    source: '/images/image Share@2x.png',
+    source:feedSharing.src,
     dimensions: {
       width: 415,
       height: 614,

@@ -31,7 +31,6 @@ const HowItWorksFeature = ({ feature }) => {
               width={feature.dimensions.width}
               height={feature.dimensions.height}
               alt="a phone picture"
-              loading="eager"
             />
           </div>
           <div className={styles.description}>
