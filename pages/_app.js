@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image:url" content="/images/mission-image@2x.png" key="image_url" />
         <meta
           property="og:description"
-          content="Gemma’s mission is to enhance the lives of veterinary providers and pet owners by keeping them connected, all from the convenience of a mobile device."
+          content="Smarter and better client communication for vets and their teams. Gemma’s mission is to enhance the lives of veterinary providers and pet owners by keeping them connected, all from the convenience of a mobile device."
         />
         <meta property="og:image:secure_url" content="/images/mission-image@2x.png" key="image_secure_url" />
         <meta property="og:site_name" content="Gemma" key="ogsitename" />
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           name="twitter:description"
           content="Smarter and better client communication for vets and their teams. Your mobile app for happier pet
-          families."
+          families. Gemma’s mission is to enhance the lives of veterinary providers and pet owners by keeping them connected, all from the convenience of a mobile device."
         />
         <meta name="twitter:image" content="/images/mission-image@2x.png" />
 

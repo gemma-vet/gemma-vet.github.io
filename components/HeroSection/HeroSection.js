@@ -14,7 +14,7 @@ const HeroSection = () => {
               height={668}
               layout="responsive"
               alt="screenshot of the site mobile view"
-              priority
+              priority="eager"
             />
           </div>
 
