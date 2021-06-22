@@ -20,8 +20,8 @@ function MyApp({ Component, pageProps }) {
           families."
         />
         {/* <twitter card tags additive with the og: tags */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@flickr" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@gemma" />
         <meta name="twitter:title" content="For Vets Who Click With Their Clients" />
         <meta
           name="twitter:description"
