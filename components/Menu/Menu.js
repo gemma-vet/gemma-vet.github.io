@@ -3,17 +3,19 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { menu } from '../../dataBase';
 
-const Menu = () => {
+const Menu = ({ mobile }) => {
   const router = useRouter();
   return (
-    <nav className={styles.menu}>
-      {menu.map((item) => (
-        <li key={item.id}>
-          <Link href={item.path}>
-            <a className={router.asPath === item.path ? 'green' : ''}>{item.name}</a>
-          </Link>
-        </li>
-      ))}
+    <nav>
+      <ul className={`${styles.menu} ${mobile ? `${styles.columnDisplay}` : ''}`}>
+        {menu.map((item) => (
+          <li key={item.id}>
+            <Link href={item.path}>
+              <a className={router.asPath === item.path ? 'green' : ''}>{item.name}</a>
+            </Link>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };
