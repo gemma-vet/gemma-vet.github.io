@@ -47,6 +47,17 @@
         }
       }
     }
+
+    .heartEmoji,
+    .smileEmoji,
+    .likeEmoji {
+      width: 5.875rem;
+      height: 4.938rem;
+      @media all and (max-width: $screen-xxs-max) {
+        width: 3.75rem;
+        height: 2.625rem;
+      }
+    }
     .heartEmoji {
       position: absolute;
       top: -4.75rem;
@@ -54,6 +65,9 @@
       @media all and (max-width: $screen-md) {
         top: -0.75rem;
         left: 1rem;
+      }
+      @media all and (max-width: $screen-xxs-max) {
+        top: 0.25rem;
       }
     }
     .smileEmoji {
@@ -64,6 +78,9 @@
         top: -3.125rem;
         right: 1rem;
       }
+      @media all and (max-width: $screen-xxs-max) {
+        top: -1.75rem;
+      }
     }
     .likeEmoji {
       position: absolute;
@@ -72,6 +89,9 @@
       @media all and (max-width: $screen-md) {
         top: 4.125rem;
         right: 1rem;
+      }
+      @media all and (max-width: $screen-xxs-max) {
+        top: 7.25rem;
       }
     }
   }
