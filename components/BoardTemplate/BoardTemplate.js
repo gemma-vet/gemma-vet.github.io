@@ -5,7 +5,12 @@ const BoardTemplate = ({ template }) => {
   return (
     <div className={styles.boardTemplate}>
       <div className={`${styles.imageContainer} ${template.order === 0 ? `${styles.second}` : `${styles.first}`}`}>
-        <Image src={template.source} width={200} height={200} alt="board member picture" layout="fixed" />
+        <div className={styles.imageDesktop}>
+          <Image src={template.source} width={200} height={200} alt="board member picture" layout="fixed" />
+        </div>
+        <div className={styles.imageMobile}>
+          <Image src={template.source} width={100} height={100} alt="board member picture" layout="fixed" />
+        </div>
       </div>
       <div className={styles.templateDescription}>
         <div className={`${styles.quotesImage}`}>

@@ -3,18 +3,48 @@
 .boardTemplate {
   display: flex;
   padding-bottom: 5rem;
+  @media all and (max-width: $screen-md) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imageContainer {
+    @media all and (max-width: $screen-md) {
+      padding-bottom: 2rem;
+      order: 0;
+    }
+    .imageDesktop {
+      display: none;
+      @media all and(min-width:$screen-xs-plus) {
+        display: initial;
+      }
+    }
+    .imageMobile {
+      display: none;
+      @media all and(max-width:$screen-xs) {
+        display: initial;
+      }
+    }
+  }
+
   .first {
-    order: 0;
-    padding-right: 3rem;
+    @media all and (min-width: $screen-md-plus) {
+      order: 0;
+      padding-right: 3rem;
+    }
   }
   .second {
-    order: 1;
-    padding-left: 3rem;
+    @media all and (min-width: $screen-md-plus) {
+      order: 1;
+      padding-left: 3rem;
+    }
   }
   .templateDescription {
     padding: 2.5rem 1.875rem;
     background-color: $lightGrey;
     border: 1px solid #dedede;
+    @media all and (max-width: $screen-md) {
+      order: 1;
+    }
     .templateText {
       padding-left: 3.625rem;
       h4 {

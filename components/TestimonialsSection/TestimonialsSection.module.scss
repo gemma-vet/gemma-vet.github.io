@@ -8,13 +8,16 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 14.375rem 5rem 13.438rem;
-    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+    @media all and  (max-width: $screen-xl) {
       padding: 5rem 2.75rem;
     }
     .testimonialsContainer {
       position: relative;
       padding: 0 5.75rem 1.875rem 6.75rem;
       z-index: 1;
+      @media all and  (max-width: $screen-md) {
+        padding: 0 0 1.875rem 0;
+      }
       .bigDiamond,
       .smallDiamond {
         position: absolute;

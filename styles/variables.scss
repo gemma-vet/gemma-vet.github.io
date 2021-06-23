@@ -5,6 +5,7 @@ $screen-xxs-max: ($screen-xxs + 1);
 // Media queries breakpoints
 // Extra small screen / phone
 $screen-xs: 480px;
+$screen-xs-plus: $screen-xs +1;
 $screen-xs-min: $screen-xs;
 
 // Small screen / tablet
@@ -13,6 +14,7 @@ $screen-sm-min: $screen-sm;
 
 // Medium screen / desktop
 $screen-md: 768px;
+$screen-md-plus:$screen-md + 1;
 $screen-md-min: $screen-md;
 
 // Large screen / wide desktop

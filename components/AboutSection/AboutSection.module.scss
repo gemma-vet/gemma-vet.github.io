@@ -10,17 +10,23 @@
     @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
       padding: 6.75rem 5.75rem;
     }
-    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
-      padding: 6.75rem 2.75rem;
+    @media all and (max-width: $screen-lg) {
+      padding: 3.75rem 2.75rem;
     }
     .missionTitleContainer {
       padding-bottom: 2rem;
     }
     .presentation {
       display: flex;
+      @media all and (max-width: $screen-md) {
+        flex-direction: column;
+      }
       .imageContainer {
         width: 45%;
         margin-right: 4.25rem;
+        @media all and (max-width: $screen-md) {
+          width: 100%;
+        }
         @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
           margin-right: 3.25rem;
         }
@@ -30,6 +36,9 @@
         display: flex;
         flex-direction: column;
         color: #292c2a;
+        @media all and (max-width: $screen-md) {
+          width: 100%;
+        }
         h2 {
           @media all and (max-width: $screen-cs) {
             font-size: 1.5rem;
@@ -41,16 +50,15 @@
             line-height: 2.1rem;
           }
         }
-        p {
-          @media all and (max-width: 1300px) {
-            font-size: 0.9rem;
-            line-height: 1.675rem;
+        .missionTitle {
+          @media all and (max-width: $screen-md) {
+            padding: 2rem 0 1.5rem 0;
           }
         }
         .benefits {
           padding: 1.5rem 0 2rem 0;
-          @media all and (max-width: 1300px) {
-            padding: 0.5rem 0 1rem 0;
+          @media all and (max-width: $screen-md) {
+            padding: 0.5rem 0 2.5rem 0;
           }
           li {
             display: flex;
@@ -66,6 +74,11 @@
             p {
               padding-left: 0.75rem;
             }
+          }
+        }
+        .buttonContainer {
+          @media all and(max-width:$screen-md) {
+            margin: 0 auto;
           }
         }
       }
