@@ -15,25 +15,47 @@
       position: absolute;
       top: 0;
       right: 0;
+      .imageDesktop {
+        display: none;
+        @media all and (min-width: $screen-sm-plus) {
+          display: initial;
+        }
+      }
+      .imageMobile {
+        display: none;
+        @media all and (max-width: $screen-sm) {
+          display: initial;
+        }
+      }
     }
     .heroDescriptionContainer {
       display: flex;
       align-items: center;
       padding: 8.75rem 8.75rem;
       @media all and (min-width: $screen-lg) and (max-width: $screen-xl) {
-        padding: 3.75rem 5.75rem;
+        padding: 6.75rem 5.75rem;
       }
       @media all and (max-width: $screen-lg) {
         padding: 2.75rem 2.75rem;
       }
+      @media all and (max-width: $screen-sm) {
+        padding: 2.5rem 2.5rem 0 2.5rem;
+        flex-direction: column;
+      }
       .heroDescription {
         width: 70%;
         color: $whiteColor;
-        h1 {
-          padding-right: 4.25rem;
+        @media all and (max-width: $screen-sm) {
+          width: 100%;
         }
         h1 {
-          @media all and (min-width:769px) and (max-width: $screen-xl) {
+          padding-right: 4.25rem;
+          @media all and (max-width: $screen-sm) {
+            padding-right: 0;
+          }
+        }
+        h1 {
+          @media all and (min-width: $screen-md-plus) and (max-width: $screen-xl) {
             font-size: 2rem;
             line-height: 3.125rem;
           }
@@ -44,10 +66,18 @@
           @media all and (max-width: $screen-xl) {
             padding: 0 4.375rem 2.75rem 0;
           }
+          @media all and (max-width: $screen-sm) {
+            padding: 0 0 2.75rem 0;
+          }
         }
       }
-      .dummyDiv {
+      .imageMobile {
+        display: none;
         width: 30%;
+        @media all and (max-width: $screen-sm) {
+          width: 100%;
+          display: initial;
+        }
       }
     }
     .apps {

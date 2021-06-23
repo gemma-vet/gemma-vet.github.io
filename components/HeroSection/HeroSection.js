@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import styles from './HeroSection.module.scss';
-import mobile from '../../public/images/mobile_screenshot@2x.png';
+import heroDesktop from '../../public/images/mobile_screenshot@2x.png';
+import imageMobile from '../../public/images/header-image_v21.png';
 import Image from 'next/image';
 
 const HeroSection = () => {
@@ -9,7 +10,9 @@ const HeroSection = () => {
       <section className={styles.heroSection}>
         <div className={styles.heroSectionContainer}>
           <div className={styles.heroImageContainer}>
-            <Image src={mobile} alt="screenshot of the site mobile view" />
+            <div className={styles.imageDesktop}>
+              <Image src={heroDesktop} alt="screenshot of the site mobile view" />
+            </div>
           </div>
 
           <div className={styles.heroDescriptionContainer}>
@@ -28,7 +31,9 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.dummyDiv}></div>
+            <div className={styles.imageMobile}>
+              <Image src={imageMobile} alt="screenshot of the site mobile view" />
+            </div>
           </div>
         </div>
       </section>
