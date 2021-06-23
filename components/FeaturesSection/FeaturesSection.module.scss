@@ -5,6 +5,9 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 12rem 5rem 8.625rem;
+    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+      padding: 5rem 2.75rem;
+    }
     .titleContainer {
       padding-bottom: 5rem;
       h2 {

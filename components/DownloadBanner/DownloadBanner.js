@@ -17,10 +17,13 @@ const DownloadBanner = ({ textOne, lightGreen, textWhite }) => {
           </h4>
         </div>
         <div className={styles.apps}>
-          <Image src="/svg/appStore.svg" width={169} height={57} alt="app store icon" layout="fixed" />
-          <Image src="/svg/googlePlay.svg" width={182} height={57} alt="google play icon" layout="fixed" />
-        </div>
-        <div className={styles.heartEmoji}>
+          <div className={styles.appStore}>
+            <Image src="/svg/appStore.svg" width={169} height={57} alt="app store icon" layout="fixed" />
+          </div>
+          <div className={styles.googlePlay}>
+            <Image src="/svg/googlePlay.svg" width={182} height={57} alt="google play icon" layout="fixed" />
+          </div>
+          <div className={styles.heartEmoji}>
           <Image src="/svg/heart_emoji.svg" width={94} height={79} alt="heart emoji" layout="fixed" />
         </div>
         <div className={styles.smileEmoji}>
@@ -28,6 +31,7 @@ const DownloadBanner = ({ textOne, lightGreen, textWhite }) => {
         </div>
         <div className={styles.likeEmoji}>
           <Image src="/svg/like_emoji.svg" width={94} height={79} alt="like emoji" layout="fixed" />
+        </div>
         </div>
       </div>
     </div>

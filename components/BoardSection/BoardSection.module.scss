@@ -8,5 +8,8 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 8.75rem 6.25rem 8.5rem;
+    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+      padding: 5rem 2.75rem;
+    }
   }
 }

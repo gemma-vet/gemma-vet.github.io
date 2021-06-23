@@ -8,6 +8,9 @@
     align-items: center;
     margin: 0 auto;
     padding: 6.25rem 14.375rem;
+    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+      padding: 6.25rem 2.75rem;
+    }
     .buttonContainer {
       margin-top: -4.688rem;
     }

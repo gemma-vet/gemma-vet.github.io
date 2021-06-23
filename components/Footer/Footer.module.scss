@@ -21,10 +21,16 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 3.75rem 8.75rem;
+    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+      padding: 3.75rem 2.75rem;
+    }
     .footerMain {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       column-gap: 3.75rem;
+      @media all and (max-width: $screen-lg) {
+        column-gap: 1.75rem;
+      }
       .infos,
       .newsletter,
       .contact {

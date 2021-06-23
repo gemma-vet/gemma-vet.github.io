@@ -10,8 +10,8 @@
     @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
       padding: 6.75rem 5.75rem;
     }
-    @media all and (max-width: 1100px) {
-      padding: 6.75rem 3.75rem;
+    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+      padding: 6.75rem 2.75rem;
     }
     .missionTitleContainer {
       padding-bottom: 2rem;

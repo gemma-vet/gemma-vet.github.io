@@ -8,6 +8,9 @@
     width: 499px;
     margin: 0 auto;
     padding: 5rem 0;
+    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+      width: 350px;
+    }
     .textWhite {
       color: $whiteColor;
     }
@@ -23,23 +26,30 @@
       }
     }
     .apps {
+      position: relative;
       display: flex;
       padding: 0 2.625rem;
       justify-content: space-between;
+      @media all and (max-width: $screen-lg) {
+        justify-content: center;
+      }
+      .appStore {
+        padding-right: 3.563rem;
+      }
     }
     .heartEmoji {
       position: absolute;
-      top: 6.25rem;
+      top: -4.75rem;
       left: -8rem;
     }
     .smileEmoji {
       position: absolute;
-      top: 2.875rem;
+      top: -8.125rem;
       right: -8rem;
     }
     .likeEmoji {
       position: absolute;
-      top: 12.125rem;
+      top: 1.125rem;
       right: -10rem;
     }
   }
