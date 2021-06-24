@@ -32,10 +32,18 @@ const Advisor = ({ advisor }) => {
 
   return (
     <div className={styles.advisor}>
-      <div onMouseOver={handleOnMouseOver} onMouseLeave={handleOnMouseLeave} className={styles.imageContainer}>
-        <div className={styles.imageDiv}>
+      <div
+        onMouseOver={handleOnMouseOver}
+        onMouseLeave={handleOnMouseLeave}
+        className={`${styles.imageContainer} ${styles.extraPadding} `}
+      >
+        <div className={styles.imageDivDesktop}>
           <div className={styles.imageBorder}></div>
           <Image src={advisor.source} width={200} height={200} alt="board member picture" layout="fixed" />
+        </div>
+        <div className={styles.imageDivMobile}>
+          <div className={styles.imageBorder}></div>
+          <Image src={advisor.source} width={150} height={150} alt="board member picture" layout="fixed" />
         </div>
       </div>
       <div className={styles.infos}>
