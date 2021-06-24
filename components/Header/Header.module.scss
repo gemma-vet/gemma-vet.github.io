@@ -44,11 +44,11 @@
         display: initial;
       }
     }
-    .notVisible{
+    .notVisible {
       opacity: 0;
       transition: opacity 1s;
     }
-    .visible{
+    .visible {
       opacity: 1;
       transition: opacity 1s;
     }
@@ -70,6 +70,5 @@
   align-items: flex-start;
   height: 20rem;
   overflow: visible;
-  transition: height 0.5s ;
+  transition: height 0.5s;
 }
-

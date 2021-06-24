@@ -28,7 +28,7 @@ const Header = () => {
             <Image src={logo} width={195} height={42} alt="gemma logo representing a dog head" />
           </a>
         </Link>
-        <div className={`${styles.notVisible} ${active ? `${styles.visible}` : ""}`}>
+        <div className={`${styles.notVisible} ${active ? `${styles.visible}` : ''}`}>
           <Menu mobile />
         </div>
       </div>
