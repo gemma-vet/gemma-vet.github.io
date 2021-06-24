@@ -15,6 +15,9 @@
     }
     .question {
       padding-right: 4.25rem;
+      @media all and (max-width: $screen-md) {
+        padding-right: 1rem;
+      }
     }
     .content {
       padding-top: 1rem;
