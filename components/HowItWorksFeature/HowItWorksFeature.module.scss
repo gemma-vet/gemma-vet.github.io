@@ -3,12 +3,27 @@
 .howItWorksFeature {
   padding-bottom: 6.25rem;
   background-color: #fff;
+  @media all and (max-width: $screen-sm) {
+    padding-bottom: 3.25rem;
+  }
   .wrapper {
     .howItWorksFeatureContainer {
       display: flex;
+      align-items: center;
       max-width: $screen-cs;
       margin: 0 auto;
       padding: 0 8.75rem;
+      @media all and (max-width: $screen-xl) {
+        padding: 0 3.75rem;
+      }
+      @media all and (max-width: $screen-lg) {
+        padding: 2rem 1.75rem;
+      }
+      @media all and (max-width: $screen-sm) {
+        flex-direction: column;
+      }
+
+  
 
       .imageContainer {
         width: 45%;
@@ -16,15 +31,18 @@
         justify-content: center;
       }
       .positionStart {
-        justify-content: flex-start;
+        @media all and (min-width: $screen-sm-plus) {
+          justify-content: flex-start;
+        }
       }
 
       .positionEnd {
-        justify-content: flex-end;
+        @media all and (min-width: $screen-sm-plus) {
+          justify-content: flex-end;
+        }
       }
       .description {
         width: 55%;
-        padding: 6.25rem 0;
         .descriptionList {
           padding-bottom: 1.5rem;
           font-weight: 600;
@@ -37,11 +55,22 @@
           }
         }
       }
+
+      .imageContainer,
+      .description {
+        @media all and (max-width: $screen-sm) {
+          width: 100%;
+        }
+      }
       .first {
-        order: 0;
+        @media all and (min-width: $screen-sm-plus) {
+          order: 0;
+        }
       }
       .second {
-        order: 1;
+        @media all and (min-width: $screen-sm-plus) {
+          order: 1;
+        }
       }
     }
   }

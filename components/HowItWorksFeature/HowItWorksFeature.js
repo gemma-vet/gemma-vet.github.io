@@ -3,14 +3,13 @@ import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { lightGrey } from '../../utils';
-
 const HowItWorksFeature = ({ feature }) => {
   const featureRef = useRef(null);
   const router = useRouter();
   useEffect(() => {
     checkMatch();
   });
-
+console.log(feature);
   const checkMatch = () => {
     if (router.query.ref === feature.passingRef) {
       featureRef.current.scrollIntoView({ behavior: 'smooth' });
