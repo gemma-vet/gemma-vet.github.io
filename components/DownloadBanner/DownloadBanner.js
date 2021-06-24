@@ -1,5 +1,7 @@
 import styles from './DownloadBanner.module.scss';
 import Image from 'next/image';
+import { appButtons } from '../../dataBase';
+import AppButton from '../AppButton/AppButton';
 import heartEmoji from '../../public/svg/heart_emoji.svg';
 import smileEmoji from '../../public/svg/smile_emoji.svg';
 import likeEmoji from '../../public/svg/like_emoji.svg';
@@ -21,10 +23,10 @@ const DownloadBanner = ({ textOne, lightGreen, textWhite }) => {
         </div>
         <div className={styles.apps}>
           <div className={styles.appStore}>
-            <Image src="/svg/appStore.svg" width={169} height={57} alt="app store icon" layout="fixed" />
+            <AppButton buttonInfo={appButtons.apple} />
           </div>
           <div className={styles.googlePlay}>
-            <Image src="/svg/googlePlay.svg" width={182} height={57} alt="google play icon" layout="fixed" />
+            <AppButton buttonInfo={appButtons.google} />
           </div>
           <div className={styles.heartEmoji}>
             <Image src={heartEmoji} alt="heart emoji" layout="responsive" />

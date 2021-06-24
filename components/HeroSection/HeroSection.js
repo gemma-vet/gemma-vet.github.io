@@ -1,8 +1,10 @@
 import { Fragment } from 'react';
 import styles from './HeroSection.module.scss';
+import Image from 'next/image';
+import { appButtons } from '../../dataBase';
+import AppButton from '../AppButton/AppButton';
 import heroDesktop from '../../public/images/mobile_screenshot@2x.png';
 import imageMobile from '../../public/images/header-image_v21.png';
-import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -24,10 +26,10 @@ const HeroSection = () => {
               </p>
               <div className={styles.apps}>
                 <div className={styles.appStore}>
-                  <Image src="/svg/appStore.svg" width={169} height={57} alt="app store icon" />
+                  <AppButton buttonInfo={appButtons.apple} />
                 </div>
                 <div className={styles.googlePlay}>
-                  <Image src="/svg/googlePlay.svg" width={182} height={57} alt="google play icon" />
+                  <AppButton buttonInfo={appButtons.google} />
                 </div>
               </div>
             </div>

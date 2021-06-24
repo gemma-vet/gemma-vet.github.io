@@ -11,6 +11,27 @@ export const menu = [
   { id: 3, name: 'Contact us', path: '/contact' },
 ];
 
+export const appButtons = {
+  apple: {
+    href: 'https://apps.apple.com/ro/app/gemma-vet/id1567008819',
+    src: '/svg/appStore.svg',
+    dimensions: {
+      width: 169,
+      height: 57,
+    },
+    alt: 'app store icon',
+  },
+  google: {
+    href: 'https://play.google.com/store/apps/details?id=vet.gemma.app',
+    src: '/svg/googlePlay.svg',
+    dimensions: {
+      width: 169,
+      height: 57,
+    },
+    alt: 'google play icon',
+  },
+};
+
 export const benefits = [
   {
     id: 1,

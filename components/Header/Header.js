@@ -29,7 +29,7 @@ const Header = () => {
           </a>
         </Link>
         <div className={`${styles.notVisible} ${active ? `${styles.visible}` : ''}`}>
-          <Menu mobile />
+          <Menu mobile handleClick={handleClick}/>
         </div>
       </div>
 
