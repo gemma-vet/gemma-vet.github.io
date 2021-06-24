@@ -1,5 +1,8 @@
 import styles from './DownloadBanner.module.scss';
 import Image from 'next/image';
+import heartEmoji from '../../public/svg/heart_emoji.svg';
+import smileEmoji from '../../public/svg/smile_emoji.svg';
+import likeEmoji from '../../public/svg/like_emoji.svg';
 
 const DownloadBanner = ({ textOne, lightGreen, textWhite }) => {
   return (
@@ -17,17 +20,21 @@ const DownloadBanner = ({ textOne, lightGreen, textWhite }) => {
           </h4>
         </div>
         <div className={styles.apps}>
-          <Image src="/svg/appStore.svg" width={169} height={57} alt="app store icon" layout="fixed" />
-          <Image src="/svg/googlePlay.svg" width={182} height={57} alt="google play icon" layout="fixed" />
-        </div>
-        <div className={styles.heartEmoji}>
-          <Image src="/svg/heart_emoji.svg" width={94} height={79} alt="heart emoji" layout="fixed" />
-        </div>
-        <div className={styles.smileEmoji}>
-          <Image src="/svg/smile_emoji.svg" width={94} height={79} alt="smile emoji" layout="fixed" />
-        </div>
-        <div className={styles.likeEmoji}>
-          <Image src="/svg/like_emoji.svg" width={94} height={79} alt="like emoji" layout="fixed" />
+          <div className={styles.appStore}>
+            <Image src="/svg/appStore.svg" width={169} height={57} alt="app store icon" layout="fixed" />
+          </div>
+          <div className={styles.googlePlay}>
+            <Image src="/svg/googlePlay.svg" width={182} height={57} alt="google play icon" layout="fixed" />
+          </div>
+          <div className={styles.heartEmoji}>
+            <Image src={heartEmoji} alt="heart emoji" layout="responsive" />
+          </div>
+          <div className={styles.smileEmoji}>
+            <Image src={smileEmoji} alt="smile emoji" layout="responsive" />
+          </div>
+          <div className={styles.likeEmoji}>
+            <Image src={likeEmoji} alt="like emoji" layout="responsive" />
+          </div>
         </div>
       </div>
     </div>

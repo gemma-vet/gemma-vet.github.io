@@ -21,15 +21,30 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 3.75rem 8.75rem;
+    @media all and (max-width: $screen-lg) {
+      padding: 3.75rem 2.75rem;
+    }
+    @media all and (max-width: $screen-xxs-max) {
+      padding: 3.75rem 1rem;
+    }
     .footerMain {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       column-gap: 3.75rem;
+      @media all and (max-width: $screen-lg) {
+        column-gap: 1.75rem;
+      }
+      @media all and (max-width: $screen-md) {
+        grid-template-columns: 1fr;
+      }
       .infos,
-      .newsletter,
+      .newsLetter,
       .contact {
         display: flex;
         flex-direction: column;
+        @media all and (max-width: $screen-md) {
+          padding-bottom: 3.75rem;
+        }
       }
       .infos {
         align-items: flex-start;
@@ -72,6 +87,9 @@
           width: 17.5rem;
           height: 3.625rem;
           @include inputStyle;
+          @media all and (max-width: $screen-md) {
+            width: 100%;
+          }
         }
         .newsLetterButton {
           padding-top: 1.5rem;
@@ -104,8 +122,20 @@
   .footerSecondary {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    column-gap: 3.75rem;
     padding-top: 3rem;
+    @media all and (max-width: $screen-md) {
+      grid-template-columns: auto;
+      row-gap: 1rem;
+      justify-content: start;
+    }
+    @media all and (max-width: $screen-sm) {
+      padding-top: 0;
+    }
     .powered {
+      @media all and (max-width: $screen-md) {
+        width: 100%;
+      }
       p {
         font-size: 0.875rem;
         line-height: 1.313rem;
@@ -125,6 +155,10 @@
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
+      @media all and (max-width: $screen-md) {
+        width: 100%;
+        justify-content: flex-start;
+      }
       p {
         font-size: 0.875rem;
         line-height: 1.313rem;

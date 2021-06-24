@@ -8,5 +8,11 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 8.75rem 6.25rem 8.5rem;
+    @media all and (max-width: $screen-lg) {
+      padding: 5rem 2.75rem;
+    }
+    @media all and (max-width: $screen-xs-plus) {
+      padding: 5rem 1rem;
+    }
   }
 }

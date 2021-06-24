@@ -8,12 +8,24 @@
     width: 499px;
     margin: 0 auto;
     padding: 5rem 0;
+    @media all and (min-width: $screen-md) and (max-width: $screen-lg) {
+      width: 350px;
+    }
+    @media all and (max-width: $screen-md) {
+      width: 100%;
+    }
+    @media all and (max-width: $screen-xs-plus) {
+      padding: 2.5rem 0;
+    }
     .textWhite {
       color: $whiteColor;
     }
     .description {
       padding-bottom: 2.5rem;
       text-align: center;
+      @media all and (max-width: $screen-xs-plus) {
+        padding: 0 1rem 2.5rem 1rem;
+      }
       .download {
         cursor: pointer;
         color: $lightGreen;
@@ -23,24 +35,70 @@
       }
     }
     .apps {
+      position: relative;
       display: flex;
       padding: 0 2.625rem;
       justify-content: space-between;
+      @media all and (max-width: $screen-lg) {
+        justify-content: center;
+      }
+      @media all and (max-width: $screen-md) {
+        flex-direction: column;
+        align-items: center;
+      }
+      .appStore {
+        padding-right: 3.563rem;
+        @media all and (max-width: $screen-md) {
+          padding: 0 0 2.5rem 0;
+        }
+      }
+    }
+
+    .heartEmoji,
+    .smileEmoji,
+    .likeEmoji {
+      width: 5.875rem;
+      height: 4.938rem;
+      @media all and (max-width: $screen-xxs-max) {
+        width: 3.75rem;
+        height: 2.625rem;
+      }
     }
     .heartEmoji {
       position: absolute;
-      top: 6.25rem;
+      top: -4.75rem;
       left: -8rem;
+      @media all and (max-width: $screen-md) {
+        top: -0.75rem;
+        left: 1rem;
+      }
+      @media all and (max-width: $screen-xxs-max) {
+        top: 0.25rem;
+      }
     }
     .smileEmoji {
       position: absolute;
-      top: 2.875rem;
+      top: -8.125rem;
       right: -8rem;
+      @media all and (max-width: $screen-md) {
+        top: -3.125rem;
+        right: 1rem;
+      }
+      @media all and (max-width: $screen-xxs-max) {
+        top: -1.75rem;
+      }
     }
     .likeEmoji {
       position: absolute;
-      top: 12.125rem;
+      top: 1.125rem;
       right: -10rem;
+      @media all and (max-width: $screen-md) {
+        top: 4.125rem;
+        right: 1rem;
+      }
+      @media all and (max-width: $screen-xxs-max) {
+        top: 7.25rem;
+      }
     }
   }
 }

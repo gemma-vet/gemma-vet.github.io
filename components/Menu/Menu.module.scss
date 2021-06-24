@@ -2,10 +2,10 @@
 
 .menu {
   display: flex;
-  list-style: none;
   @media all and (max-width: $screen-md) {
     display: none;
   }
+
   li {
     padding-right: 2rem;
     font-weight: 600;
@@ -14,6 +14,20 @@
     cursor: pointer;
     &:last-child {
       padding: 0;
+    }
+  }
+}
+
+.columnDisplay {
+  display: flex;
+  flex-direction: column;
+  li {
+    font-weight: 600;
+    line-height: 4.5rem;
+    color: $menuBlack;
+    cursor: pointer;
+    &:first-child {
+      padding-top: 1rem;
     }
   }
 }

@@ -8,11 +8,19 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 14.375rem 5rem 13.438rem;
-
+    @media all and (max-width: $screen-xl) {
+      padding: 5rem 2.75rem;
+    }
+    @media all and (max-width: $screen-xs-plus) {
+      padding: 5rem 1rem;
+    }
     .testimonialsContainer {
       position: relative;
       padding: 0 5.75rem 1.875rem 6.75rem;
       z-index: 1;
+      @media all and (max-width: $screen-md) {
+        padding: 0 0 1.875rem 0;
+      }
       .bigDiamond,
       .smallDiamond {
         position: absolute;
@@ -21,11 +29,18 @@
         top: 10.625rem;
         left: 1rem;
         z-index: -1;
+        @media all and (max-width: $screen-md) {
+          left: -2rem;
+        }
       }
       .smallDiamond {
         top: 2rem;
         right: 1rem;
         z-index: -1;
+        @media all and (max-width: $screen-md) {
+          top: -3rem;
+          right: 0;
+        }
       }
     }
     .testimonialsNav {

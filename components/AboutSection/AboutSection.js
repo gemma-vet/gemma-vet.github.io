@@ -1,5 +1,5 @@
 import styles from './AboutSection.module.scss';
-import missionImage from "../../public/images/mission-image@2x.png"
+import missionImage from '../../public/images/mission-image@2x.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../Button/Button';
@@ -14,13 +14,10 @@ const AboutSection = () => {
         </div>
         <div className={styles.presentation}>
           <div className={styles.imageContainer}>
-            <Image
-              src={missionImage}
-              alt="image of a dog in a veterinary center"
-            />
+            <Image src={missionImage} alt="image of a dog in a veterinary center" />
           </div>
           <div className={styles.missionDescription}>
-            <p>
+            <p className={styles.missionTitle}>
               Our smart and easy-to-use software solution was designed to help everyone benefit from improved veterinary
               services. Gemma’s promise is to help:
             </p>
@@ -44,11 +41,13 @@ const AboutSection = () => {
                 <p>Hospitals drive higher satisfaction scores and great client communications reviews.</p>
               </li>
             </ul>
-            <Link href="/about" passHref>
-              <Button background="white" border="borderGreen" textColor="textGreen" type="button">
-                Find Out More
-              </Button>
-            </Link>
+            <div className={styles.buttonContainer}>
+              <Link href="/about" passHref>
+                <Button background="white" border="borderGreen" textColor="textGreen" type="button">
+                  Find Out More
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

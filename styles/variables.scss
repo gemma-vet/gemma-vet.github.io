@@ -1,18 +1,21 @@
 // Media queries breakpoints
 $screen-xxs: 375px;
-$screen-xxs-max: ($screen-xxs + 1);
+$screen-xxs-max: $screen-xxs + 1;
 
 // Media queries breakpoints
 // Extra small screen / phone
 $screen-xs: 480px;
+$screen-xs-plus: $screen-xs + 1;
 $screen-xs-min: $screen-xs;
 
 // Small screen / tablet
 $screen-sm: 576px;
+$screen-sm-plus: $screen-sm + 1;
 $screen-sm-min: $screen-sm;
 
 // Medium screen / desktop
 $screen-md: 768px;
+$screen-md-plus: $screen-md + 1;
 $screen-md-min: $screen-md;
 
 // Large screen / wide desktop
@@ -49,8 +52,7 @@ $washedGreen: #eaf0eb;
 $middleGray: #575757;
 $lightGrey: #fafafa;
 
-
 // Secondary Palette
 $menuBlack: #292c2a;
 $lightYellow: #fffcf2;
-$darkYellow:#95680E;
+$darkYellow: #95680e;
