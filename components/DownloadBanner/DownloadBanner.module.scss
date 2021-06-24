@@ -59,7 +59,7 @@
     .likeEmoji {
       width: 5.875rem;
       height: 4.938rem;
-      @media all and (max-width: $screen-xxs-max) {
+      @media all and (max-width: $screen-xxs-plus) {
         width: 3.75rem;
         height: 2.625rem;
       }
@@ -72,7 +72,7 @@
         top: -0.75rem;
         left: 1rem;
       }
-      @media all and (max-width: $screen-xxs-max) {
+      @media all and (max-width: $screen-xxs-plus) {
         top: 0.25rem;
       }
     }
@@ -84,7 +84,7 @@
         top: -3.125rem;
         right: 1rem;
       }
-      @media all and (max-width: $screen-xxs-max) {
+      @media all and (max-width: $screen-xxs-plus) {
         top: -1.75rem;
       }
     }
@@ -96,7 +96,7 @@
         top: 4.125rem;
         right: 1rem;
       }
-      @media all and (max-width: $screen-xxs-max) {
+      @media all and (max-width: $screen-xxs-plus) {
         top: 7.25rem;
       }
     }
