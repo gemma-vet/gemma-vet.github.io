@@ -47,8 +47,14 @@
     }
     .templateText {
       padding-left: 3.625rem;
+      @media all and (max-width: $screen-xs-plus) {
+        padding-left: 0;
+      }
       h4 {
         padding-top: 2rem;
+      }
+      .jobPosition {
+        color: #727272;
       }
       .facility {
         font-weight: 600;

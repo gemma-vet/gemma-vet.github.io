@@ -108,6 +108,9 @@
     @media all and (max-width: $screen-lg) {
       padding: 6.75rem 2.75rem;
     }
+    @media all and (max-width: $screen-sm) {
+      padding: 6.75rem 1.5rem;
+    }
     p {
       font-size: 1.5rem;
       line-height: 2.25rem;

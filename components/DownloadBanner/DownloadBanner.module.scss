@@ -14,12 +14,18 @@
     @media all and (max-width: $screen-md) {
       width: 100%;
     }
+    @media all and (max-width: $screen-xs-plus) {
+      padding: 2.5rem 0;
+    }
     .textWhite {
       color: $whiteColor;
     }
     .description {
       padding-bottom: 2.5rem;
       text-align: center;
+      @media all and (max-width: $screen-xs-plus) {
+        padding: 0 1rem 2.5rem 1rem;
+      }
       .download {
         cursor: pointer;
         color: $lightGreen;

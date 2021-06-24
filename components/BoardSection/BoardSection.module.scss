@@ -11,5 +11,8 @@
     @media all and (max-width: $screen-lg) {
       padding: 5rem 2.75rem;
     }
+    @media all and (max-width: $screen-xs-plus) {
+      padding: 5rem 1rem;
+    }
   }
 }

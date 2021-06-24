@@ -24,6 +24,9 @@
     @media all and (max-width: $screen-lg) {
       padding: 3.75rem 2.75rem;
     }
+    @media all and (max-width: $screen-xxs-max) {
+      padding: 3.75rem 1rem;
+    }
     .footerMain {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -125,6 +128,9 @@
       grid-template-columns: auto;
       row-gap: 1rem;
       justify-content: start;
+    }
+    @media all and (max-width: $screen-sm) {
+      padding-top: 0;
     }
     .powered {
       @media all and (max-width: $screen-md) {
