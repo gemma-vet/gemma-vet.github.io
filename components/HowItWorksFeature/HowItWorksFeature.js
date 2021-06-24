@@ -9,7 +9,6 @@ const HowItWorksFeature = ({ feature }) => {
   useEffect(() => {
     checkMatch();
   });
-console.log(feature);
   const checkMatch = () => {
     if (router.query.ref === feature.passingRef) {
       featureRef.current.scrollIntoView({ behavior: 'smooth' });
