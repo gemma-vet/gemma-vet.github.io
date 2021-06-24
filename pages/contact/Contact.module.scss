@@ -21,12 +21,24 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 0 5rem 8.75rem;
+    @media all and (max-width: $screen-xl) {
+      padding: 5rem 0 5rem 3.75rem;
+    }
+    @media all and (max-width: $screen-xs-plus) {
+      padding: 2.5rem 1rem 5rem 1rem;
+    }
     .contactForm {
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: 45%;
       padding-right: 5rem;
+      @media all and (max-width: $screen-md) {
+        width: 100%;
+      }
+      @media all and (max-width: $screen-xs-plus) {
+        padding-right: 0;
+      }
       label {
         padding: 2rem 0 1rem 0;
         font-size: 1.125rem;
@@ -44,13 +56,20 @@
       textarea {
         @include inputStyle;
         height: 8.375rem;
+        @media all and (max-width: $screen-xs-plus) {
+          height: 17.188rem;
+        }
       }
       .buttonContainer {
+        margin: 0 auto;
         padding-top: 2.5rem;
       }
     }
     .gemmaImage {
       width: 45%;
+      @media all and (max-width: $screen-md) {
+        display: none;
+      }
     }
   }
 }
