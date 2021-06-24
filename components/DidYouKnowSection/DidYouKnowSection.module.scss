@@ -7,6 +7,12 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 2.5rem 15rem 5.625rem 12rem;
+    @media all and (max-width: $screen-lg) {
+      padding: 3.5rem 3.25rem 3.5rem 3.75rem;
+    }
+    @media all and (max-width: $screen-md-plus) {
+      padding: 3.5rem 1.75rem 3.5rem 1.75rem;
+    }
     .question {
       padding-right: 4.25rem;
     }
