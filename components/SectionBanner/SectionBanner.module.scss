@@ -12,6 +12,9 @@
     @media all and (max-width: $screen-lg) {
       padding-left: 2.75rem;
     }
+    @media all and (max-width: $screen-sm) {
+      padding-left: 1rem;
+    }
     p {
       padding: 1.625rem 0 1rem 0;
       color: $washedGreen;

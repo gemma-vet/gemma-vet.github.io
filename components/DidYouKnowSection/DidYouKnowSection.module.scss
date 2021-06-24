@@ -13,6 +13,9 @@
     @media all and (max-width: $screen-md-plus) {
       padding: 3.5rem 1.75rem 3.5rem 1.75rem;
     }
+    @media all and (max-width: $screen-sm) {
+      padding: 3.5rem 1rem 3.5rem 1rem;
+    }
     .question {
       padding-right: 4.25rem;
       @media all and (max-width: $screen-md) {
@@ -34,6 +37,15 @@
       display: flex;
       .descriptionImage {
         padding-right: 3.125rem;
+        @media all and (max-width: $screen-md) {
+          padding-right: 0;
+        }
+        @media all and (max-width: $screen-md) {
+          padding-bottom: 2.5rem;
+        }
+      }
+      @media all and (max-width: $screen-md) {
+        flex-direction: column;
       }
     }
   }

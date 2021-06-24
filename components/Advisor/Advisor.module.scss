@@ -59,6 +59,9 @@
   }
   .infos {
     padding-left: 3rem;
+    @media all and (max-width: $screen-sm) {
+      padding-left: 0;
+    }
     .templateDescription {
       width: 100%;
       position: relative;
@@ -72,6 +75,8 @@
         border: 2px solid $lightGreen;
         z-index: 1;
         .quoteText {
+          font-weight: normal;
+          font-style: italic;
           padding-left: 1rem;
           line-height: 1.875rem;
           color: $menuBlack;
