@@ -9,10 +9,8 @@ const AppButton = ({ buttonInfo }) => {
   const { href, src, alt, dimensions } = buttonInfo;
 
   const handleClick = () => {
-    // if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
     const analytics = firebase.analytics();
     analytics.logEvent('select_item');
-    // }
   };
   return (
     <Fragment>

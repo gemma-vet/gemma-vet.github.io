@@ -12,10 +12,8 @@ initFirebase();
 
 const Layout = ({ title, textOne, lightGreen, textWhite, children }) => {
   useEffect(() => {
-    // if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
       const analytics = firebase.analytics();
       analytics.logEvent('page_view');
-    // }
   });
   return (
     <main className={styles.container}>

@@ -18,13 +18,25 @@ const Footer = () => {
             </div>
             <div className={styles.socials}>
               <div className={styles.instaContainer}>
-                <Image src="/svg/insta_icon.svg" width={32} height={32} alt="instagram icon" layout="fixed" />
+                <Link href="https://www.instagram.com/gemma_vet/">
+                  <a>
+                    <Image src="/svg/insta_icon.svg" width={32} height={32} alt="instagram icon" layout="fixed" />
+                  </a>
+                </Link>
               </div>
               <div className={styles.linkedContainer}>
-                <Image src="/svg/linkedin_icon.svg" width={32} height={32} alt="linkedIn icon" layout="fixed" />
+                <Link href="https://www.instagram.com/gemma_vet/">
+                  <a>
+                    <Image src="/svg/linkedin_icon.svg" width={32} height={32} alt="linkedIn icon" layout="fixed" />
+                  </a>
+                </Link>
               </div>
               <div className={styles.twitterContainer}>
-                <Image src="/svg/twitter-icon.svg" width={32} height={32} alt="twitter icon" layout="fixed" />
+                <Link href="https://twitter.com/gemma_vet">
+                  <a>
+                    <Image src="/svg/twitter-icon.svg" width={32} height={32} alt="twitter icon" layout="fixed" />
+                  </a>
+                </Link>
               </div>
             </div>
             <ul className={styles.footerMenu}>
