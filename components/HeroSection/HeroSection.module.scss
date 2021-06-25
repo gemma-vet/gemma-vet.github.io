@@ -87,12 +87,18 @@
     .apps {
       display: flex;
       align-items: center;
+      @media all and (max-width: $screen-xxs-minus) {
+        flex-direction: column;
+      }
       .appStore,
       .googlePlay {
         cursor: pointer;
       }
       .appStore {
         padding-right: 1.875rem;
+        @media all and (max-width: $screen-xxs-minus) {
+          padding: 0 0 1rem  0;
+        }
       }
     }
   }

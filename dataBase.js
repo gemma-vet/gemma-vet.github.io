@@ -16,8 +16,14 @@ export const appButtons = {
     href: 'https://apps.apple.com/ro/app/gemma-vet/id1567008819',
     src: '/svg/appStore.svg',
     dimensions: {
-      width: 169,
-      height: 57,
+      desktop: {
+        width: 169,
+        height: 57,
+      },
+      mobile: {
+        width: 148,
+        height: 50,
+      },
     },
     alt: 'app store icon',
   },
@@ -25,8 +31,14 @@ export const appButtons = {
     href: 'https://play.google.com/store/apps/details?id=vet.gemma.app',
     src: '/svg/googlePlay.svg',
     dimensions: {
-      width: 169,
-      height: 57,
+      desktop: {
+        width: 182,
+        height: 57,
+      },
+      mobile: {
+        width: 160,
+        height: 50,
+      },
     },
     alt: 'google play icon',
   },
