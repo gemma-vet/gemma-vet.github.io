@@ -189,7 +189,7 @@ export const boardTemplates = [
     author: 'Elisa McEntee',
     jobPositon: 'Internal Medicine Specialist',
     facility: 'BluePearl Veterinary Partners',
-    source: '/images/Elisa.png',
+    source: '/images/pic Elisa@2x.png',
     order: 1,
   },
   {
@@ -199,7 +199,7 @@ export const boardTemplates = [
     author: 'Alex Blutinger',
     jobPositon: 'Critical Care Specialist',
     facility: 'BluePearl Veterinary Partners',
-    source: '/images/Alex.png',
+    source: '/images/pic Alex@2x.png',
     order: 0,
   },
   {
@@ -209,7 +209,7 @@ export const boardTemplates = [
     author: 'Emily Dozeman',
     jobPositon: ' DVM, DACVECC, Critical Care Doctor and Co-department Chair',
     facility: 'Philadelphia Animal Specialty and Emergency',
-    source: '/images/Emily.png',
+    source: '/images/Emily@2x.png',
     order: 1,
   },
   {
@@ -219,7 +219,7 @@ export const boardTemplates = [
     author: 'Phil Hyndman',
     jobPositon: 'BVSc, MVM',
     facility: 'The Animal Medical Center',
-    source: '/images/Phil.png',
+    source: '/images/pic Phil@2x.png',
     order: 0,
   },
 ];
@@ -276,7 +276,7 @@ export const advisors = [
       "Gemma is the easiest way to keep owners in the loop on their pet's care. Nothing comes close. It’s a multimedia record of patients that brings families so much joy.",
     author: 'Elisa McEntee',
     jobPositon: 'DVM, DACVIM, Internal Medicine Specialist at BluePearl Veterinary Partners',
-    source: '/images/Elisa@2x.png',
+    source: '/images/pic Elisa@2x.png',
   },
   {
     id: 2,
@@ -286,7 +286,7 @@ export const advisors = [
       'Gemma has been a game-changer for me, allowing me to focus more on patient care while providing peace of mind to pet owners that can actually see how their pet is doing. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
     author: 'Alex Blutinger',
     jobPositon: 'VMD, DACVECC, Critical Care Specialist at BluePearl Veterinary Partners',
-    source: '/images/Alex@2x.png',
+    source: '/images/pic Alex@2x.png',
   },
   {
     id: 3,
@@ -307,7 +307,7 @@ export const advisors = [
       'Nothing could be easier communicating with pet owners throughout the pandemic. A simple photo or video of my patients makes owners happier and more engaged. It’s a brilliant tool. I can spend more time delivering quality care.',
     author: 'Phil Hyndman',
     jobPositon: 'BVSc, MVM at The Animal Medical Center',
-    source: '/images/Phil@2x.png',
+    source: '/images/pic Phil@2x.png',
   },
   {
     id: 5,
@@ -317,7 +317,7 @@ export const advisors = [
       'When vets came to us and asked for our help to build a tool that would enable them to solve the breakdown in client communication and fight the burnout triggered by the increased patient influx, we knew that we could augment their time resources through technology. So, after speaking with tens of critical care specialists and listening to their needs, we built Gemma. Gemma acts as a digital personal assistant for veterinary teams and helps them have the latest updates on their patients in one place, accessible on their mobile phones.',
     author: 'Raluca Popa',
     jobPositon: 'Director of Strategic Partnerships at [e-spres-oh]',
-    source: '/images/Ralu@2x.png',
+    source: '/images/pic Ralu@2x.png',
   },
 ];
 
