@@ -1,9 +1,9 @@
 import '../styles/globals.scss';
 import '../styles/fonts.scss';
-import { Fragment } from 'react';
+import {  Fragment } from 'react';
 import Head from 'next/head';
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
@@ -41,6 +41,6 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
     </Fragment>
   );
-}
+};
 
 export default MyApp;
