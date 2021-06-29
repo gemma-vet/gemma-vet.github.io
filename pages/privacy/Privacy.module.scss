@@ -4,6 +4,12 @@
   max-width: $screen-cs;
   margin: 0 auto;
   padding: 5rem 14.375rem 6.25rem 14.375rem;
+  @media all and (max-width: $screen-md) {
+    padding: 2.5rem 2.75rem 5rem 2.75rem;
+  }
+  @media all and (max-width: $screen-xs) {
+    padding: 2.5rem 1rem 5rem 1rem;
+  }
   color: $menuBlack;
   .title {
     padding: 1rem 0;
