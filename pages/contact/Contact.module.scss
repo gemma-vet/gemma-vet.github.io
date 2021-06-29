@@ -28,6 +28,7 @@
       padding: 2.5rem 1rem 5rem 1rem;
     }
     .contactForm {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -63,6 +64,11 @@
       .buttonContainer {
         margin: 0 auto;
         padding-top: 2.5rem;
+      }
+      .feedback {
+        top: 0;
+        left: 0;
+        position: absolute;
       }
     }
     .gemmaImage {
