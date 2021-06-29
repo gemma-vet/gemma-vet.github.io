@@ -5,6 +5,10 @@ import petOwner from './public/images/image patient satisfaction@2x.png';
 import patient from './public/images/image patient db@2x.png';
 import feedSharing from './public/images/image Share@2x.png';
 
+export const lightGrey = '#fafafa';
+export const washedGreen = '#eaf0eb';
+
+
 export const menu = [
   { id: 1, name: 'About', path: '/about' },
   { id: 2, name: 'How it works', path: '/howItWorks' },

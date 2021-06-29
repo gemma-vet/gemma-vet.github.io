@@ -2,7 +2,7 @@ import styles from './HowItWorksFeature.module.scss';
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { lightGrey } from '../../utils';
+import { lightGrey } from '../../dataBase';
 const HowItWorksFeature = ({ feature }) => {
   const featureRef = useRef(null);
   const router = useRouter();
