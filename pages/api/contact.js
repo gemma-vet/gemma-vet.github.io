@@ -5,8 +5,8 @@ sgMail.setApiKey(process.env.EMAIL_SENDGRID_API_BLACKTHORUS);
 export default async (req, res) => {
   const { name, email, message } = req.body;
   const msg = {
-    to: 'blackthorus@gmail.com',
-    from: 'blackthorus@gmail.com',
+    to: 'accounts@gemma.vet',
+    from: 'accounts@gemma.vet',
     subject: 'New mail from contact form on gemma.vet',
     text: ` Somebody sent a message through the contact form on www.gemma.vet
     Name:${name} 
