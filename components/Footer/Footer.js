@@ -1,9 +1,51 @@
 import styles from './Footer.module.scss';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../Button/Button';
 
 const Footer = () => {
+  const [visibility, setVisibility] = useState(false);
+  const [feedback, setFeedback] = useState('');
+  const [data, setData] = useState({
+    email: '',
+    message: '',
+  });
+
+  const reset = {
+    email: '',
+    message: '',
+  };
+  const handleOnChange = (event) => {
+    setData({ ...data, [event.target.name]: event.target.value });
+  };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await fetch('/api/footerContact', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      const succesCheck = await response.json();
+      if (succesCheck.succes) {
+        setData(reset);
+        setFeedback(succesCheck);
+        setVisibility(true);
+        setTimeout(() => {
+          setVisibility(false);
+        }, 2000);
+      } else {
+        setFeedback(succesCheck);
+        setVisibility(true);
+        setTimeout(() => {
+          setVisibility(false);
+        }, 2000);
+      }
+    } catch (error) {
+      console.log(`Error sending email ${error}`);
+    }
+  };
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
@@ -60,24 +102,47 @@ const Footer = () => {
               Join our <span className={styles.boldText}>one-of-a-kind community</span> and Stay Up to date with the
               latest features
             </p>
-            <input type="email" placeholder="Enter your e-mail" />
-            <div className={styles.newsLetterButton}>
-              <Button background="white" border="borderGreen" textColor="textGreen" type="submit">
-                Subscribe
-              </Button>
-            </div>
+            <form className={styles.newsletterForm}>
+              <input type="email" name="email" value={data.email} placeholder="Enter your e-mail" required />
+              <div className={styles.newsLetterButton}>
+                <Button background="white" border="borderGreen" textColor="textGreen" type="submit" required>
+                  Subscribe
+                </Button>
+              </div>
+            </form>
           </div>
           <div className={styles.contact}>
             <h4>Ready to Meet Gemma?</h4>
-            <input type="email" placeholder="Enter your e-mail" />
-            <div className={styles.textareaContainer}>
-              <textarea className={styles.contactText} name="contactText" placeholder="Share your thoughts with us" />
-            </div>
-            <div className={styles.contactButton}>
-              <Button background="darkGreen" border="borderTransparent" textColor="textWhite" type="submit">
-                Send Message
-              </Button>
-            </div>
+            <form onSubmit={handleSubmit} className={styles.meetGemma} action="/api/footerContact">
+              <input
+                onChange={handleOnChange}
+                type="email"
+                name="email"
+                value={data.email}
+                placeholder="Enter your e-mail"
+                required
+              />
+              <div className={styles.textareaContainer}>
+                <textarea
+                  onChange={handleOnChange}
+                  className={styles.contactText}
+                  name="message"
+                  value={data.message}
+                  placeholder="Share your thoughts with us"
+                  required
+                />
+              </div>
+              <div className={styles.contactButton}>
+                <Button background="darkGreen" border="borderTransparent" textColor="textWhite" type="submit">
+                  Send Message
+                </Button>
+              </div>
+              {visibility ? (
+                <div className={styles.feedback} style={feedback.succes ? { color: '#46815f' } : { color: 'red' }}>
+                  {feedback.message}
+                </div>
+              ) : null}
+            </form>
           </div>
         </div>
         <div className={styles.footerSecondary}>

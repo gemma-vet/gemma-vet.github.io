@@ -96,6 +96,7 @@
         }
       }
       .contact {
+        position: relative;
         h4 {
           padding-bottom: 1.875rem;
         }
@@ -113,8 +114,15 @@
             padding-top: 1rem;
           }
         }
-        .contactButton {
-          padding-top: 2.75rem;
+        .meetGemma {
+          .contactButton {
+            padding-top: 2.75rem;
+          }
+          .feedback {
+            top: -2.125rem;
+            left: 0;
+            position: absolute;
+          }
         }
       }
     }
