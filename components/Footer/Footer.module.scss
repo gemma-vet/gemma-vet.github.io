@@ -118,11 +118,6 @@
           .contactButton {
             padding-top: 2.75rem;
           }
-          .feedback {
-            top: -2.125rem;
-            left: 0;
-            position: absolute;
-          }
         }
       }
     }
@@ -172,5 +167,9 @@
         line-height: 1.313rem;
       }
     }
+  }
+
+  .feedback {
+    padding-top: 0.5rem;
   }
 }

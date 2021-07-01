@@ -7,15 +7,19 @@ import Button from '../Button/Button';
 const Footer = () => {
   const [visibility, setVisibility] = useState(false);
   const [feedback, setFeedback] = useState('');
+  const [newsLetterfeedback, setNewsFeedback] = useState('');
   const [data, setData] = useState({
+    newsletterEmail: '',
     email: '',
     message: '',
   });
 
   const reset = {
+    newsletterEmail: '',
     email: '',
     message: '',
   };
+
   const handleOnChange = (event) => {
     setData({ ...data, [event.target.name]: event.target.value });
   };
@@ -28,7 +32,7 @@ const Footer = () => {
         body: JSON.stringify(data),
       });
       const succesCheck = await response.json();
-      if (succesCheck.succes) {
+      if (succesCheck.success) {
         setData(reset);
         setFeedback(succesCheck);
         setVisibility(true);
@@ -37,6 +41,33 @@ const Footer = () => {
         }, 2000);
       } else {
         setFeedback(succesCheck);
+        setVisibility(true);
+        setTimeout(() => {
+          setVisibility(false);
+        }, 2000);
+      }
+    } catch (error) {
+      console.log(`Error sending email ${error}`);
+    }
+  };
+  const handleNewsletter = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await fetch('/api/newsletter', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ email: data.newsletterEmail }),
+      });
+      const succesCheck = await response.json();
+      if (succesCheck.success) {
+        setData(reset);
+        setNewsFeedback(succesCheck);
+        setVisibility(true);
+        setTimeout(() => {
+          setVisibility(false);
+        }, 2000);
+      } else {
+        setNewsFeedback(succesCheck);
         setVisibility(true);
         setTimeout(() => {
           setVisibility(false);
@@ -102,19 +133,36 @@ const Footer = () => {
               Join our <span className={styles.boldText}>one-of-a-kind community</span> and Stay Up to date with the
               latest features
             </p>
-            <form className={styles.newsletterForm}>
-              <input type="email" name="email" value={data.email} placeholder="Enter your e-mail" required />
+            <form onSubmit={handleNewsletter} className={styles.newsletterForm} action="/api/newsletter">
+              <input
+                id="newsletterEmail"
+                onChange={handleOnChange}
+                type="email"
+                name="newsletterEmail"
+                value={data.newsletterEmail}
+                placeholder="Enter your e-mail"
+                required
+              />
               <div className={styles.newsLetterButton}>
-                <Button background="white" border="borderGreen" textColor="textGreen" type="submit" required>
+                <Button background="white" border="borderGreen" textColor="textGreen" type="submit">
                   Subscribe
                 </Button>
               </div>
             </form>
+            {visibility ? (
+            <div
+              className={styles.feedback}
+              style={newsLetterfeedback.success ? { color: '#46815f' } : { color: 'red' }}
+            >
+              {newsLetterfeedback.message}
+            </div>
+             ) : null}
           </div>
           <div className={styles.contact}>
             <h4>Ready to Meet Gemma?</h4>
             <form onSubmit={handleSubmit} className={styles.meetGemma} action="/api/footerContact">
               <input
+                id="email"
                 onChange={handleOnChange}
                 type="email"
                 name="email"
@@ -124,6 +172,7 @@ const Footer = () => {
               />
               <div className={styles.textareaContainer}>
                 <textarea
+                  id="message"
                   onChange={handleOnChange}
                   className={styles.contactText}
                   name="message"
@@ -137,12 +186,12 @@ const Footer = () => {
                   Send Message
                 </Button>
               </div>
-              {visibility ? (
-                <div className={styles.feedback} style={feedback.succes ? { color: '#46815f' } : { color: 'red' }}>
-                  {feedback.message}
-                </div>
-              ) : null}
             </form>
+            {visibility ? (
+              <div className={styles.feedback} style={feedback.success ? { color: '#46815f' } : { color: 'red' }}>
+                {feedback.message}
+              </div>
+            ) : null}
           </div>
         </div>
         <div className={styles.footerSecondary}>
