@@ -96,6 +96,7 @@
         }
       }
       .contact {
+        position: relative;
         h4 {
           padding-bottom: 1.875rem;
         }
@@ -113,8 +114,10 @@
             padding-top: 1rem;
           }
         }
-        .contactButton {
-          padding-top: 2.75rem;
+        .meetGemma {
+          .contactButton {
+            padding-top: 2.75rem;
+          }
         }
       }
     }
@@ -164,5 +167,9 @@
         line-height: 1.313rem;
       }
     }
+  }
+
+  .feedback {
+    padding-top: 0.5rem;
   }
 }

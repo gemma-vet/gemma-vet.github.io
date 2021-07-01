@@ -1,14 +1,14 @@
-import { validateEmail, validate } from '../../utils';
+import { validateEmail, validateFooterContact } from '../../utils';
 
 // Sendgrid Mail Sender configuration
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.EMAIL_SENDGRID_API_BLACKTHORUS);
 
 export default async (req, res) => {
-  const { name, email, message } = req.body;
+  const { email, message } = req.body;
 
   if (req.body) {
-    const errors = validate(req.body, validateEmail);
+    const errors = validateFooterContact(req.body, validateEmail);
 
     if (errors.length) {
       return res.status(400).send({ message: errors });
@@ -20,7 +20,6 @@ export default async (req, res) => {
     from: 'blackthorus@gmail.com',
     subject: 'New mail from contact form on gemma.vet',
     text: ` Somebody sent a message through the contact form on www.gemma.vet
-      Name: ${name} 
       Email: ${email} 
       Message: ${message}`,
   };
