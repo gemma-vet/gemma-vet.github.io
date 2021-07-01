@@ -76,6 +76,7 @@
         }
       }
       .newsLetter {
+        position: relative;
         .newsLetterText {
           padding: 2rem 0 1.5rem 0;
           color: $middleGray;
@@ -93,6 +94,12 @@
         }
         .newsLetterButton {
           padding-top: 1.5rem;
+        }
+
+        .newsLetterfeedback {
+          position: absolute;
+          bottom: 2.875rem;
+          left: 0;
         }
       }
       .contact {
@@ -115,9 +122,15 @@
           }
         }
         .meetGemma {
+          position: relative;
           .contactButton {
             padding-top: 2.75rem;
           }
+        }
+        .feedback {
+          position: absolute;
+          bottom: -2rem;
+          left: 0;
         }
       }
     }
@@ -167,9 +180,5 @@
         line-height: 1.313rem;
       }
     }
-  }
-
-  .feedback {
-    padding-top: 0.5rem;
   }
 }
