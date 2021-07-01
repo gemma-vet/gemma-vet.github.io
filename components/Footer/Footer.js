@@ -38,12 +38,14 @@ const Footer = () => {
         setVisibility(true);
         setTimeout(() => {
           setVisibility(false);
+          setFeedback('');
         }, 2000);
       } else {
         setFeedback(succesCheck);
         setVisibility(true);
         setTimeout(() => {
           setVisibility(false);
+          setFeedback('');
         }, 2000);
       }
     } catch (error) {
@@ -65,12 +67,14 @@ const Footer = () => {
         setVisibility(true);
         setTimeout(() => {
           setVisibility(false);
+          setNewsFeedback('');
         }, 2000);
       } else {
         setNewsFeedback(succesCheck);
         setVisibility(true);
         setTimeout(() => {
           setVisibility(false);
+          setNewsFeedback('');
         }, 2000);
       }
     } catch (error) {
@@ -150,13 +154,13 @@ const Footer = () => {
               </div>
             </form>
             {visibility ? (
-            <div
-              className={styles.feedback}
-              style={newsLetterfeedback.success ? { color: '#46815f' } : { color: 'red' }}
-            >
-              {newsLetterfeedback.message}
-            </div>
-             ) : null}
+              <div
+                className={styles.newsLetterfeedback}
+                style={newsLetterfeedback.success ? { color: '#46815f' } : { color: 'red' }}
+              >
+                {newsLetterfeedback.message}
+              </div>
+            ) : null}
           </div>
           <div className={styles.contact}>
             <h4>Ready to Meet Gemma?</h4>
