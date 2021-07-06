@@ -1,0 +1,74 @@
+@use "../../styles/variables.scss" as *;
+
+.header {
+  position: relative;
+  max-width: $screen-cs;
+  height: 6.25rem;
+  margin: 0 auto;
+  padding: 1.5rem 8.75rem;
+  overflow: hidden;
+  transition: height 0.5s;
+  @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
+    padding: 1.5rem 5.75rem;
+  }
+  @media all and (max-width: $screen-lg) {
+    padding: 1.5rem 2.75rem;
+  }
+  @media all and (max-width: $screen-sm) {
+    padding: 1.5rem 1rem;
+  }
+
+  .menuDesktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logoDesktop,
+  .logoMobile {
+    cursor: pointer;
+  }
+  .menuDesktop {
+    .logoDesktop {
+      display: none;
+      @media all and (min-width: $screen-sm-plus) {
+        display: initial;
+      }
+    }
+  }
+
+  .menuMobile {
+    .logoMobile {
+      display: none;
+      @media all and (max-width: $screen-sm) {
+        display: initial;
+      }
+    }
+    .notVisible {
+      opacity: 0;
+      transition: opacity 1s;
+    }
+    .visible {
+      opacity: 1;
+      transition: opacity 1s;
+    }
+  }
+
+  .menuHamburger {
+    display: none;
+    position: absolute;
+    top: 2.625rem;
+    right: 1rem;
+    @media all and (max-width: $screen-md) {
+      display: initial;
+    }
+  }
+}
+
+.displayColumn {
+  flex-direction: column;
+  align-items: flex-start;
+  height: 20rem;
+  overflow: visible;
+  transition: height 0.5s;
+}

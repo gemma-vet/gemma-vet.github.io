@@ -1,0 +1,15 @@
+@use "../../styles/variables.scss" as *;
+
+.aboutPresentation {
+  .aboutPresentationContainer {
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 5rem 15rem 6.25rem 12rem;
+    @media all and (max-width: $screen-lg) {
+      padding: 3.5rem 3.25rem 3.5rem 3.75rem;
+    }
+    @media all and (max-width: $screen-md-plus) {
+      padding: 3.5rem 2.75rem 3.5rem 2.75rem;
+    }
+  }
+}

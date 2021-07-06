@@ -1,0 +1,66 @@
+@use "../../styles/variables.scss" as *;
+
+.aboutHero {
+  background-color: $lightGreen;
+  .aboutHeroContainer {
+    display: flex;
+    align-items: center;
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 3.5rem 6.25rem 3.5rem 8.75rem;
+    @media all and (max-width: $screen-xl) {
+      padding: 3.5rem 5.25rem 3.5rem 5.75rem;
+    }
+    @media all and (max-width: $screen-lg) {
+      padding: 3.5rem 3.25rem 3.5rem 3.75rem;
+    }
+    @media all and (max-width: $screen-md-plus) {
+      padding: 3.5rem 1.75rem 0 1.75rem;
+    }
+    @media all and (max-width: $screen-sm) {
+      padding: 3.5rem 1rem 0 1rem;
+    }
+    @media all and (max-width: $screen-md) {
+      flex-direction: column;
+    }
+    .aboutHeroDescription {
+      width: 50%;
+      padding-right: 2.875rem;
+      @media all and (max-width: $screen-md) {
+        width: 100%;
+        padding-right: 0;
+      }
+      @media all and (max-width: $screen-sm) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .description {
+        padding-bottom: 2.25rem;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        letter-spacing: 0px;
+        font-weight: normal;
+        color: #fff;
+        @media all and (max-width: $screen-md-max) {
+          font-size: 1.25rem;
+          line-height: 1.875rem;
+        }
+        @media all and (max-width: $screen-md) {
+          text-align: center;
+        }
+        br {
+          @media all and (max-width: $screen-md) {
+            display: none;
+          }
+        }
+      }
+    }
+    .imageContainer {
+      width: 50%;
+      @media all and (max-width: $screen-md) {
+        width: 100%;
+      }
+    }
+  }
+}

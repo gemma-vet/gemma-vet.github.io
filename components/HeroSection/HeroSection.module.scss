@@ -1,0 +1,126 @@
+@use "../../styles/variables.scss" as *;
+
+.heroSection {
+  background-color: $lightGreen;
+  .heroSectionContainer {
+    position: relative;
+    max-width: $screen-cs;
+    margin: 0 auto;
+    background-image: url('/svg/gemma_symbol_dark.svg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    .heroImageContainer {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      .imageDesktop {
+        display: none;
+        @media all and (min-width: $screen-sm-plus) {
+          display: initial;
+        }
+      }
+      .imageMobile {
+        display: none;
+        @media all and (max-width: $screen-sm) {
+          display: initial;
+        }
+      }
+    }
+    .heroDescriptionContainer {
+      display: flex;
+      align-items: center;
+      padding: 8.75rem 8.75rem;
+      @media all and (min-width: $screen-lg) and (max-width: $screen-xl) {
+        padding: 6.75rem 5.75rem;
+      }
+      @media all and (max-width: $screen-lg) {
+        padding: 2.75rem 2.75rem;
+      }
+      @media all and (max-width: $screen-sm) {
+        padding: 2.5rem 2.5rem 0 2.5rem;
+        flex-direction: column;
+      }
+      @media all and (max-width: $screen-xs) {
+        padding: 2.5rem 1rem 0 1rem;
+        flex-direction: column;
+      }
+      .heroDescription {
+        width: 70%;
+        color: $whiteColor;
+        @media all and (max-width: $screen-sm) {
+          width: 100%;
+        }
+        h1 {
+          padding-right: 4.25rem;
+          @media all and (max-width: $screen-sm) {
+            padding-right: 0;
+          }
+        }
+        h1 {
+          @media all and (min-width: $screen-md-plus) and (max-width: $screen-xl) {
+            font-size: 2rem;
+            line-height: 3.125rem;
+          }
+        }
+        p {
+          padding: 0 12.375rem 2.75rem 0;
+          line-height: 1.5rem;
+          @media all and (max-width: $screen-xl) {
+            padding: 0 4.375rem 2.75rem 0;
+          }
+          @media all and (max-width: $screen-sm) {
+            padding: 0 0 2.75rem 0;
+          }
+        }
+      }
+      .imageMobile {
+        display: none;
+        width: 30%;
+        @media all and (max-width: $screen-sm) {
+          width: 100%;
+          display: initial;
+        }
+      }
+    }
+    .apps {
+      display: flex;
+      align-items: center;
+      @media all and (max-width: $screen-xxs-minus) {
+        flex-direction: column;
+      }
+      .appStore,
+      .googlePlay {
+        cursor: pointer;
+      }
+      .appStore {
+        padding-right: 1.875rem;
+        @media all and (max-width: $screen-xxs-minus) {
+          padding: 0 0 1rem 0;
+        }
+      }
+    }
+  }
+}
+
+.gemmaMission {
+  background-color: $washedGreen;
+  .gemmaMissionContainer {
+    max-width: $screen-cs;
+    margin: 0 auto;
+    padding: 6.25rem 8.75rem;
+    text-align: center;
+    @media all and (max-width: $screen-lg) {
+      padding: 6.75rem 2.75rem;
+    }
+    @media all and (max-width: $screen-sm) {
+      padding: 6.75rem 1.5rem;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      color: $menuBlack;
+    }
+  }
+}

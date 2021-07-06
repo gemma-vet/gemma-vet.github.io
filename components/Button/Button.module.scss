@@ -1,0 +1,38 @@
+@use "../../styles/variables.scss" as *;
+
+.button {
+  margin: 0 auto;
+  cursor: pointer;
+  p {
+    padding: 0.75rem 2.5rem;
+  }
+}
+
+// Button Backgrounds
+.darkGreen {
+  background-color: $darkGreen;
+}
+.white {
+  background-color: $whiteColor;
+}
+
+// Button Borders
+.borderTransparent {
+  border: solid transparent;
+  border-width: 0 0 0 0;
+  border-radius: 0.375rem;
+}
+
+.borderGreen {
+  border: 0.063rem solid $darkGreen;
+  border-radius: 0.375rem;
+}
+
+// Button Text Color
+.textWhite {
+  color: $whiteColor;
+}
+
+.textGreen {
+  color: $darkGreen;
+}

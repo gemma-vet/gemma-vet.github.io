@@ -1,0 +1,82 @@
+@use "../../styles/variables.scss" as *;
+
+.howItWorksFeature {
+  padding-bottom: 6.25rem;
+  background-color: #fff;
+  @media all and (max-width: $screen-sm) {
+    padding-bottom: 3.25rem;
+  }
+  .wrapper {
+    .howItWorksFeatureContainer {
+      display: flex;
+      align-items: center;
+      max-width: $screen-cs;
+      margin: 0 auto;
+      padding: 0 8.75rem;
+      @media all and (max-width: $screen-xl) {
+        padding: 0 3.75rem;
+      }
+      @media all and (max-width: $screen-lg) {
+        padding: 2rem 1.75rem;
+      }
+      @media all and (max-width: $screen-sm) {
+        flex-direction: column;
+      }
+
+      .imageContainer {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+      }
+      .positionStart {
+        @media all and (min-width: $screen-sm-plus) {
+          justify-content: flex-start;
+        }
+      }
+
+      .positionEnd {
+        @media all and (min-width: $screen-sm-plus) {
+          justify-content: flex-end;
+        }
+      }
+      .description {
+        width: 55%;
+        .descriptionList {
+          padding-bottom: 1.5rem;
+          font-weight: 600;
+          color: $darkGreen;
+        }
+        p {
+          color: $middleGray;
+          &:nth-of-type(1) {
+            padding-bottom: 1.5rem;
+          }
+        }
+      }
+
+      .imageContainer,
+      .description {
+        @media all and (max-width: $screen-sm) {
+          width: 100%;
+        }
+      }
+      .first {
+        @media all and (min-width: $screen-sm-plus) {
+          order: 0;
+        }
+      }
+      .second {
+        @media all and (min-width: $screen-sm-plus) {
+          order: 1;
+        }
+      }
+    }
+  }
+}
+
+.light {
+  background-color: $lightGrey;
+}
+.dark {
+  background-color: $washedGreen;
+}

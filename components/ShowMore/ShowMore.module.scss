@@ -1,0 +1,15 @@
+@use "../../styles/variables.scss" as *;
+
+.showMore {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  p {
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+    color: $darkGreen;
+  }
+}
