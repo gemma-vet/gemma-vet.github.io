@@ -12,6 +12,7 @@ const TestimonialsSection = () => {
   const [increment, setIncrement] = useState(0);
   const [fade, setFade] = useState(false);
   const [startX, setStartX] = useState('');
+  const swipeLimit = 50;
 
   const bannerInfo = {
     preTitle: 'TESTIMONIALS',
@@ -48,14 +49,14 @@ const TestimonialsSection = () => {
 
   const endTouch = (event) => {
     const finishingTouch = event.changedTouches[0].clientX;
-    if (startX < finishingTouch) {
+    if (startX < finishingTouch - swipeLimit) {
       if (increment < testimonials.length - 1) {
         setIncrement(increment + 1);
         setFade(true);
       } else {
         setIncrement(0);
       }
-    } else if (startX > finishingTouch) {
+    } else if (startX > finishingTouch + swipeLimit) {
       if (increment > 0) {
         setIncrement(increment - 1);
         setFade(true);
