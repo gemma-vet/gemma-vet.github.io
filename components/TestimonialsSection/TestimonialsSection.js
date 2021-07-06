@@ -11,6 +11,7 @@ import { testimonials, bullets } from '../../dataBase';
 const TestimonialsSection = () => {
   const [increment, setIncrement] = useState(0);
   const [fade, setFade] = useState(false);
+  const [startX, setStartX] = useState('');
 
   const bannerInfo = {
     preTitle: 'TESTIMONIALS',
@@ -21,6 +22,8 @@ const TestimonialsSection = () => {
     if (increment < testimonials.length - 1) {
       setIncrement(increment + 1);
       setFade(true);
+    } else {
+      setIncrement(0);
     }
     setTimeout(() => {
       setFade(false);
@@ -35,12 +38,48 @@ const TestimonialsSection = () => {
     }, 300);
   };
 
+  const startTouch = (event) => {
+    const { touches } = event;
+    if (touches && touches.length === 1) {
+      const touch = touches[0];
+      setStartX(touch.clientX);
+    }
+  };
+
+  const endTouch = (event) => {
+    const finishingTouch = event.changedTouches[0].clientX;
+    if (startX < finishingTouch) {
+      if (increment < testimonials.length - 1) {
+        setIncrement(increment + 1);
+        setFade(true);
+      } else {
+        setIncrement(0);
+      }
+    } else if (startX > finishingTouch) {
+      if (increment > 0) {
+        setIncrement(increment - 1);
+        setFade(true);
+      } else {
+        setIncrement(testimonials.length - 1);
+      }
+    }
+    setTimeout(() => {
+      setFade(false);
+    }, 200);
+  };
+
   return (
     <section className={styles.testimonialsSection}>
       <SectionBanner bannerInfo={bannerInfo} />
       <div className={styles.testimonialsSectionContainer}>
         <div className={styles.testimonialsContainer}>
-          <Testimonial testimonial={testimonials[increment]} fade={fade} quoteClick={quoteClick} />
+          <Testimonial
+            testimonial={testimonials[increment]}
+            fade={fade}
+            quoteClick={quoteClick}
+            startTouch={startTouch}
+            endTouch={endTouch}
+          />
           <div className={styles.bigDiamond}>
             <Image src="/svg/bigDiamond.svg" width={111} height={122} alt="diamond icon" layout="fixed" />
           </div>

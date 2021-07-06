@@ -1,9 +1,15 @@
 import styles from './Testimonial.module.scss';
 import Image from 'next/image';
 
-const Testimonial = ({ testimonial, fade, quoteClick }) => {
+const Testimonial = ({ testimonial, fade, quoteClick, startTouch, endTouch }) => {
   return (
-    <div className={styles.testimonial} onClick={quoteClick} role="button">
+    <div
+      className={styles.testimonial}
+      onClick={quoteClick}
+      onTouchStart={startTouch}
+      onTouchEnd={endTouch}
+      role="button"
+    >
       <div className={styles.imageContainer}>
         <Image src="/svg/quotes.svg" width={34} height={24} alt="quotes icon" layout="fixed" />
       </div>

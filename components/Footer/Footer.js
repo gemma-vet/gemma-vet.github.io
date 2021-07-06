@@ -23,6 +23,7 @@ const Footer = () => {
   const handleOnChange = (event) => {
     setData({ ...data, [event.target.name]: event.target.value });
   };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
@@ -52,6 +53,7 @@ const Footer = () => {
       console.log(`Error sending email ${error}`);
     }
   };
+  
   const handleNewsletter = async (event) => {
     event.preventDefault();
     try {
