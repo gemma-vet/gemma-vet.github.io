@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import ShowMore from '../ShowMore/ShowMore';
 
-
 const Advisor = ({ advisor }) => {
   const ctaRef = useRef(null);
   const description = useRef(null);

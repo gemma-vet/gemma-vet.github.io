@@ -53,7 +53,7 @@ const Footer = () => {
       console.log(`Error sending email ${error}`);
     }
   };
-  
+
   const handleNewsletter = async (event) => {
     event.preventDefault();
     try {

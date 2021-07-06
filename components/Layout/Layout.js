@@ -12,8 +12,8 @@ initFirebase();
 
 const Layout = ({ title, textOne, lightGreen, textWhite, children }) => {
   useEffect(() => {
-      const analytics = firebase.analytics();
-      analytics.logEvent('page_view');
+    const analytics = firebase.analytics();
+    analytics.logEvent('page_view');
   });
   return (
     <main className={styles.container}>
