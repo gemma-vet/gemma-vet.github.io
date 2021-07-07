@@ -24,7 +24,7 @@ const HowItWorksFeature = ({ feature }) => {
             ${feature.order === 0 ? `${styles.positionStart}` : `${styles.positionEnd}`}
             `}
           >
-            <Image
+            {/* <Image
               src={feature.source.src}
               width={feature.dimensions.width}
               height={feature.dimensions.height}
@@ -32,7 +32,8 @@ const HowItWorksFeature = ({ feature }) => {
               placeholder="blur"
               alt="a phone picture"
               loading="eager"
-            />
+            /> */}
+            <img src={feature.source.src} alt="a phone picture" />
           </div>
           <div className={styles.description}>
             <h2>{feature.title}</h2>

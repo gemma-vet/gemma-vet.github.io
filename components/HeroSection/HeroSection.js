@@ -13,7 +13,8 @@ const HeroSection = () => {
         <div className={styles.heroSectionContainer}>
           <div className={styles.heroImageContainer}>
             <div className={styles.imageDesktop}>
-              <Image src={heroDesktop} alt="screenshot of the site desktop view" loading="eager" />
+              {/* <Image src={heroDesktop} alt="screenshot of the site desktop view" priority /> */}
+              <img src="/images/mobile_screenshot@2x.png" alt="screenshot of the site desktop view" />
             </div>
           </div>
 
@@ -34,7 +35,8 @@ const HeroSection = () => {
               </div>
             </div>
             <div className={styles.imageMobile}>
-              <Image src={imageMobile} alt="screenshot of the site mobile view" loading="eager" />
+              {/* <Image src={imageMobile} alt="screenshot of the site mobile view" priority /> */}
+              <img src="/images/header-image_v21.png" alt="screenshot of the site mobile view"/>
             </div>
           </div>
         </div>
