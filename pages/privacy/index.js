@@ -44,11 +44,11 @@ const Privacy = () => {
         <p> The types of personal data we collect are:</p>
         <ul>
           <li>
-            <strong>> personal identification data</strong> such as name, e-mail address, phone number.
+            <strong>&gt; personal identification data</strong> such as name, e-mail address, phone number.
           </li>
           <li>
-            <strong>> non-identifying personal data </strong>such as IP address, cookies, referring URL, browser type,
-            operating system, <br />
+            <strong>&gt; non-identifying personal data </strong>such as IP address, cookies, referring URL, browser
+            type, operating system, <br />
             <span className={styles.extraPadding}>site usage, and browsing history.</span>
           </li>
         </ul>
@@ -73,21 +73,22 @@ const Privacy = () => {
           <strong>We collect data directly when you:</strong>
         </p>
         <ul>
-          <li> > sign up and create an account in our mobile app;</li>
-          <li> > invite team members to join our mobile app;</li>
-          <li> > share updates with other phone contacts using our mobile app;</li>
-          <li> > send us a message through the contact forms on our website;</li>
+          <li> &gt; sign up and create an account in our mobile app;</li>
+          <li> &gt; invite team members to join our mobile app;</li>
+          <li> &gt; share updates with other phone contacts using our mobile app;</li>
+          <li> &gt; send us a message through the contact forms on our website;</li>
           <li>
-            > voluntarily complete a customer survey or provide feedback on any of our message boards or via email;
+            &gt; voluntarily complete a customer survey or provide feedback on any of our message boards or via email;
           </li>
-          <li>> contact us by any communication means, be it email, social media or website.</li>
+          <li>&gt; contact us by any communication means, be it email, social media or website.</li>
         </ul>
         <p className={styles.title}>
           <strong>We collect data indirectly when you:</strong>
         </p>
         <ul>
           <li>
-            > visit our website; in this case, embedded web technologies known as cookies collect non-identifying <br />
+            &gt; visit our website; in this case, embedded web technologies known as cookies collect non-identifying{' '}
+            <br />
             <span className={styles.extraPadding}>
               personal data (please read more on our <span className="green">Cookie policy</span>)
             </span>
@@ -107,16 +108,18 @@ const Privacy = () => {
           channels.
         </p>
         <ul>
-          <li> > to answer queries submitted through our contact forms; </li>
+          <li> &gt; to answer queries submitted through our contact forms; </li>
           <li>
-            > keep you posted on the latest features, software updates, fixes, or other information through emails and{' '}
-            <br />
+            &gt; keep you posted on the latest features, software updates, fixes, or other information through emails
+            and <br />
             <span className={styles.extraPadding}>newsletters;</span>{' '}
           </li>
-          <li>> optimize Facebook and LinkedIn ads based on collected anonymized data;</li>
-          <li>> build targeted audiences for social media campaigns to ensure the relevancy of our communications;</li>
-          <li> > create statistics around website traffic, marketing performance, communication initiatives;</li>
-          <li> > understand your current experience with our mobile app and website in order to improve it.</li>
+          <li>&gt; optimize Facebook and LinkedIn ads based on collected anonymized data;</li>
+          <li>
+            &gt; build targeted audiences for social media campaigns to ensure the relevancy of our communications;
+          </li>
+          <li> &gt; create statistics around website traffic, marketing performance, communication initiatives;</li>
+          <li> &gt; understand your current experience with our mobile app and website in order to improve it.</li>
         </ul>
         <p className={styles.title}>
           <strong>Third-party services we use:</strong>
@@ -128,16 +131,16 @@ const Privacy = () => {
         </p>
         <ul>
           <li>
-            <strong>> Google Analytics;</strong>
+            <strong>&gt; Google Analytics;</strong>
           </li>
           <li>
-            <strong> > MailChimp;</strong>
+            <strong>&gt; MailChimp;</strong>
           </li>
           <li>
-            <strong> > Facebook; </strong>
+            <strong>&gt; Facebook; </strong>
           </li>
           <li>
-            <strong> > LinkedIn. </strong>
+            <strong>&gt; LinkedIn. </strong>
           </li>
         </ul>
       </div>

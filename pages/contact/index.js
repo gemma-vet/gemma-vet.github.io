@@ -31,7 +31,7 @@ const Contact = () => {
         body: JSON.stringify(data),
       });
       const succesCheck = await response.json();
-      if (succesCheck.succes) {
+      if (succesCheck.success) {
         setData(reset);
         setFeedback(succesCheck);
         setVisibility(true);
@@ -97,7 +97,7 @@ const Contact = () => {
               </Button>
             </div>
             {visibility ? (
-              <div className={styles.feedback} style={feedback.succes ? { color: '#46815f' } : { color: 'red' }}>
+              <div className={styles.feedback} style={feedback.success ? { color: '#46815f' } : { color: 'red' }}>
                 {feedback.message}
               </div>
             ) : null}
