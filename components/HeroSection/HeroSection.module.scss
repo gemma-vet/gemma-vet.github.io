@@ -20,6 +20,9 @@
         @media all and (min-width: $screen-sm-plus) {
           display: initial;
         }
+        img {
+          width: 100%;
+        }
       }
       .imageMobile {
         display: none;
@@ -81,6 +84,9 @@
         @media all and (max-width: $screen-sm) {
           width: 100%;
           display: initial;
+        }
+        img {
+          width: 100%;
         }
       }
     }

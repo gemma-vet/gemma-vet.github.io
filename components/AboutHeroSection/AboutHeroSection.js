@@ -20,7 +20,8 @@ const AboutHeroSection = () => {
           </Link>
         </div>
         <div className={styles.imageContainer}>
-          <Image src={aboutHeader} alt="two phones displaying Gemma app" loading="eager" />
+          {/* <Image src={aboutHeader} alt="two phones displaying Gemma app" priority /> */}
+          <img src="/images/about-header-image@2x.png" alt="two phones displaying Gemma app" />
         </div>
       </div>
     </section>

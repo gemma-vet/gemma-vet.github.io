@@ -14,7 +14,8 @@ const AboutSection = () => {
         </div>
         <div className={styles.presentation}>
           <div className={styles.imageContainer}>
-            <Image src={missionImage} alt="image of a dog in a veterinary center" />
+            {/* <Image src={missionImage} alt="image of a dog in a veterinary center" /> */}
+            <img src="/images/mission-image@2x.png" alt="image of a dog in a veterinary center" />
           </div>
           <div className={styles.missionDescription}>
             <p className={styles.missionTitle}>
