@@ -6,7 +6,7 @@ const apiKey = process.env.MAILCHIMP_API_KEY;
 const tag = process.env.MAILCHIMP_TAG;
 const dataCenter = process.env.MAILCHIMP_DATACENTER;
 
-export default async (req, res) => {
+const newsletterApi = async (req, res) => {
   const { email } = req.body;
   if (email) {
     const errors = validateNewsLetter(req.body, validateEmail);
@@ -95,3 +95,5 @@ const getSubscriberHash = (email) => {
   const parsedEmail = email.toLowerCase();
   return cryptoMD5(parsedEmail);
 };
+
+export default newsletterApi;

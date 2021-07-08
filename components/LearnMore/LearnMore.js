@@ -16,4 +16,6 @@ const LearnMore = React.forwardRef(({ onClick, href, ...props }, ref) => {
   );
 });
 
+LearnMore.displayName = 'LearnMore';
+
 export default LearnMore;

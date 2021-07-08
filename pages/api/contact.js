@@ -4,7 +4,7 @@ import { validateEmail, validate } from '../../utils';
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.EMAIL_SENDGRID_API_BLACKTHORUS);
 
-export default async (req, res) => {
+const contactApi =  async (req, res) => {
   const { name, email, message } = req.body;
 
   if (req.body) {
@@ -36,3 +36,5 @@ export default async (req, res) => {
     }
   }
 };
+
+export default contactApi;

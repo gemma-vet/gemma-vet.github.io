@@ -36,7 +36,7 @@ const HeroSection = () => {
             </div>
             <div className={styles.imageMobile}>
               {/* <Image src={imageMobile} alt="screenshot of the site mobile view" priority /> */}
-              <img src="/images/header-image_v21.png" alt="screenshot of the site mobile view"/>
+              <img src="/images/header-image_v21.png" alt="screenshot of the site mobile view" />
             </div>
           </div>
         </div>

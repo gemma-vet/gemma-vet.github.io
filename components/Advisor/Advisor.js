@@ -13,7 +13,7 @@ const Advisor = ({ advisor }) => {
     if (description.current.scrollHeight > 178) {
       setActive(true);
     }
-  });
+  }, []);
 
   const handleShowMore = () => {
     setShowMore(!showMore);
