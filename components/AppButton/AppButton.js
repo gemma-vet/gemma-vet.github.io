@@ -10,10 +10,7 @@ const AppButton = ({ buttonInfo }) => {
 
   const handleClick = () => {
     const analytics = firebase.analytics();
-    analytics.logEvent('select_item', {
-      content_type: 'click',
-      content_id: 'app_button',
-    });
+    analytics.logEvent({eventName:"app_button_click"})
   };
   return (
     <Fragment>
