@@ -16,20 +16,18 @@ const AppButton = ({ buttonInfo }) => {
     <Fragment>
       <Link onClick={handleClick} href={href}>
         <a className={styles.desktopVersion}>
-          {/* <Image
+          <Image
             src={src}
             width={dimensions.desktop.width}
             height={dimensions.desktop.height}
             alt={alt}
             layout="fixed"
-          /> */}
-          <img src={src} alt={alt} />
+          />
         </a>
       </Link>
       <Link onClick={handleClick} href={href}>
         <a className={styles.mobileVersion}>
-          {/* <Image src={src} width={dimensions.mobile.width} height={dimensions.mobile.height} alt={alt} layout="fixed" /> */}
-          <img src={src} width={dimensions.mobile.width} height={dimensions.mobile.height} alt={alt} />
+          <Image src={src} width={dimensions.mobile.width} height={dimensions.mobile.height} alt={alt} layout="fixed" />
         </a>
       </Link>
     </Fragment>
