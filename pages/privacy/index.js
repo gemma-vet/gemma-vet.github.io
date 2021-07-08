@@ -1,4 +1,5 @@
 import styles from './Privacy.module.scss';
+import Link from 'next/link';
 import Layout from '../../components/Layout/Layout';
 import SectionBanner from '../../components/SectionBanner/SectionBanner';
 
@@ -90,7 +91,13 @@ const Privacy = () => {
             &gt; visit our website; in this case, embedded web technologies known as cookies collect non-identifying{' '}
             <br />
             <span className={styles.extraPadding}>
-              personal data (please read more on our <span className="green">Cookie policy</span>)
+              personal data (please read more on our{' '}
+              <Link href="https://www.e-spres-oh.com/cookiePolicy">
+                <a>
+                  <span className="green">Cookie policy</span>
+                </a>
+              </Link>
+              )
             </span>
           </li>
         </ul>
