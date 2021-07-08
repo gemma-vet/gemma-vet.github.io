@@ -1,5 +1,5 @@
 import styles from './AppButton.module.scss';
-import { Fragment } from 'react';
+import { useEffect, Fragment } from 'react';
 import firebase from 'firebase/app';
 import 'firebase/analytics';
 import Link from 'next/link';
@@ -7,10 +7,17 @@ import Image from 'next/image';
 
 const AppButton = ({ buttonInfo }) => {
   const { href, src, alt, dimensions } = buttonInfo;
+  let analytics;
+
+  useEffect(() => {
+    analytics = firebase.analytics();
+  });
 
   const handleClick = () => {
-    const analytics = firebase.analytics();
-    analytics.logEvent('select_item', { value: 'click_app_button' });
+    analytics.logEvent('select_item', {
+      content_type: 'click',
+      content_id: 'app_button',
+    });
   };
   return (
     <Fragment>
