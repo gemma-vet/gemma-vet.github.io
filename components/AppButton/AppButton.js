@@ -6,11 +6,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const AppButton = ({ buttonInfo }) => {
-  const { href, src, alt, dimensions } = buttonInfo;
+  const { id, href, src, alt, dimensions } = buttonInfo;
 
-  const handleClick = (event) => {
+  const handleClick = () => {
     const analytics = firebase.analytics();
-    analytics.logEvent('app_button_click', {
+    analytics.logEvent(`${id}`, {
       content_type: 'button',
       content_id: 'click_app_button',
       items: [{ name: 'AppButton' }],
@@ -18,7 +18,7 @@ const AppButton = ({ buttonInfo }) => {
   };
   return (
     <Fragment>
-      <div onClick={handleClick}>
+       <div onClick={handleClick}>
         <Link href={href}>
           <a className={styles.desktopVersion}>
             <Image
