@@ -6,33 +6,44 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const AppButton = ({ buttonInfo }) => {
-  const { href, src, alt, dimensions } = buttonInfo;
+  const { id, href, src, alt, dimensions } = buttonInfo;
 
   const handleClick = () => {
     const analytics = firebase.analytics();
-    analytics.logEvent('select_item', {
-      content_type: 'click',
-      content_id: 'app_button',
+    analytics.logEvent(`${id}`, {
+      content_type: 'button',
+      content_id: 'click_app_button',
+      items: [{ name: 'AppButton' }],
     });
   };
   return (
     <Fragment>
-      <Link onClick={handleClick} href={href}>
-        <a className={styles.desktopVersion}>
-          <Image
-            src={src}
-            width={dimensions.desktop.width}
-            height={dimensions.desktop.height}
-            alt={alt}
-            layout="fixed"
-          />
-        </a>
-      </Link>
-      <Link onClick={handleClick} href={href}>
-        <a className={styles.mobileVersion}>
-          <Image src={src} width={dimensions.mobile.width} height={dimensions.mobile.height} alt={alt} layout="fixed" />
-        </a>
-      </Link>
+      <div onClick={handleClick}>
+        <Link href={href}>
+          <a className={styles.desktopVersion}>
+            <Image
+              src={src}
+              width={dimensions.desktop.width}
+              height={dimensions.desktop.height}
+              alt={alt}
+              layout="fixed"
+            />
+          </a>
+        </Link>
+      </div>
+      <div onClick={handleClick}>
+        <Link href={href}>
+          <a className={styles.mobileVersion}>
+            <Image
+              src={src}
+              width={dimensions.mobile.width}
+              height={dimensions.mobile.height}
+              alt={alt}
+              layout="fixed"
+            />
+          </a>
+        </Link>
+      </div>
     </Fragment>
   );
 };

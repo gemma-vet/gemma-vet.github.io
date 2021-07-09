@@ -18,6 +18,7 @@ export const menu = [
 
 export const appButtons = {
   apple: {
+    id:"apple_store_click",
     href: 'https://apps.apple.com/ro/app/gemma-vet/id1567008819',
     src: '/svg/appStore.svg',
     dimensions: {
@@ -33,6 +34,7 @@ export const appButtons = {
     alt: 'app store icon',
   },
   google: {
+    id:"google_play_click",
     href: 'https://play.google.com/store/apps/details?id=vet.gemma.app',
     src: '/svg/googlePlay.svg',
     dimensions: {
