@@ -18,7 +18,7 @@ const AppButton = ({ buttonInfo }) => {
   };
   return (
     <Fragment>
-       <div onClick={handleClick}>
+      <div onClick={handleClick}>
         <Link href={href}>
           <a className={styles.desktopVersion}>
             <Image
