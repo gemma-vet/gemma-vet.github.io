@@ -67,7 +67,7 @@ export const benefits = [
   {
     id: 2,
     title: 'An Invaluable Communication Tool',
-    description: `Invite your practice team to Gemma to stay up to date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication tool keeps teams in the loop and pet families connected with your patients.`,
+    description: `Invite your practice team to Gemma to stay up-to-date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication tool keeps teams in the loop and pet families connected with your patients.`,
     source: '/svg/benefit2.svg',
     alt: 'benefit image',
     dimensions: {
@@ -90,7 +90,7 @@ export const benefits = [
   },
   {
     id: 4,
-    title: 'A Loyal Friend to Help You Improve Patient Satisfaction',
+    title: 'A Loyal Friend to Help You Improve Pet Owner Satisfaction',
     description: `Rely on Gemma to reduce pet families' anxiety triggered by health emergencies and restricted in-person visits. Build trust and give families the peace of mind they need with real-time updates on their pets' health and the ability to share the feed with loved ones. Track pet owner satisfaction through surveys and reviews.`,
     source: '/svg/benefit4.svg',
     alt: 'benefit image',
@@ -113,7 +113,7 @@ export const features = [
   },
   {
     id: 2,
-    title: 'Pet owner satisfaction Tracking',
+    title: 'Pet Owner Satisfaction Tracking',
     description: 'Strengthen your overall understanding of your clients’ experience.',
     source: '/svg/heart_icon.svg',
     alt: 'heart icon',
@@ -176,7 +176,7 @@ export const testimonials = [
     id: 4,
     quote:
       'Thank you so much for helping us navigate what was one of the most traumatic days we have personally experienced. The thorough updates and pictures and videos brought us so much peace. We love the video of him eating and all of you showing him so much support and love. We’ve watched it so many times!',
-    author: 'Pending Name',
+    author: 'Zoe',
   },
   {
     id: 5,

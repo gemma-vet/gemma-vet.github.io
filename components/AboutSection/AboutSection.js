@@ -39,7 +39,7 @@ const AboutSection = () => {
                 <div className={styles.paw}>
                   <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
                 </div>
-                <p>Hospitals drive higher satisfaction scores and great client communications reviews.</p>
+                <p>Hospitals drive higher satisfaction scores and great client reviews.</p>
               </li>
             </ul>
             <div className={styles.buttonContainer}>
