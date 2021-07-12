@@ -136,7 +136,7 @@ const Footer = () => {
           <div className={styles.newsLetter}>
             <h4>Subscribe to Newsletter</h4>
             <p className={styles.newsLetterText}>
-              Join our <span className={styles.boldText}>one-of-a-kind community</span> and Stay Up to date with the
+              Join our <span className={styles.boldText}>one-of-a-kind community</span> and stay up-to-date with the
               latest features
             </p>
             <form onSubmit={handleNewsletter} className={styles.newsletterForm} action="/api/newsletter">
