@@ -63,6 +63,9 @@
       }
       .buttonContainer {
         padding-top: 2.5rem;
+        @media all and (max-width: $screen-sm) {
+          margin: 0 auto;
+        }
       }
       .feedback {
         top: 0;
