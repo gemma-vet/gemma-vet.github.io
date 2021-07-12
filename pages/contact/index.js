@@ -86,8 +86,8 @@ const Contact = () => {
               id="message"
               name="message"
               placeholder="
-            How Can We Help? 
-            Have Any Feedback?"
+How Can We Help?
+Have Any Feedback?"
               value={data.message}
               required
             />

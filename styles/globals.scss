@@ -123,9 +123,14 @@ ol {
   display: none;
 }
 
-.green {
+.green,
+.greenUnderline {
   font-weight: 600;
   color: $darkGreen;
+}
+
+.greenUnderline {
+  text-decoration: underline;
 }
 
 .allContent {

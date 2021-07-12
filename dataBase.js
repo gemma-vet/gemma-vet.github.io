@@ -236,7 +236,7 @@ export const stages = [
     id: 1,
     preTitle: 'The Challenge',
     title: 'Unprecedented Demand in the Veterinary Care Industry',
-    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <span class="green">fostering rates increased by as much as 90%</span>, and some shelters saw their application numbers increase by <span class="green">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span> Consequently, the veterinary care industry rapidly escalated.`,
+    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">fostering rates increased by as much as 90%</span></a>, and some shelters saw their application numbers increase by <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span></a> Consequently, the veterinary care industry rapidly escalated.`,
     source: '/svg/IconFlag.svg',
     alt: 'flag icon',
     noLine: false,
@@ -246,7 +246,7 @@ export const stages = [
     id: 2,
     preTitle: 'Covid 19 Impact',
     title: 'Coping With All-Time High Pet Owner Anxiety',
-    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<span class="green">98% of veterinarians were limiting client contact</span/>, increasing pet owner anxiety to an all-time high.`,
+    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline"> 98% of veterinarians were limiting client contact</span/><a/>, increasing pet owner anxiety to an all-time high.`,
     source: '/svg/IconCovid.svg',
     alt: 'covid icon',
     noLine: false,
@@ -331,7 +331,7 @@ export const advisors = [
 export const howItWorksStages = [
   {
     id: 1,
-    title: 'One-way Multimedia Messaging',
+    title: 'One-Way Multimedia Messaging',
     source: { src: multimedia.src, blurDataURL: multimedia.blurDataURL },
     dimensions: {
       width: 415,
