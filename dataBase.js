@@ -331,7 +331,7 @@ export const advisors = [
 export const howItWorksStages = [
   {
     id: 1,
-    title: 'One-way Multimedia Messaging',
+    title: 'One-Way Multimedia Messaging',
     source: { src: multimedia.src, blurDataURL: multimedia.blurDataURL },
     dimensions: {
       width: 415,
