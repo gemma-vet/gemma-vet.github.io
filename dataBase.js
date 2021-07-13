@@ -8,7 +8,6 @@ import feedSharing from './public/images/image Share@2x.png';
 export const lightGrey = '#fafafa';
 export const washedGreen = '#eaf0eb';
 
-
 export const menu = [
   { id: 1, name: 'Home', path: '/' },
   { id: 2, name: 'About', path: '/about' },
@@ -18,7 +17,7 @@ export const menu = [
 
 export const appButtons = {
   apple: {
-    id:"apple_store_click",
+    id: 'apple_store_click',
     href: 'https://apps.apple.com/ro/app/gemma-vet/id1567008819',
     src: '/svg/appStore.svg',
     dimensions: {
@@ -34,7 +33,7 @@ export const appButtons = {
     alt: 'app store icon',
   },
   google: {
-    id:"google_play_click",
+    id: 'google_play_click',
     href: 'https://play.google.com/store/apps/details?id=vet.gemma.app',
     src: '/svg/googlePlay.svg',
     dimensions: {
@@ -325,6 +324,15 @@ export const advisors = [
     author: 'Raluca Popa',
     jobPositon: 'Director of Strategic Partnerships at [e-spres-oh]',
     source: '/images/pic Ralu@2x.png',
+  },
+  {
+    id: 6,
+    description:
+      'Dr. Tara Bellis graduated from the Royal Veterinary College in 2007 and completed a small animal rotating internship there in 2008. She worked as an Emergency Veterinarian in Southeast England before moving to New York City to complete a residency in Emergency and Critical Care. Dr. Bellis became a Diplomate of the American College of Emergency and Critical Care in 2015. She has since spent a number of years directing a residency program and is an active member of the ACVECC exam committee. Dr Bellis is currently the Medical Director at Garden State Veterinary Services in Iselin, New Jersey. Her professional interests include sepsis, mechanical ventilation and CPR.',
+    quote: '',
+    author: 'Tara Bellis',
+    jobPositon: 'Medical Director at Garden State Veterinary Services',
+    source: '/images/pic Tara@2x.png',
   },
 ];
 
