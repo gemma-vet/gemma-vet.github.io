@@ -38,11 +38,9 @@
   }
 
   .menuMobile {
-    .logoMobile {
-      display: none;
-      @media all and (max-width: $screen-sm) {
-        display: initial;
-      }
+    display: none;
+    @media all and (max-width: $screen-sm) {
+      display: initial;
     }
     .notVisible {
       opacity: 0;
