@@ -14,6 +14,9 @@
     @media all and (max-width: $screen-md) {
       padding: 1.5rem 2.75rem 6.25rem 2.75rem;
     }
+    @media all and (max-width: $screen-xs) {
+      padding: 1.5rem 1rem 6.25rem 1rem;
+    }
     .buttonContainer {
       margin-top: -4.688rem;
       @media all and (max-width: $screen-md) {
