@@ -38,8 +38,14 @@
   }
 
   .menuMobile {
+    .logoMobile {
+      display: none;
+      @media all and (max-width: $screen-sm) {
+        display: initial;
+      }
+    }
     display: none;
-    @media all and (max-width: $screen-sm) {
+    @media all and (max-width: $screen-md) {
       display: initial;
     }
     .notVisible {
