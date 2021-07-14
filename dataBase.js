@@ -8,7 +8,6 @@ import feedSharing from './public/images/image Share@2x.png';
 export const lightGrey = '#fafafa';
 export const washedGreen = '#eaf0eb';
 
-
 export const menu = [
   { id: 1, name: 'Home', path: '/' },
   { id: 2, name: 'About', path: '/about' },
@@ -18,7 +17,7 @@ export const menu = [
 
 export const appButtons = {
   apple: {
-    id:"apple_store_click",
+    id: 'apple_store_click',
     href: 'https://apps.apple.com/ro/app/gemma-vet/id1567008819',
     src: '/svg/appStore.svg',
     dimensions: {
@@ -34,7 +33,7 @@ export const appButtons = {
     alt: 'app store icon',
   },
   google: {
-    id:"google_play_click",
+    id: 'google_play_click',
     href: 'https://play.google.com/store/apps/details?id=vet.gemma.app',
     src: '/svg/googlePlay.svg',
     dimensions: {
@@ -318,6 +317,15 @@ export const advisors = [
   },
   {
     id: 5,
+    description:
+      'Dr. Tara Bellis graduated from the Royal Veterinary College in 2007 and completed a small animal rotating internship there in 2008. She worked as an Emergency Veterinarian in Southeast England before moving to New York City to complete a residency in Emergency and Critical Care. Dr. Bellis became a Diplomate of the American College of Emergency and Critical Care in 2015. She has since spent a number of years directing a residency program and is an active member of the ACVECC exam committee. Dr Bellis is currently the Medical Director at Garden State Veterinary Services in Iselin, New Jersey. Her professional interests include sepsis, mechanical ventilation and CPR.',
+    quote: '',
+    author: 'Tara Bellis',
+    jobPositon: 'Medical Director at Garden State Veterinary Services',
+    source: '/images/pic Tara@2x.png',
+  },
+  {
+    id: 6,
     description:
       'Raluca has spent the better part of her professional life in journalism and technology, working with leading technology players in the US and Europe. She currently serves as Director of Strategic Partnerships at [e-spres-oh] providing strategic marketing expertise and project planning. Prior to [e-spres-oh], Raluca served as the Chief Operating Officer of the Institute for Education, a DC-based mission-driven organization, harnessing the power of data, innovation, and soft diplomacy. In her role as the Editor-in-Chief of IFE magazine, she has interviewed ambassadors, Nobel Prize winners, and key tech innovators and disruptors in the nation’s capital. Previously, Raluca served as a Washington DC news correspondent, reporting for an international press agency headquartered in Bucharest, Romania. Raluca has an M.A. degree in Management in Media Institutions from the University of Bucharest and speaks English, Spanish and Romanian.',
     quote:

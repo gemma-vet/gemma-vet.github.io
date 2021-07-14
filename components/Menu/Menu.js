@@ -9,11 +9,11 @@ const Menu = ({ mobile, handleClick }) => {
     <nav>
       <ul className={`${styles.menu} ${mobile ? `${styles.columnDisplay}` : ''}`}>
         {menu.map((item) => (
-          <li key={item.id} onClick={handleClick}>
-            <Link href={item.path}>
+          <Link key={item.id} href={item.path} passHref>
+            <li onClick={handleClick}>
               <a className={router.asPath === item.path ? 'green' : ''}>{item.name}</a>
-            </Link>
-          </li>
+            </li>
+          </Link>
         ))}
       </ul>
     </nav>

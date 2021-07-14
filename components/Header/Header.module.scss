@@ -44,6 +44,10 @@
         display: initial;
       }
     }
+    display: none;
+    @media all and (max-width: $screen-md) {
+      display: initial;
+    }
     .notVisible {
       opacity: 0;
       transition: opacity 1s;

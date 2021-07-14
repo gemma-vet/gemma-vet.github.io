@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { appButtons } from '../../dataBase';
 import AppButton from '../AppButton/AppButton';
 import heroDesktop from '../../public/images/mobile_screenshot@2x.png';
-import imageMobile from '../../public/images/header-image_v21.png';
+import imageMobile from '../../public/images/header-image-mobile 2.png';
 
 const HeroSection = () => {
   return (
@@ -36,7 +36,7 @@ const HeroSection = () => {
             </div>
             <div className={styles.imageMobile}>
               {/* <Image src={imageMobile} alt="screenshot of the site mobile view" priority /> */}
-              <img src="/images/header-image_v21.png" alt="screenshot of the site mobile view" />
+              <img src="/images/header-image-mobile 2.png" alt="screenshot of the site mobile view" />
             </div>
           </div>
         </div>
