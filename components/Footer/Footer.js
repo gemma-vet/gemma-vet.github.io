@@ -104,7 +104,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className={styles.linkedContainer}>
-                <Link href="https://www.instagram.com/gemma_vet/">
+                <Link href="https://www.linkedin.com/showcase/gemma-vet/about/">
                   <a>
                     <Image src="/svg/linkedin_icon.svg" width={32} height={32} alt="linkedIn icon" layout="fixed" />
                   </a>
