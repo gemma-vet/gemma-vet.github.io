@@ -74,6 +74,9 @@
         background-color: $lightGrey;
         border: 2px solid $lightGreen;
         z-index: 1;
+        @media all and (max-width: $screen-xxs) {
+          padding: 1.5rem 1rem 1.5rem 1rem;
+        }
         .quoteText {
           font-weight: normal;
           font-style: italic;
