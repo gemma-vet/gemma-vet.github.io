@@ -66,7 +66,7 @@ export const benefits = [
   {
     id: 2,
     title: 'An Invaluable Communication Tool',
-    description: `Invite your practice team to Gemma to stay up-to-date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication tool keeps teams in the loop and pet families connected with your patients.`,
+    description: `Invite your practice team to Gemma to stay up-to-date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication features keep teams in the loop and pet families connected to their pets.`,
     source: '/svg/benefit2.svg',
     alt: 'benefit image',
     dimensions: {
@@ -193,7 +193,7 @@ export const boardTemplates = [
     quote:
       "Gemma is the easiest way to keep owners in the loop on their pet's care. Nothing comes close. It’s a multimedia record of patients that brings families so much joy.",
     author: 'Elisa McEntee',
-    jobPositon: 'Internal Medicine Specialist',
+    jobPositon: 'DVM, DACVIM, Internal Medicine Specialist',
     facility: 'BluePearl Veterinary Partners',
     source: '/images/pic Elisa@2x.png',
     order: 1,
@@ -201,9 +201,9 @@ export const boardTemplates = [
   {
     id: 2,
     quote:
-      'Gemma has been a game-changer for me allowing me to focus more on patient care while providing peace of mind to pet owners that can actually see how their pet is doing, in the easiest way possible using my mobile phone. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
+      'Gemma has been a game-changer for me. It allows me to focus more on patient care while providing peace of mind to pet owners who can actually see how their pet is doing, in the easiest way possible, using my mobile phone. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
     author: 'Alex Blutinger',
-    jobPositon: 'Critical Care Specialist',
+    jobPositon: 'VMD, DACVECC, Critical Care Specialist',
     facility: 'BluePearl Veterinary Partners',
     source: '/images/pic Alex@2x.png',
     order: 0,
