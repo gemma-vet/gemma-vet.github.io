@@ -85,9 +85,7 @@ const Contact = () => {
               onChange={handleOnChange}
               id="message"
               name="message"
-              placeholder="
-How Can We Help?
-Have Any Feedback?"
+              placeholder="How Can We Help?  Have Any Feedback?"
               value={data.message}
               required
             />

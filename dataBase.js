@@ -66,7 +66,7 @@ export const benefits = [
   {
     id: 2,
     title: 'An Invaluable Communication Tool',
-    description: `Invite your practice team to Gemma to stay up-to-date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication tool keeps teams in the loop and pet families connected with your patients.`,
+    description: `Invite your practice team to Gemma to stay up-to-date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication features keep teams in the loop and pet families connected to their pets.`,
     source: '/svg/benefit2.svg',
     alt: 'benefit image',
     dimensions: {
@@ -193,7 +193,7 @@ export const boardTemplates = [
     quote:
       "Gemma is the easiest way to keep owners in the loop on their pet's care. Nothing comes close. It’s a multimedia record of patients that brings families so much joy.",
     author: 'Elisa McEntee',
-    jobPositon: 'Internal Medicine Specialist',
+    jobPositon: 'DVM, DACVIM, Internal Medicine Specialist',
     facility: 'BluePearl Veterinary Partners',
     source: '/images/pic Elisa@2x.png',
     order: 1,
@@ -201,9 +201,9 @@ export const boardTemplates = [
   {
     id: 2,
     quote:
-      'Gemma has been a game-changer for me allowing me to focus more on patient care while providing peace of mind to pet owners that can actually see how their pet is doing, in the easiest way possible using my mobile phone. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
+      'Gemma has been a game-changer for me. It allows me to focus more on patient care while providing peace of mind to pet owners who can actually see how their pet is doing, in the easiest way possible, using my mobile phone. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
     author: 'Alex Blutinger',
-    jobPositon: 'Critical Care Specialist',
+    jobPositon: 'VMD, DACVECC, Critical Care Specialist',
     facility: 'BluePearl Veterinary Partners',
     source: '/images/pic Alex@2x.png',
     order: 0,
@@ -235,7 +235,7 @@ export const stages = [
     id: 1,
     preTitle: 'The Challenge',
     title: 'Unprecedented Demand in the Veterinary Care Industry',
-    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">fostering rates increased by as much as 90%</span></a>, and some shelters saw their application numbers increase by <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span></a> Consequently, the veterinary care industry rapidly escalated.`,
+    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">fostering rates increased by as much as 90%</span></a>, and some shelters saw their application numbers increase by <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span></a> Consequently, the veterinary care industry rapidly became saturated.`,
     source: '/svg/IconFlag.svg',
     alt: 'flag icon',
     noLine: false,
@@ -245,7 +245,7 @@ export const stages = [
     id: 2,
     preTitle: 'Covid 19 Impact',
     title: 'Coping With All-Time High Pet Owner Anxiety',
-    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline"> 98% of veterinarians were limiting client contact</span/><a/>, increasing pet owner anxiety to an all-time high.`,
+    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline"> 98% of veterinarians were limited client contact</span/><a/>, increasing pet owner anxiety to an all-time high.`,
     source: '/svg/IconCovid.svg',
     alt: 'covid icon',
     noLine: false,
@@ -289,7 +289,7 @@ export const advisors = [
     description:
       'Alex Blutinger obtained his BS in Biology, Neuroscience, and Italian at Brandeis University before completing his VMD at the University of Pennsylvania in 2015. He completed a rotating internship at BluePearl Veterinary Partners in New York City, followed by a small animal emergency and critical care residency at the Animal Medical Center in Manhattan. Outside of veterinary medicine, Alex enjoys playing basketball, soccer, surfing, traveling, and playing piano. A dual national of the US and Italy, Alex spent many years living in Italy, where he developed a passion for Italian culture; cooking, speaking the language, and European football. Alex collaborates with his brother as a DJ duo and music producer, where they perform in NYC.',
     quote:
-      'Gemma has been a game-changer for me, allowing me to focus more on patient care while providing peace of mind to pet owners that can actually see how their pet is doing. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
+      '“Gemma has been a game-changer for me. It allows me to focus more on patient care while providing peace of mind to pet owners who can actually see how their pet is doing, in the easiest way possible, using my mobile phone. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
     author: 'Alex Blutinger',
     jobPositon: 'VMD, DACVECC, Critical Care Specialist at BluePearl Veterinary Partners',
     source: '/images/pic Alex@2x.png',
@@ -319,7 +319,7 @@ export const advisors = [
     id: 5,
     description:
       'Dr. Tara Bellis graduated from the Royal Veterinary College in 2007 and completed a small animal rotating internship there in 2008. She worked as an Emergency Veterinarian in Southeast England before moving to New York City to complete a residency in Emergency and Critical Care. Dr. Bellis became a Diplomate of the American College of Emergency and Critical Care in 2015. She has since spent a number of years directing a residency program and is an active member of the ACVECC exam committee. Dr Bellis is currently the Medical Director at Garden State Veterinary Services in Iselin, New Jersey. Her professional interests include sepsis, mechanical ventilation and CPR.',
-    quote: '',
+    quote: 'Gemma has become an essential tool for my client communication. Not only does the app allow me to show owners how their pets are doing, but it also reduces the amount of phone calls I receive each day, allowing me to primarily focus on pet care. I’ve quickly learned that, for pet owners, a picture is worth a thousand words',
     author: 'Tara Bellis',
     jobPositon: 'Medical Director at Garden State Veterinary Services',
     source: '/images/pic Tara@2x.png',
@@ -378,15 +378,15 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Efficient Communication',
+        text: '> Efficient communication',
       },
       {
         id: 2,
-        text: ' > Strategic Collaboration',
+        text: ' > Strategic collaboration',
       },
       {
         id: 3,
-        text: '> Seamless Integration',
+        text: '> Seamless integration',
       },
     ],
     paragraph_one:
@@ -420,7 +420,7 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Gemma facilitates referrals and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged..',
+      '<strong>Gemma facilitates referrals and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged.',
     paragraph_two:
       'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances communication between vets, improving care coordination and client satisfaction.',
     background: '#fafafa',
@@ -438,21 +438,21 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Increase Client Reviews',
+        text: '> Increase client reviews',
       },
       {
         id: 2,
-        text: '> Strengthen Credibility',
+        text: '> Strengthen credibility',
       },
       {
         id: 3,
-        text: '> Improve Client Satisfaction',
+        text: '> Improve client satisfaction',
       },
     ],
     paragraph_one:
       '<strong>Strengthen your overall understanding of your clients’ experience </strong> with Gemma’s feedback form feature.',
     paragraph_two:
-      'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction, and increasing positive reviews strengthens your credibility.',
+      'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction; and, increasing positive reviews strengthens your credibility.',
     background: 'washedGreen',
     order: 1,
     passingRef: 'petOwner',
@@ -483,7 +483,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Store, organize, and manage patient information </strong>  with Gemma’s easy-to-navigate patient database access feature.',
     paragraph_two:
-      'Access your archived patient records and use Gemma’s efficient search feature to recall a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
+      'Access your archived patient records and use Gemma’s efficient search feature to find a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
     background: '#fafafa',
     order: 0,
     passingRef: 'patient',
@@ -513,7 +513,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Build a community, exchange ideas, and share your experiences</strong> with your contacts with Gemma’s feed-sharing feature.',
     paragraph_two:
-      'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma and to get support or just spread smiles.',
+      'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma, get support from your peers, or just spread smiles!',
     background: 'washedGreen',
     order: 1,
     passingRef: 'feedShare',

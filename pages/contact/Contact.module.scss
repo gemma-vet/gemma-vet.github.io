@@ -60,6 +60,9 @@
         @media all and (max-width: $screen-xs-plus) {
           height: 17.188rem;
         }
+        &::placeholder {
+          padding-top: 1rem;
+        }
       }
       .buttonContainer {
         padding-top: 2.5rem;

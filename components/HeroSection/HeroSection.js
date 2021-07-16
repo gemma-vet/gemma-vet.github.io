@@ -20,7 +20,7 @@ const HeroSection = () => {
 
           <div className={styles.heroDescriptionContainer}>
             <div className={styles.heroDescription}>
-              <h1>Cutting Edge Communication Tool For Vets Who Click With Their Clients.</h1>
+              <h1>Cutting Edge Communication Tool For Vets Who Click With Their Clients</h1>
               <p>
                 Smarter and better client communication for vets and their teams. Your mobile app for happier pet
                 families.

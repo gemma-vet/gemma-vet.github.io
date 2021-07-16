@@ -20,7 +20,7 @@ const AboutSection = () => {
           <div className={styles.missionDescription}>
             <p className={styles.missionTitle}>
               Our smart and easy-to-use software solution was designed to help everyone benefit from improved veterinary
-              services. Gemma’s promise is to help:
+              services. Gemma’s goal is to help:
             </p>
             <ul className={styles.benefits}>
               <li>
@@ -33,7 +33,7 @@ const AboutSection = () => {
                 <div className={styles.paw}>
                   <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
                 </div>
-                <p> Families stay connected with their pets and caregivers, and avoid anxiety;</p>
+                <p> Families stay connected with their pets and caregivers, and reduce anxiety;</p>
               </li>
               <li>
                 <div className={styles.paw}>
