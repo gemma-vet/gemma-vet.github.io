@@ -378,15 +378,15 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Efficient Communication',
+        text: '> Efficient communication',
       },
       {
         id: 2,
-        text: ' > Strategic Collaboration',
+        text: ' > Strategic collaboration',
       },
       {
         id: 3,
-        text: '> Seamless Integration',
+        text: '> Seamless integration',
       },
     ],
     paragraph_one:
@@ -420,7 +420,7 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Gemma facilitates referrals and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged..',
+      '<strong>Gemma facilitates referrals and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged.',
     paragraph_two:
       'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances communication between vets, improving care coordination and client satisfaction.',
     background: '#fafafa',
@@ -438,21 +438,21 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Increase Client Reviews',
+        text: '> Increase client reviews',
       },
       {
         id: 2,
-        text: '> Strengthen Credibility',
+        text: '> Strengthen credibility',
       },
       {
         id: 3,
-        text: '> Improve Client Satisfaction',
+        text: '> Improve client satisfaction',
       },
     ],
     paragraph_one:
       '<strong>Strengthen your overall understanding of your clients’ experience </strong> with Gemma’s feedback form feature.',
     paragraph_two:
-      'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction, and increasing positive reviews strengthens your credibility.',
+      'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction; and, increasing positive reviews strengthens your credibility.',
     background: 'washedGreen',
     order: 1,
     passingRef: 'petOwner',
@@ -483,7 +483,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Store, organize, and manage patient information </strong>  with Gemma’s easy-to-navigate patient database access feature.',
     paragraph_two:
-      'Access your archived patient records and use Gemma’s efficient search feature to recall a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
+      'Access your archived patient records and use Gemma’s efficient search feature to find a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
     background: '#fafafa',
     order: 0,
     passingRef: 'patient',
@@ -513,7 +513,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Build a community, exchange ideas, and share your experiences</strong> with your contacts with Gemma’s feed-sharing feature.',
     paragraph_two:
-      'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma and to get support or just spread smiles.',
+      'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma, get support from your peers, or just spread smiles!',
     background: 'washedGreen',
     order: 1,
     passingRef: 'feedShare',
