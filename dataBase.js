@@ -235,7 +235,7 @@ export const stages = [
     id: 1,
     preTitle: 'The Challenge',
     title: 'Unprecedented Demand in the Veterinary Care Industry',
-    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">fostering rates increased by as much as 90%</span></a>, and some shelters saw their application numbers increase by <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span></a> Consequently, the veterinary care industry rapidly escalated.`,
+    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">fostering rates increased by as much as 90%</span></a>, and some shelters saw their application numbers increase by <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span></a> Consequently, the veterinary care industry rapidly became saturated.`,
     source: '/svg/IconFlag.svg',
     alt: 'flag icon',
     noLine: false,
@@ -245,7 +245,7 @@ export const stages = [
     id: 2,
     preTitle: 'Covid 19 Impact',
     title: 'Coping With All-Time High Pet Owner Anxiety',
-    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline"> 98% of veterinarians were limiting client contact</span/><a/>, increasing pet owner anxiety to an all-time high.`,
+    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline"> 98% of veterinarians were limited client contact</span/><a/>, increasing pet owner anxiety to an all-time high.`,
     source: '/svg/IconCovid.svg',
     alt: 'covid icon',
     noLine: false,
@@ -289,7 +289,7 @@ export const advisors = [
     description:
       'Alex Blutinger obtained his BS in Biology, Neuroscience, and Italian at Brandeis University before completing his VMD at the University of Pennsylvania in 2015. He completed a rotating internship at BluePearl Veterinary Partners in New York City, followed by a small animal emergency and critical care residency at the Animal Medical Center in Manhattan. Outside of veterinary medicine, Alex enjoys playing basketball, soccer, surfing, traveling, and playing piano. A dual national of the US and Italy, Alex spent many years living in Italy, where he developed a passion for Italian culture; cooking, speaking the language, and European football. Alex collaborates with his brother as a DJ duo and music producer, where they perform in NYC.',
     quote:
-      'Gemma has been a game-changer for me, allowing me to focus more on patient care while providing peace of mind to pet owners that can actually see how their pet is doing. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
+      '“Gemma has been a game-changer for me. It allows me to focus more on patient care while providing peace of mind to pet owners who can actually see how their pet is doing, in the easiest way possible, using my mobile phone. This app was designed to make the lives of everyone in the veterinary community easier by keeping owners informed in the smartest way possible.',
     author: 'Alex Blutinger',
     jobPositon: 'VMD, DACVECC, Critical Care Specialist at BluePearl Veterinary Partners',
     source: '/images/pic Alex@2x.png',
