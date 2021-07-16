@@ -7,10 +7,10 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 5rem 8.625rem;
-    @media all and (min-width: $screen-lg) and (max-width: $screen-lg-max) {
+    @media all and (min-width: $screen-ipadL) and (max-width: $screen-lg-max) {
       padding: 6.75rem 5.75rem;
     }
-    @media all and (max-width: $screen-lg) {
+    @media all and (max-width: $screen-ipadL) {
       padding: 3.75rem 2.75rem;
     }
     @media all and (max-width: $screen-xs) {

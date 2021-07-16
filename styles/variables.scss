@@ -23,6 +23,11 @@ $screen-md-min: $screen-md;
 $screen-lg: 992px;
 $screen-lg-min: $screen-lg;
 
+// Ipad / ladscape mode
+$screen-ipadL: 1024px;
+$screen-ipadL-plus: $screen-ipadL + 1;
+$screen-ipadL-minus: $screen-ipadL - 1;
+
 // Extra large screen / full hd
 $screen-xl: 1200px;
 $screen-xl-min: $screen-xl;
