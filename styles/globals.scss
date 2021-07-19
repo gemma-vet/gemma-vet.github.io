@@ -119,10 +119,13 @@ ol {
   margin: 0;
 }
 
-input, textarea {
+input,
+textarea {
+  box-shadow: none!important;
+  -webkit-appearance: none;
   &:focus {
     outline: none;
-    border-color: #66BE76!important;
+    border-color: #66be76 !important;
   }
 }
 
