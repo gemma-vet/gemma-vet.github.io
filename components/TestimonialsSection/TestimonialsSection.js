@@ -49,14 +49,14 @@ const TestimonialsSection = () => {
 
   const endTouch = (event) => {
     const finishingTouch = event.changedTouches[0].clientX;
-    if (startX < finishingTouch - swipeLimit) {
+    if (startX > finishingTouch + swipeLimit) {
       if (increment < testimonials.length - 1) {
         setIncrement(increment + 1);
         setFade(true);
       } else {
         setIncrement(0);
       }
-    } else if (startX > finishingTouch + swipeLimit) {
+    } else if (startX < finishingTouch - swipeLimit) {
       if (increment > 0) {
         setIncrement(increment - 1);
         setFade(true);
