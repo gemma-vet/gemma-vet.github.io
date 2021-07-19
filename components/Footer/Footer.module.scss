@@ -9,7 +9,7 @@
   line-height: 1.563rem;
   font-family: 'Poppins';
   font-weight: normal;
-  color: #292C2A;
+  color: #292c2a;
   &::placeholder {
     color: #acacac;
   }
@@ -21,7 +21,7 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 3.75rem 8.75rem;
-    @media all and (max-width: $screen-lg) {
+    @media all and (max-width: $screen-ipadL) {
       padding: 3.75rem 2.75rem;
     }
     @media all and (max-width: $screen-xs) {
@@ -57,8 +57,12 @@
           .instaContainer,
           .linkedContainer,
           .twitterContainer {
-            cursor: pointer;
             padding-right: 1.5rem;
+          }
+          .instaContainer a,
+          .linkedContainer a,
+          .twitterContainer a {
+            cursor: pointer;
           }
         }
         .footerMenu {

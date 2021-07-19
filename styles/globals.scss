@@ -1,5 +1,9 @@
 @use "./variables.scss" as *;
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
 }
@@ -115,8 +119,14 @@ ol {
   margin: 0;
 }
 
-* {
-  box-sizing: border-box;
+input,
+textarea {
+  box-shadow: none!important;
+  -webkit-appearance: none;
+  &:focus {
+    outline: none;
+    border-color: #66be76 !important;
+  }
 }
 
 .hidden {

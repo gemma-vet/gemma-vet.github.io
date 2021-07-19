@@ -5,13 +5,13 @@
     max-width: $screen-cs;
     margin: 0 auto;
     padding: 5rem 12rem 5rem 8.625rem;
-    @media all and (max-width: $screen-lg) {
+    @media all and (max-width: $screen-ipadL) {
       padding: 5rem 2.75rem;
     }
     @media all and (max-width: $screen-xs-plus) {
       padding: 5rem 1rem;
     }
-    .titleContainer {
+    .titleContainer { 
       padding-bottom: 5rem;
       h2 {
         padding-bottom: 0;

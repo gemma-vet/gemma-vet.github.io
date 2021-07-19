@@ -8,7 +8,11 @@
     align-items: center;
     margin: 0 auto;
     padding: 6.25rem 14.375rem;
-    @media all and (max-width: $screen-lg) {
+
+    @media all and (max-width: $screen-xl) {
+      padding: 6.25rem 8.625rem;
+    }
+    @media all and (max-width: $screen-ipadL) {
       padding: 6.25rem 2.75rem;
     }
     @media all and (max-width: $screen-md) {
