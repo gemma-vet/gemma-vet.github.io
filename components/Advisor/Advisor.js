@@ -7,10 +7,8 @@ const Advisor = ({ advisor }) => {
   const ctaRef = useRef(null);
   const description = useRef(null);
   const quotes = useRef(null);
-  const border = useRef(null);
   const [showMore, setShowMore] = useState(false);
   const [active, setActive] = useState(false);
-  const [touchControl, setTouchControl] = useState(false);
   useEffect(() => {
     if (description.current.scrollHeight > 178) {
       setActive(true);
@@ -31,32 +29,15 @@ const Advisor = ({ advisor }) => {
     quotes.current.style.visibility = 'hidden';
     description.current.style.visibility = 'visible';
   };
-  const handleTouchStart = () => {
-    if (!touchControl) {
-      border.current.style.borderWidth = '4px';
-      handleOnMouseOver();
-      setTouchControl(!touchControl);
-    } else {
-      border.current.style.borderWidth = '0';
-      handleOnMouseLeave();
-      setTouchControl(!touchControl);
-    }
-  };
 
   return (
     <div className={styles.advisor}>
-      <div
-        onMouseOver={handleOnMouseOver}
-        onMouseLeave={handleOnMouseLeave}
-        onTouchStart={handleTouchStart}
-        className={`${styles.imageContainer} ${styles.extraPadding} `}
-      >
-        <div className={styles.imageDivDesktop}>
+      <div className={`${styles.imageContainer} ${styles.extraPadding} `}>
+        <div className={styles.imageDivDesktop} onMouseOver={handleOnMouseOver} onMouseLeave={handleOnMouseLeave}>
           <div className={styles.imageBorder}></div>
           <Image src={advisor.source} width={200} height={200} alt="board member picture" layout="fixed" />
         </div>
         <div className={styles.imageDivMobile}>
-          <div className={styles.imageBorder} ref={border}></div>
           <Image src={advisor.source} width={150} height={150} alt="board member picture" layout="fixed" />
         </div>
       </div>

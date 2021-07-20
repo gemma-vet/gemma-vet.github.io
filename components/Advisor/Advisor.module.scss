@@ -12,14 +12,6 @@
     .imageDivMobile {
       position: relative;
       display: none;
-      &:hover {
-        .imageBorder {
-          top: -4px;
-          left: -4px;
-          border: 4px solid $lightGreen;
-          border-radius: 50%;
-        }
-      }
     }
 
     .imageDivDesktop {
@@ -30,6 +22,10 @@
           position: absolute;
           width: 207px;
           height: 207px;
+          top: -4px;
+          left: -4px;
+          border: 4px solid $lightGreen;
+          border-radius: 50%;
         }
       }
       @media all and (min-width: $screen-md-plus) {
@@ -40,13 +36,6 @@
     .imageDivMobile {
       width: 150px;
       height: 150px;
-      &:hover {
-        .imageBorder {
-          position: absolute;
-          width: 157px;
-          height: 157px;
-        }
-      }
       @media all and (max-width: $screen-md-plus) {
         display: initial;
       }
