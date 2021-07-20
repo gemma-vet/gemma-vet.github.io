@@ -20,7 +20,7 @@ const Header = () => {
             <Image src={logo} alt="gemma logo representing a dog head" />
           </a>
         </Link>
-        <Menu/>
+        <Menu />
       </div>
       <div className={styles.menuMobile}>
         <Link href="/">
