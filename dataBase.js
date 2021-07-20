@@ -228,6 +228,16 @@ export const boardTemplates = [
     source: '/images/pic Phil@2x.png',
     order: 0,
   },
+  {
+    id: 5,
+    quote:
+      'Gemma has become an essential tool for my client communication. Not only does the app allow me to show owners how their pets are doing, but it also reduces the amount of phone calls I receive each day, allowing me to primarily focus on pet care. I’ve quickly learned that, for pet owners, a picture is worth a thousand words.',
+    author: 'Tara Bellis',
+    jobPositon: 'Medical Director',
+    facility: 'Garden State Veterinary Services',
+    source: '/images/pic Tara@2x.png',
+    order: 1,
+  },
 ];
 
 export const stages = [
@@ -319,7 +329,8 @@ export const advisors = [
     id: 5,
     description:
       'Dr. Tara Bellis graduated from the Royal Veterinary College in 2007 and completed a small animal rotating internship there in 2008. She worked as an Emergency Veterinarian in Southeast England before moving to New York City to complete a residency in Emergency and Critical Care. Dr. Bellis became a Diplomate of the American College of Emergency and Critical Care in 2015. She has since spent a number of years directing a residency program and is an active member of the ACVECC exam committee. Dr Bellis is currently the Medical Director at Garden State Veterinary Services in Iselin, New Jersey. Her professional interests include sepsis, mechanical ventilation and CPR.',
-    quote: 'Gemma has become an essential tool for my client communication. Not only does the app allow me to show owners how their pets are doing, but it also reduces the amount of phone calls I receive each day, allowing me to primarily focus on pet care. I’ve quickly learned that, for pet owners, a picture is worth a thousand words',
+    quote:
+      'Gemma has become an essential tool for my client communication. Not only does the app allow me to show owners how their pets are doing, but it also reduces the amount of phone calls I receive each day, allowing me to primarily focus on pet care. I’ve quickly learned that, for pet owners, a picture is worth a thousand words.',
     author: 'Tara Bellis',
     jobPositon: 'Medical Director at Garden State Veterinary Services',
     source: '/images/pic Tara@2x.png',
