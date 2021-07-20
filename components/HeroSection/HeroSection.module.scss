@@ -1,4 +1,4 @@
- @use "../../styles/variables.scss" as *;
+@use "../../styles/variables.scss" as *;
 
 .heroSection {
   background-color: $lightGreen;
@@ -127,7 +127,7 @@
       font-size: 1.5rem;
       line-height: 2.25rem;
       color: $menuBlack;
-      @media all and (max-width: $screen-sm){
+      @media all and (max-width: $screen-sm) {
         font-size: 1.25rem;
       }
     }
