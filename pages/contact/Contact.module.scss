@@ -56,12 +56,10 @@
       }
       textarea {
         @include inputStyle;
+        padding-top: 1rem;
         height: 8.375rem;
         @media all and (max-width: $screen-xs-plus) {
           height: 17.188rem;
-        }
-        &::placeholder {
-          padding-top: 1rem;
         }
       }
       .buttonContainer {
