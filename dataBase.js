@@ -54,7 +54,7 @@ export const benefits = [
   {
     id: 1,
     title: 'A Brilliant Solution to Save Time',
-    description: `Gemma’s unique one-way multimedia messaging feature lets veterinary staff share their patients’ health progress with owners and post updates on their feed. The feature allows practice teams to focus on patient care by communicating with clients more efficiently.`,
+    description: `Gemma’s unique one-way multimedia messaging feature lets veterinary staff share updates with pet owners on patient health progress. This feature uses a personalized feed to help practice teams focus on both patient care and client communication.`,
     source: '/svg/benefit1.svg',
     alt: 'benefit image',
     dimensions: {
@@ -66,7 +66,7 @@ export const benefits = [
   {
     id: 2,
     title: 'An Invaluable Communication Tool',
-    description: `Invite your practice team to Gemma to stay up-to-date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication features keep teams in the loop and pet families connected to their pets.`,
+    description: `Invite your practice team to Gemma to stay up-to-date on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication features help keep teams in the loop and pet families connected to their pets.`,
     source: '/svg/benefit2.svg',
     alt: 'benefit image',
     dimensions: {
@@ -78,7 +78,7 @@ export const benefits = [
   {
     id: 3,
     title: 'A One-of-a-Kind Community of Veterinary Providers',
-    description: `Update referring vets on mutual patients by sharing the patients’ feeds. Customize your messages, and share the latest patient updates with any veterinary provider involved in your patient’s care. Gemma helps patients’ well-being even after they’ve been discharged.`,
+    description: `Update referring vets on mutual patients by sharing respective patients’ feeds. Customize your messages and share latest patient updates with any veterinary provider involved in your patient’s care. Gemma helps ensure patient well-being even post-discharge.`,
     source: '/svg/benefit3.svg',
     alt: 'benefit image',
     dimensions: {
@@ -90,7 +90,7 @@ export const benefits = [
   {
     id: 4,
     title: 'A Loyal Friend to Help You Improve Pet Owner Satisfaction',
-    description: `Rely on Gemma to reduce pet families' anxiety triggered by health emergencies and restricted in-person visits. Build trust and give families the peace of mind they need with real-time updates on their pets' health and the ability to share the feed with loved ones. Track pet owner satisfaction through surveys and reviews.`,
+    description: `Rely on Gemma to reduce pet owner anxiety triggered by health emergencies and restricted in-person visits. Build trust and give families the peace of mind they need with real-time updates on their pets' health through a shareable feed. Track pet owner satisfaction through surveys and reviews.`,
     source: '/svg/benefit4.svg',
     alt: 'benefit image',
     dimensions: {

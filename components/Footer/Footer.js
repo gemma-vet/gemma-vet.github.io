@@ -134,7 +134,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className={styles.newsLetter}>
-            <h4>Subscribe to Newsletter</h4>
+            <h4>Subscribe to our Newsletter</h4>
             <p className={styles.newsLetterText}>
               Join our <span className={styles.boldText}>one-of-a-kind community</span> and stay up-to-date with the
               latest features
