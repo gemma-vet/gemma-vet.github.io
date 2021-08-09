@@ -20,7 +20,7 @@ const HeroSection = () => {
 
           <div className={styles.heroDescriptionContainer}>
             <div className={styles.heroDescription}>
-              <h1>Cutting Edge Communication Tool For Vets Who Click With Their Clients</h1>
+              <h1>A Cutting Edge Communication Tool For Vets Who Click With Their Clients</h1>
               <p>
                 Smarter and better client communication for vets and their teams. Your mobile app for happier pet
                 families.
@@ -44,8 +44,8 @@ const HeroSection = () => {
       <div className={styles.gemmaMission}>
         <div className={styles.gemmaMissionContainer}>
           <p>
-            Gemma’s mission is to <strong>enhance the lives of veterinary providers and pet owners</strong> by keeping
-            them connected, all from the convenience of a mobile device.
+            Gemma’s mission is to <strong>enhance the lives of both veterinary providers and pet owners</strong> by
+            keeping them connected—all from the convenience of a mobile device.
           </p>
         </div>
       </div>

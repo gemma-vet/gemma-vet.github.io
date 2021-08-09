@@ -54,7 +54,7 @@ export const benefits = [
   {
     id: 1,
     title: 'A Brilliant Solution to Save Time',
-    description: `Gemma’s unique one-way multimedia messaging feature lets veterinary staff share their patients’ health progress with owners and post updates on their feed. The feature allows practice teams to focus on patient care by communicating with clients more efficiently.`,
+    description: `Gemma’s unique one-way multimedia messaging feature lets veterinary staff share updates with pet owners on patient health progress. This feature uses a personalized feed to help practice teams focus on both patient care and client communication.`,
     source: '/svg/benefit1.svg',
     alt: 'benefit image',
     dimensions: {
@@ -66,7 +66,7 @@ export const benefits = [
   {
     id: 2,
     title: 'An Invaluable Communication Tool',
-    description: `Invite your practice team to Gemma to stay up-to-date and collaborate on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication features keep teams in the loop and pet families connected to their pets.`,
+    description: `Invite your practice team to Gemma to stay up-to-date on your patients’ profiles by sharing photos, videos, and text updates. Gemma’s simple and secure communication features help keep teams in the loop and pet families connected to their pets.`,
     source: '/svg/benefit2.svg',
     alt: 'benefit image',
     dimensions: {
@@ -78,7 +78,7 @@ export const benefits = [
   {
     id: 3,
     title: 'A One-of-a-Kind Community of Veterinary Providers',
-    description: `Update referring vets on mutual patients by sharing the patients’ feeds. Customize your messages, and share the latest patient updates with any veterinary provider involved in your patient’s care. Gemma helps patients’ well-being even after they’ve been discharged.`,
+    description: `Update referring vets on mutual patients by sharing respective patients’ feeds. Customize your messages and share latest patient updates with any veterinary provider involved in your patient’s care. Gemma helps ensure patient well-being even post-discharge.`,
     source: '/svg/benefit3.svg',
     alt: 'benefit image',
     dimensions: {
@@ -90,7 +90,7 @@ export const benefits = [
   {
     id: 4,
     title: 'A Loyal Friend to Help You Improve Pet Owner Satisfaction',
-    description: `Rely on Gemma to reduce pet families' anxiety triggered by health emergencies and restricted in-person visits. Build trust and give families the peace of mind they need with real-time updates on their pets' health and the ability to share the feed with loved ones. Track pet owner satisfaction through surveys and reviews.`,
+    description: `Rely on Gemma to reduce pet owner anxiety triggered by health emergencies and restricted in-person visits. Build trust and give families the peace of mind they need with real-time updates on their pets' health through a shareable feed. Track pet owner satisfaction through surveys and reviews.`,
     source: '/svg/benefit4.svg',
     alt: 'benefit image',
     dimensions: {
@@ -245,7 +245,7 @@ export const stages = [
     id: 1,
     preTitle: 'The Challenge',
     title: 'Unprecedented Demand in the Veterinary Care Industry',
-    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">fostering rates increased by as much as 90%</span></a>, and some shelters saw their application numbers increase by <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span></a> Consequently, the veterinary care industry rapidly became saturated.`,
+    description: `2020 was a year unlike any other. As the world drastically changed during the Covid-19 pandemic, pet adoptions and sales soared. In some cities, <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">fostering rates increased by as much as 90%</span></a>, and some shelters saw their application numbers increase by <a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline">ten times the normal rate, with over 11 million households adopting a pet during the pandemic.</span></a> Consequently, the veterinary care industry became rapidly saturated.`,
     source: '/svg/IconFlag.svg',
     alt: 'flag icon',
     noLine: false,
@@ -255,7 +255,7 @@ export const stages = [
     id: 2,
     preTitle: 'Covid 19 Impact',
     title: 'Coping With All-Time High Pet Owner Anxiety',
-    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing safety measures, such as limiting human visitation. According to the AVMA,<a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline"> 98% of veterinarians were limited client contact</span/><a/>, increasing pet owner anxiety to an all-time high.`,
+    description: `While most of the country sheltered in place, 76% of veterinary staff worked throughout the pandemic, while implementing new safety measures, such as limiting human visitation. According to the AVMA,<a href="https://docs.google.com/spreadsheets/d/1toWG0mIGuvnRQMj544hgFK6S783VJDTIOCC8Zr_haK0/edit?pli=1#gid=1699505889"><span class="greenUnderline"> 98% of veterinarians limited client contact</span/><a/>, increasing pet owner anxiety to an all-time high.`,
     source: '/svg/IconCovid.svg',
     alt: 'covid icon',
     noLine: false,
@@ -265,7 +265,7 @@ export const stages = [
     id: 3,
     preTitle: 'The Need',
     title: 'Efficient Owner Communications',
-    description: `With social distancing measures in place, phone and email client communications grew by 79% and 69%, respectively. In addition to managing client communications, implementing safety measures, and caring for animals, veterinarians also had to face changing team dynamics, as staff was forced to adapt to their new roles.`,
+    description: `With social distancing measures in place, phone and email client communication grew by 79% and 69%, respectively. In addition to managing client communication, implementing safety measures, and caring for animals; veterinarians also had to face changing team dynamics, as staff was forced to adapt to their new roles.`,
     source: '/svg/IconCommunication.svg',
     alt: 'communication icon',
     noLine: false,
@@ -359,7 +359,7 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Streamline communications',
+        text: '> Streamline communication',
       },
       {
         id: 2,
@@ -373,7 +373,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Streamline client communication and optimize staff time</strong> with Gemma’s one-way multimedia messaging feature.',
     paragraph_two:
-      'Gemma lets you show pet owners that their pets are receiving exceptional care, reducing anxiety and improving client satisfaction. You can send texts, videos, and pictures to pet families, all within the app.',
+      'Gemma lets vets show pet owners that their pets are receiving exceptional care, thereby reducing anxiety and improving client satisfaction. Vets can send text, video, and picture updates within the app to pet families.',
     background: '#fafafa',
     order: 0,
     passingRef: 'oneWay',
@@ -401,9 +401,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Manage, collaborate, and communicate with your team</strong> with Gemma’s team management feature.',
+      '<strong>Manage, collaborate, and better connect with your team</strong> with Gemma’s team management feature.',
     paragraph_two:
-      'Gemma allows you to create a team for your practice, manage your hospital’s team, or invite a specialist to join your department’s team in order to facilitate collaboration. Stay up-to-date with your patients’ progress and your teams’ activity from the convenience of your cell phone.',
+      'Gemma allows you to create a team for your practice, manage your hospital’s team, or even invite a specialist to join in order to facilitate care and collaboration. Stay up-to-date with your patients’ progress and your teams’ activity from the convenience of your cell phone.',
     background: 'washedGreen',
     order: 1,
     passingRef: 'team',
@@ -431,9 +431,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Gemma facilitates referrals and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged.',
+      '<strong>Gemma facilitates referral and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged.',
     paragraph_two:
-      'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances communication between vets, improving care coordination and client satisfaction.',
+      'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances vet communication, improving care coordination and client satisfaction.',
     background: '#fafafa',
     order: 0,
     passingRef: 'referring',
@@ -449,7 +449,7 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Increase client reviews',
+        text: '> Increase client review ratings',
       },
       {
         id: 2,
@@ -461,9 +461,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Strengthen your overall understanding of your clients’ experience </strong> with Gemma’s feedback form feature.',
+      '<strong>Strengthen the overall understanding of your clients’ experience </strong> with Gemma’s feedback form feature.',
     paragraph_two:
-      'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction; and, increasing positive reviews strengthens your credibility.',
+      'Gemma notifies you to send out a short survey, straight from the app, once you finish archiving a patient. The data collected allows you to improve client satisfaction, increase positive reviews, and strengthen credibility.',
     background: 'washedGreen',
     order: 1,
     passingRef: 'petOwner',
@@ -494,7 +494,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Store, organize, and manage patient information </strong>  with Gemma’s easy-to-navigate patient database access feature.',
     paragraph_two:
-      'Access your archived patient records and use Gemma’s efficient search feature to find a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
+      'Access your archived patient records and use Gemma’s efficient search feature to find a past patient; or scroll through your unarchived patient records and provide real-time updates to pet owners, all from the convenience of your cell phone.',
     background: '#fafafa',
     order: 0,
     passingRef: 'patient',
@@ -522,9 +522,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Build a community, exchange ideas, and share your experiences</strong> with your contacts with Gemma’s feed-sharing feature.',
+      '<strong>Build a community, exchange ideas, and share your experiences</strong> with Gemma’s feed-sharing feature.',
     paragraph_two:
-      'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma, get support from your peers, or just spread smiles!',
+      'Take advantage of Gemma and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma by getting support from your peers and spreading smiles!',
     background: 'washedGreen',
     order: 1,
     passingRef: 'feedShare',

@@ -10,7 +10,7 @@ const AboutSection = () => {
       <div className={styles.missionSectionContainer}>
         <div className={styles.missionTitleContainer}>
           <p className="sectionPreTitle">ABOUT</p>
-          <h2>Vets’ Go-to App for Owner Satisfaction and Easy Communication</h2>
+          <h2>Vets’ Go-to App to manage communication and owner satisfaction</h2>
         </div>
         <div className={styles.presentation}>
           <div className={styles.imageContainer}>
@@ -19,27 +19,27 @@ const AboutSection = () => {
           </div>
           <div className={styles.missionDescription}>
             <p className={styles.missionTitle}>
-              Our smart and easy-to-use software solution was designed to help everyone benefit from improved veterinary
-              services. Gemma’s goal is to help:
+              Our easy-to-use software solution was designed to help everyone benefit from improved veterinary services.
             </p>
+            <p>Gemma’s goal is to help:</p>
             <ul className={styles.benefits}>
               <li>
                 <div className={styles.paw}>
                   <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
                 </div>
-                <p>Veterinarians improve efficiency and have more time for pet care;</p>
+                <p>Veterinarians improve efficiency so they have more time to handle activities related to pet care;</p>
               </li>
               <li>
                 <div className={styles.paw}>
                   <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
                 </div>
-                <p> Families stay connected with their pets and caregivers, and reduce anxiety;</p>
+                <p> Families stay connected with their pets and caregivers, thereby reducing anxiety;</p>
               </li>
               <li>
                 <div className={styles.paw}>
                   <Image src="/svg/paw_1.svg" width={20} height={18} layout="fixed" alt="an image of a dog paw " />
                 </div>
-                <p>Hospitals drive higher satisfaction scores and great client reviews.</p>
+                <p>Hospitals improve satisfaction scores/client review ratings.</p>
               </li>
             </ul>
             <div className={styles.buttonContainer}>
