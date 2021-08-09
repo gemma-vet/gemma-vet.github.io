@@ -359,7 +359,7 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Streamline communications',
+        text: '> Streamline communication',
       },
       {
         id: 2,
@@ -373,7 +373,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Streamline client communication and optimize staff time</strong> with Gemma’s one-way multimedia messaging feature.',
     paragraph_two:
-      'Gemma lets you show pet owners that their pets are receiving exceptional care, reducing anxiety and improving client satisfaction. You can send texts, videos, and pictures to pet families, all within the app.',
+      'Gemma lets vets show pet owners that their pets are receiving exceptional care, thereby reducing anxiety and improving client satisfaction. Vets can send text, video, and picture updates within the app to pet families.',
     background: '#fafafa',
     order: 0,
     passingRef: 'oneWay',
@@ -401,9 +401,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Manage, collaborate, and communicate with your team</strong> with Gemma’s team management feature.',
+      '<strong>Manage, collaborate, and better connect with your team</strong> with Gemma’s team management feature.',
     paragraph_two:
-      'Gemma allows you to create a team for your practice, manage your hospital’s team, or invite a specialist to join your department’s team in order to facilitate collaboration. Stay up-to-date with your patients’ progress and your teams’ activity from the convenience of your cell phone.',
+      'Gemma allows you to create a team for your practice, manage your hospital’s team, or even invite a specialist to join in order to facilitate care and collaboration. Stay up-to-date with your patients’ progress and your teams’ activity from the convenience of your cell phone.',
     background: 'washedGreen',
     order: 1,
     passingRef: 'team',
@@ -431,9 +431,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Gemma facilitates referrals and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged.',
+      '<strong>Gemma facilitates referral and collaboration with other professionals</strong> to ensure the best veterinary care, even after pets are discharged.',
     paragraph_two:
-      'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances communication between vets, improving care coordination and client satisfaction.',
+      'With Gemma, you can draft updates and share patients’ multimedia feeds with referring vets straight from the app. Gemma’s unique feature organizes and enhances vet communication, improving care coordination and client satisfaction.',
     background: '#fafafa',
     order: 0,
     passingRef: 'referring',
@@ -449,7 +449,7 @@ export const howItWorksStages = [
     list: [
       {
         id: 1,
-        text: '> Increase client reviews',
+        text: '> Increase client review ratings',
       },
       {
         id: 2,
@@ -461,9 +461,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Strengthen your overall understanding of your clients’ experience </strong> with Gemma’s feedback form feature.',
+      '<strong>Strengthen the overall understanding of your clients’ experience </strong> with Gemma’s feedback form feature.',
     paragraph_two:
-      'Gemma notifies you to send out a short survey straight from the app once you archive a patient. The data collected allows you to improve client satisfaction; and, increasing positive reviews strengthens your credibility.',
+      'Gemma notifies you to send out a short survey, straight from the app, once you finish archiving a patient. The data collected allows you to improve client satisfaction, increase positive reviews, and strengthen credibility.',
     background: 'washedGreen',
     order: 1,
     passingRef: 'petOwner',
@@ -494,7 +494,7 @@ export const howItWorksStages = [
     paragraph_one:
       '<strong>Store, organize, and manage patient information </strong>  with Gemma’s easy-to-navigate patient database access feature.',
     paragraph_two:
-      'Access your archived patient records and use Gemma’s efficient search feature to find a previous patient, or scroll through your unarchived patient records and provide updates to pet owners, all from your cell phone.',
+      'Access your archived patient records and use Gemma’s efficient search feature to find a past patient; or scroll through your unarchived patient records and provide real-time updates to pet owners, all from the convenience of your cell phone.',
     background: '#fafafa',
     order: 0,
     passingRef: 'patient',
@@ -522,9 +522,9 @@ export const howItWorksStages = [
       },
     ],
     paragraph_one:
-      '<strong>Build a community, exchange ideas, and share your experiences</strong> with your contacts with Gemma’s feed-sharing feature.',
+      '<strong>Build a community, exchange ideas, and share your experiences</strong> with Gemma’s feed-sharing feature.',
     paragraph_two:
-      'Take advantage of Gemma’s unique multimedia messaging and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma, get support from your peers, or just spread smiles!',
+      'Take advantage of Gemma and make someone’s day by sharing an adorable photo or video of one of your patients. Build your own community using Gemma by getting support from your peers and spreading smiles!',
     background: 'washedGreen',
     order: 1,
     passingRef: 'feedShare',
