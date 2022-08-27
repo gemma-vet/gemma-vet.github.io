@@ -1,7 +1,7 @@
 @use "../../styles/variables.scss" as *;
 
 .desktopVersion {
-  @media all and(max-width:$screen-sm) {
+  @media all and (max-width:$screen-sm) {
     display: none;
   }
   img {
@@ -9,7 +9,7 @@
   }
 }
 .mobileVersion {
-  @media all and(min-width:$screen-sm-plus) {
+  @media all and (min-width:$screen-sm-plus) {
     display: none;
   }
   img {
