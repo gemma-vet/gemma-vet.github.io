@@ -1,19 +1,12 @@
 import styles from './Layout.module.scss';
 import { useEffect } from 'react';
-import firebase from 'firebase/app';
-import initFirebase from '../../firebase';
-import 'firebase/analytics';
 import Head from 'next/head';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import DownloadBanner from '../DownloadBanner/DownloadBanner';
 
-initFirebase();
-
 const Layout = ({ title, textOne, lightGreen, textWhite, children }) => {
   useEffect(() => {
-    const analytics = firebase.analytics();
-    analytics.logEvent('page_view');
   });
   return (
     <main className={styles.container}>

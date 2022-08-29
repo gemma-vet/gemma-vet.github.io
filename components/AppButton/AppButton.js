@@ -1,7 +1,5 @@
 import styles from './AppButton.module.scss';
 import { Fragment } from 'react';
-import firebase from 'firebase/app';
-import 'firebase/analytics';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -9,12 +7,6 @@ const AppButton = ({ buttonInfo }) => {
   const { id, href, src, alt, dimensions } = buttonInfo;
 
   const handleClick = () => {
-    const analytics = firebase.analytics();
-    analytics.logEvent(`${id}`, {
-      content_type: 'button',
-      content_id: 'click_app_button',
-      items: [{ name: 'AppButton' }],
-    });
   };
   return (
     <Fragment>
