@@ -220,7 +220,7 @@ const Footer = () => {
             </p>
           </div>
           <div className={styles.copyright}>
-            <p>© 2021 Gemma. All rights reserved.</p>
+            <p>&copy; Gemma {`${new Date().getFullYear()}`}</p>
           </div>
         </div>
       </div>
