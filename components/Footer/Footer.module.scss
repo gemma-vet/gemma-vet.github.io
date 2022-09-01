@@ -38,7 +38,6 @@
         grid-template-columns: 1fr;
       }
       .infos,
-      .newsLetter,
       .contact {
         display: flex;
         flex-direction: column;
@@ -76,36 +75,6 @@
             &:last-child {
               padding-bottom: 0;
             }
-          }
-        }
-      }
-      .newsLetter {
-        position: relative;
-        .newsLetterText {
-          padding: 2rem 0 1.5rem 0;
-          color: $middleGray;
-          .boldText {
-            font-weight: 600;
-          }
-        }
-        input {
-          width: 17.5rem;
-          height: 3.625rem;
-          @include inputStyle;
-          @media all and (max-width: $screen-md) {
-            width: 100%;
-          }
-        }
-        .newsLetterButton {
-          padding-top: 1.5rem;
-        }
-
-        .newsLetterfeedback {
-          position: absolute;
-          bottom: 2.875rem;
-          left: 0;
-          @media all and (max-width: $screen-md) {
-            bottom: 2rem;
           }
         }
       }

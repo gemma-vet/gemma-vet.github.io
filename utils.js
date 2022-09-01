@@ -34,14 +34,3 @@ export const validateFooterContact = (body, validateEmail) => {
 
   return errors;
 };
-
-export const validateNewsLetter = (body, validateEmail) => {
-  const { email } = body;
-  const errors = [];
-
-  if (!email.trim().length || !validateEmail(email)) {
-    errors.push('Please check your email address!!!');
-  }
-
-  return errors;
-};

@@ -7,15 +7,12 @@ import Button from '../Button/Button';
 const Footer = () => {
   const [visibility, setVisibility] = useState(false);
   const [feedback, setFeedback] = useState('');
-  const [newsLetterfeedback, setNewsFeedback] = useState('');
   const [data, setData] = useState({
-    newsletterEmail: '',
     email: '',
     message: '',
   });
 
   const reset = {
-    newsletterEmail: '',
     email: '',
     message: '',
   };
@@ -54,35 +51,6 @@ const Footer = () => {
     }
   };
 
-  const handleNewsletter = async (event) => {
-    event.preventDefault();
-    try {
-      const response = await fetch('/api/newsletter', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ email: data.newsletterEmail }),
-      });
-      const succesCheck = await response.json();
-      if (succesCheck.success) {
-        setData(reset);
-        setNewsFeedback(succesCheck);
-        setVisibility(true);
-        setTimeout(() => {
-          setVisibility(false);
-          setNewsFeedback('');
-        }, 2000);
-      } else {
-        setNewsFeedback(succesCheck);
-        setVisibility(true);
-        setTimeout(() => {
-          setVisibility(false);
-          setNewsFeedback('');
-        }, 2000);
-      }
-    } catch (error) {
-      console.log(`Error sending email ${error}`);
-    }
-  };
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
@@ -133,37 +101,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.newsLetter}>
-            <h4>Subscribe to our Newsletter</h4>
-            <p className={styles.newsLetterText}>
-              Join our <span className={styles.boldText}>one-of-a-kind community</span> and stay up-to-date with the
-              latest features
-            </p>
-            <form onSubmit={handleNewsletter} className={styles.newsletterForm} action="/api/newsletter">
-              <input
-                id="newsletterEmail"
-                onChange={handleOnChange}
-                type="email"
-                name="newsletterEmail"
-                value={data.newsletterEmail}
-                placeholder="Enter your e-mail"
-                required
-              />
-              <div className={styles.newsLetterButton}>
-                <Button background="white" border="borderGreen" textColor="textGreen" type="submit">
-                  Subscribe
-                </Button>
-              </div>
-            </form>
-            {visibility ? (
-              <div
-                className={styles.newsLetterfeedback}
-                style={newsLetterfeedback.success ? { color: '#46815f' } : { color: 'red' }}
-              >
-                {newsLetterfeedback.message}
-              </div>
-            ) : null}
-          </div>
+          <div/>
           <div className={styles.contact}>
             <h4>Ready to Meet Gemma?</h4>
             <form onSubmit={handleSubmit} className={styles.meetGemma} action="/api/footerContact">
