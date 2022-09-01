@@ -2,6 +2,7 @@ import styles from './Footer.module.scss';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import emailjs from '@emailjs/browser';
 import Button from '../Button/Button';
 
 const Footer = () => {
@@ -24,28 +25,23 @@ const Footer = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('/api/footerContact', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify(data),
-      });
-      const succesCheck = await response.json();
-      if (succesCheck.success) {
-        setData(reset);
-        setFeedback(succesCheck);
-        setVisibility(true);
-        setTimeout(() => {
-          setVisibility(false);
-          setFeedback('');
-        }, 2000);
-      } else {
-        setFeedback(succesCheck);
-        setVisibility(true);
-        setTimeout(() => {
-          setVisibility(false);
-          setFeedback('');
-        }, 2000);
-      }
+      emailjs.sendForm('service_aux9q8h', 'contactform', event.currentTarget, '7JhZZoK59ZPor12pY')
+        .then((result) => {
+          setData(reset);
+          setFeedback({ success: true, message: 'Message sent successfully.' });
+          setVisibility(true);
+          setTimeout(() => {
+            setVisibility(false);
+            setFeedback('');
+          }, 5000);
+        }, (error) => {
+          setFeedback({ message: error.text });
+          setVisibility(true);
+          setTimeout(() => {
+            setVisibility(false);
+            setFeedback('');
+          }, 5000);
+        });
     } catch (error) {
       console.log(`Error sending email ${error}`);
     }
@@ -104,7 +100,7 @@ const Footer = () => {
           <div/>
           <div className={styles.contact}>
             <h4>Ready to Meet Gemma?</h4>
-            <form onSubmit={handleSubmit} className={styles.meetGemma} action="/api/footerContact">
+            <form onSubmit={handleSubmit} className={styles.meetGemma}>
               <input
                 id="email"
                 onChange={handleOnChange}

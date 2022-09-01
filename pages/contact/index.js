@@ -1,6 +1,7 @@
 import styles from './Contact.module.scss';
 import { useState } from 'react';
 import Image from 'next/image';
+import emailjs from '@emailjs/browser';
 import Layout from '../../components/Layout/Layout';
 import SectionBanner from '../../components/SectionBanner/SectionBanner';
 import Button from '../../components/Button/Button';
@@ -25,26 +26,21 @@ const Contact = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify(data),
-      });
-      const succesCheck = await response.json();
-      if (succesCheck.success) {
-        setData(reset);
-        setFeedback(succesCheck);
-        setVisibility(true);
-        setTimeout(() => {
-          setVisibility(false);
-        }, 2000);
-      } else {
-        setFeedback(succesCheck);
-        setVisibility(true);
-        setTimeout(() => {
-          setVisibility(false);
-        }, 2000);
-      }
+      emailjs.sendForm('service_aux9q8h', 'contactform', event.currentTarget, '7JhZZoK59ZPor12pY')
+        .then((result) => {
+          setData(reset);
+          setFeedback({ success: true, message: 'Message sent successfully.' });
+          setVisibility(true);
+          setTimeout(() => {
+            setVisibility(false);
+          }, 5000);
+        }, (error) => {
+          setFeedback({ message: error.text });
+          setVisibility(true);
+          setTimeout(() => {
+            setVisibility(false);
+          }, 5000);
+        });
     } catch (error) {
       console.log(`Error sending email ${error}`);
     }
@@ -59,7 +55,7 @@ const Contact = () => {
       <SectionBanner bannerInfo={bannerInfo} />
       <div className={styles.contact}>
         <div className={styles.contactContainer}>
-          <form onSubmit={handleSubmit} className={styles.contactForm} action="/api/contact">
+          <form onSubmit={handleSubmit} className={styles.contactForm}>
             <label htmlFor="name">Your Name:</label>
             <input
               onChange={handleOnChange}

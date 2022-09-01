@@ -69,9 +69,12 @@
         }
       }
       .feedback {
-        top: 0;
-        left: 0;
-        position: absolute;
+          position: absolute;
+          bottom: -2rem;
+          left: 0;
+          @media all and (max-width: $screen-md) {
+            bottom: 2rem;
+          }
       }
     }
     .gemmaImage {
