@@ -94,7 +94,7 @@ const TestimonialsSection = () => {
           ))}
         </div>
         <div className={styles.buttonContainer}>
-          <Link href="/contact" passHref>
+          <Link href="/contact" passHref legacyBehavior>
             <Button background="white" border="borderGreen" textColor="textGreen" type="button">
               Join Our Community
             </Button>

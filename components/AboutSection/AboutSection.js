@@ -43,7 +43,7 @@ const AboutSection = () => {
               </li>
             </ul>
             <div className={styles.buttonContainer}>
-              <Link href="/about" passHref>
+              <Link href="/about" passHref legacyBehavior>
                 <Button background="white" border="borderGreen" textColor="textGreen" type="button">
                   Find Out More
                 </Button>

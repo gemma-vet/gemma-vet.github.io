@@ -11,29 +11,29 @@ const AppButton = ({ buttonInfo }) => {
   return (
     <Fragment>
       <div onClick={handleClick}>
-        <Link href={href}>
-          <a className={styles.desktopVersion}>
-            <Image
-              src={src}
-              width={dimensions.desktop.width}
-              height={dimensions.desktop.height}
-              alt={alt}
-              layout="fixed"
-            />
-          </a>
+        <Link href={href} className={styles.desktopVersion}>
+
+          <Image
+            src={src}
+            width={dimensions.desktop.width}
+            height={dimensions.desktop.height}
+            alt={alt}
+            layout="fixed"
+          />
+
         </Link>
       </div>
       <div onClick={handleClick}>
-        <Link href={href}>
-          <a className={styles.mobileVersion}>
-            <Image
-              src={src}
-              width={dimensions.mobile.width}
-              height={dimensions.mobile.height}
-              alt={alt}
-              layout="fixed"
-            />
-          </a>
+        <Link href={href} className={styles.mobileVersion}>
+
+          <Image
+            src={src}
+            width={dimensions.mobile.width}
+            height={dimensions.mobile.height}
+            alt={alt}
+            layout="fixed"
+          />
+
         </Link>
       </div>
     </Fragment>

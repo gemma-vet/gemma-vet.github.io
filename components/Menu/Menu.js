@@ -9,7 +9,7 @@ const Menu = ({ mobile, handleClick }) => {
     <nav>
       <ul className={`${styles.menu} ${mobile ? `${styles.columnDisplay}` : ''}`}>
         {menu.map((item) => (
-          <Link key={item.id} href={item.path} passHref>
+          <Link key={item.id} href={item.path} passHref legacyBehavior>
             <li onClick={handleClick}>
               <a className={router.asPath === item.path ? 'green' : ''}>{item.name}</a>
             </li>

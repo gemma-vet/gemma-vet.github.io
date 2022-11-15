@@ -18,7 +18,7 @@ const BoardSection = () => {
           <BoardTemplate key={template.id} template={template} />
         ))}
         <div className={styles.buttonContainer}>
-          <Link href="/about" passHref>
+          <Link href="/about" passHref legacyBehavior>
             <Button background="white" border="borderGreen" textColor="textGreen" type="button">
               Meet Our Team
             </Button>

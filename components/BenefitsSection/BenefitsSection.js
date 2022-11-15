@@ -18,7 +18,7 @@ const BenefitsSection = () => {
           <Benefit key={benefit.id} benefit={benefit} />
         ))}
         <div className={styles.buttonContainer}>
-          <Link href="/howItWorks" passHref>
+          <Link href="/howItWorks" passHref legacyBehavior>
             <Button background="darkGreen" border="borderTransparent" textColor="textWhite" type="button">
               See How it Works
             </Button>

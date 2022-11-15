@@ -13,7 +13,7 @@ const AboutHeroSection = () => {
             With vets’ mission in mind and <br /> pets’ best interest at heart <br /> we created Gemma: <br /> a smart,{' '}
             secure, <br /> and easy-to-use mobile app.
           </p>
-          <Link href="/howItWorks" passHref>
+          <Link href="/howItWorks" passHref legacyBehavior>
             <Button background="white" border="borderTransparent" textColor="textGreen" type="button">
               See How it Works
             </Button>

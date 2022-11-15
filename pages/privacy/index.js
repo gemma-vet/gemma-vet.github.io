@@ -93,9 +93,9 @@ const Privacy = () => {
             <span className={styles.extraPadding}>
               personal data (please read more on our{' '}
               <Link href="https://www.e-spres-oh.com/cookiePolicy">
-                <a>
-                  <span className="green">Cookie policy</span>
-                </a>
+
+                <span className="green">Cookie policy</span>
+
               </Link>
               )
             </span>

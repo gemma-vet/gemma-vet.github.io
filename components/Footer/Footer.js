@@ -54,31 +54,31 @@ const Footer = () => {
           <div className={styles.infos}>
             <div className={styles.imageContainer}>
               <Link href="/" passHref>
-                <a>
-                  <Image src="/svg/Logo_Gemma.svg" width={189} height={40} alt="logo" layout="fixed" />
-                </a>
+
+                <Image src="/svg/Logo_Gemma.svg" width={189} height={40} alt="logo" layout="fixed" />
+
               </Link>
             </div>
             <div className={styles.socials}>
               <div className={styles.instaContainer}>
                 <Link href="https://www.instagram.com/gemma_vet/">
-                  <a>
-                    <Image src="/svg/insta_icon.svg" width={32} height={32} alt="instagram icon" layout="fixed" />
-                  </a>
+
+                  <Image src="/svg/insta_icon.svg" width={32} height={32} alt="instagram icon" layout="fixed" />
+
                 </Link>
               </div>
               <div className={styles.linkedContainer}>
                 <Link href="https://www.linkedin.com/showcase/gemma-vet/about/">
-                  <a>
-                    <Image src="/svg/linkedin_icon.svg" width={32} height={32} alt="linkedIn icon" layout="fixed" />
-                  </a>
+
+                  <Image src="/svg/linkedin_icon.svg" width={32} height={32} alt="linkedIn icon" layout="fixed" />
+
                 </Link>
               </div>
               <div className={styles.twitterContainer}>
                 <Link href="https://twitter.com/gemma_vet">
-                  <a>
-                    <Image src="/svg/twitter-icon.svg" width={32} height={32} alt="twitter icon" layout="fixed" />
-                  </a>
+
+                  <Image src="/svg/twitter-icon.svg" width={32} height={32} alt="twitter icon" layout="fixed" />
+
                 </Link>
               </div>
             </div>
