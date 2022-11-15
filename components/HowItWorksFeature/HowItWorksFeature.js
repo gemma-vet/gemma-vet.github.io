@@ -1,6 +1,6 @@
 import styles from './HowItWorksFeature.module.scss';
 import { useEffect, useRef } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { useRouter } from 'next/router';
 import { lightGrey } from '../../dataBase';
 const HowItWorksFeature = ({ feature }) => {

@@ -1,6 +1,6 @@
 import styles from './Contact.module.scss';
 import { useState } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import emailjs from '@emailjs/browser';
 import Layout from '../../components/Layout/Layout';
 import SectionBanner from '../../components/SectionBanner/SectionBanner';

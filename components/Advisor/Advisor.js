@@ -1,6 +1,6 @@
 import styles from './Advisor.module.scss';
 import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import ShowMore from '../ShowMore/ShowMore';
 
 const Advisor = ({ advisor }) => {

@@ -1,5 +1,5 @@
 import styles from './DownloadBanner.module.scss';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { appButtons } from '../../dataBase';
 import AppButton from '../AppButton/AppButton';
 import heartEmoji from '../../public/svg/heart_emoji.svg';

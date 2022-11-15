@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ShowMore.module.scss';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const ShowMore = ({ handleShowMore, showMore, children }) => {
   return (

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import hamburger from '../../public/svg/menuHamburger.svg';
 import logo from '../../public/svg/Logo_Gemma.svg';
 import close from '../../public/svg/close.svg';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import Menu from '../Menu/Menu';
 

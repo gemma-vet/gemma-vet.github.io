@@ -1,6 +1,6 @@
 import styles from './AboutHeroSection.module.scss';
 import aboutHeader from '../../public/images/about-header-image@2x.png';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import Button from '../Button/Button';
 

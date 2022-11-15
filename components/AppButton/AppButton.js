@@ -1,7 +1,7 @@
 import styles from './AppButton.module.scss';
 import { Fragment } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const AppButton = ({ buttonInfo }) => {
   const { id, href, src, alt, dimensions } = buttonInfo;

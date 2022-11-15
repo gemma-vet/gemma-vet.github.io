@@ -1,6 +1,6 @@
 import styles from './AboutSection.module.scss';
 import missionImage from '../../public/images/mission-image@2x.png';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import Button from '../Button/Button';
 

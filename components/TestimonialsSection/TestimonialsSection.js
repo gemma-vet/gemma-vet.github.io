@@ -1,6 +1,6 @@
 import styles from './TestimonialsSection.module.scss';
 import { useState } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import SectionBanner from '../SectionBanner/SectionBanner';
 import Testimonial from '../Testimonial/Testimonial';

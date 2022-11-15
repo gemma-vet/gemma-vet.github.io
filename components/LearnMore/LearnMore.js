@@ -1,6 +1,6 @@
 import styles from './LearnMore.module.scss';
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const LearnMore = React.forwardRef(({ onClick, href, ...props }, ref) => {
   const { down, children } = props;

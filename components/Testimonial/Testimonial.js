@@ -1,5 +1,5 @@
 import styles from './Testimonial.module.scss';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const Testimonial = ({ testimonial, fade, quoteClick, startTouch, endTouch }) => {
   return (

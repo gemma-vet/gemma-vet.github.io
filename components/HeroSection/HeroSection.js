@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import styles from './HeroSection.module.scss';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { appButtons } from '../../dataBase';
 import AppButton from '../AppButton/AppButton';
 import heroDesktop from '../../public/images/mobile_screenshot@2x.png';
