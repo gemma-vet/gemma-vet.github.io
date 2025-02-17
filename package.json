@@ -18,6 +18,6 @@
     "sass": "^1.84.0"
   },
   "devDependencies": {
-    "eslint-config-next": "^15.1.6"
+    "eslint-config-next": "^15.1.7"
   }
 }
