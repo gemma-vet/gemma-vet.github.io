@@ -15,7 +15,7 @@
     "next": "^15.2.0",
     "prettier": "^3.5.2",
     "react": "^19.0.0",
-    "sass": "^1.85.0"
+    "sass": "^1.85.1"
   },
   "devDependencies": {
     "eslint-config-next": "^15.1.7"
