@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "next": "^15.2.3",
+    "next": "^15.2.4",
     "prettier": "^3.5.3",
     "react": "^19.1.0",
     "sass": "^1.86.0"
