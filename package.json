@@ -16,7 +16,7 @@
     "prettier": "^3.7.4",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "sass": "^1.95.0"
+    "sass": "^1.96.0"
   },
   "devDependencies": {
     "eslint-config-next": "^16.0.8"
