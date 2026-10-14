@@ -13,7 +13,7 @@
   "dependencies": {
     "@emailjs/browser": "^5.0.3",
     "next": "^16.4.0",
-    "prettier": "^3.9.9",
+    "prettier": "^3.9.10",
     "react": "^19.2.7",
     "react-dom": "^19.3.0",
     "sass": "^1.105.1"
